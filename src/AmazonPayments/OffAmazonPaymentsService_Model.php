@@ -174,7 +174,7 @@ abstract class OffAmazonPaymentsService_Model
                     if ($elements->length >= 1) {
                         foreach ($elements as $element) {
                             $className                                 = "Model\\" . $fieldType[0];
-                            $this->_fields[$fieldName]['FieldValue'][] = new $className[0]($element);
+                            $this->_fields[$fieldName]['FieldValue'][] = new $className($element);
                         }
                     }
                 } else {
