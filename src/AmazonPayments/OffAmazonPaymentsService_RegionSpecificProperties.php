@@ -223,5 +223,3 @@ class OffAmazonPaymentsService_RegionSpecificProperties
 		return strcasecmp($environment,'sandbox') == 0;
 	}
 }
-
-?>
