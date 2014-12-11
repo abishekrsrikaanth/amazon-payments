@@ -69,9 +69,9 @@ class OffAmazonPaymentsService_Model_SetBillingAgreementDetailsResponse extends 
      */
     public static function fromXML ($xml)
     {
-        $dom = new DOMDocument();
+        $dom = new \DOMDocument();
         $dom->loadXML($xml);
-        $xpath = new DOMXPath($dom);
+        $xpath = new \DOMXPath($dom);
         $xpath->registerNamespace('a', 
                 'http://mws.amazonservices.com/schema/OffAmazonPayments/2013-01-01');
         $response = $xpath->query('//a:SetBillingAgreementDetailsResponse');
@@ -79,7 +79,7 @@ class OffAmazonPaymentsService_Model_SetBillingAgreementDetailsResponse extends 
             return new OffAmazonPaymentsService_Model_SetBillingAgreementDetailsResponse(
                     ($response->item(0)));
         } else {
-            throw new Exception(
+            throw new \Exception(
                     "Unable to construct OffAmazonPaymentsService_Model_SetBillingAgreementDetailsResponse from provided XML. 
                                   Make sure that SetBillingAgreementDetailsResponse is a root element");
         }

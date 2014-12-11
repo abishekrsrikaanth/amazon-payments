@@ -72,15 +72,15 @@ class OffAmazonPaymentsService_Model_SetOrderReferenceDetailsResponse extends Of
      */
     public static function fromXML($xml)
     {
-        $dom = new DOMDocument();
+        $dom = new \DOMDocument();
         $dom->loadXML($xml);
-        $xpath = new DOMXPath($dom);
+        $xpath = new \DOMXPath($dom);
     	$xpath->registerNamespace('a', 'http://mws.amazonservices.com/schema/OffAmazonPayments/2013-01-01');
         $response = $xpath->query('//a:SetOrderReferenceDetailsResponse');
         if ($response->length == 1) {
             return new OffAmazonPaymentsService_Model_SetOrderReferenceDetailsResponse(($response->item(0))); 
         } else {
-            throw new Exception ("Unable to construct OffAmazonPaymentsService_Model_SetOrderReferenceDetailsResponse from provided XML. 
+            throw new \Exception ("Unable to construct OffAmazonPaymentsService_Model_SetOrderReferenceDetailsResponse from provided XML.
                                   Make sure that SetOrderReferenceDetailsResponse is a root element");
         }
           

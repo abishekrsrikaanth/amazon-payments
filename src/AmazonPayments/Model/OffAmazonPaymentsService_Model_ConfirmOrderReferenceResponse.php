@@ -67,15 +67,15 @@ class OffAmazonPaymentsService_Model_ConfirmOrderReferenceResponse extends OffAm
      */
     public static function fromXML($xml)
     {
-        $dom = new DOMDocument();
+        $dom = new \DOMDocument();
         $dom->loadXML($xml);
-        $xpath = new DOMXPath($dom);
+        $xpath = new \DOMXPath($dom);
     	$xpath->registerNamespace('a', 'http://mws.amazonservices.com/schema/OffAmazonPayments/2013-01-01');
         $response = $xpath->query('//a:ConfirmOrderReferenceResponse');
         if ($response->length == 1) {
             return new OffAmazonPaymentsService_Model_ConfirmOrderReferenceResponse(($response->item(0))); 
         } else {
-            throw new Exception ("Unable to construct OffAmazonPaymentsService_Model_ConfirmOrderReferenceResponse from provided XML. 
+            throw new \Exception ("Unable to construct OffAmazonPaymentsService_Model_ConfirmOrderReferenceResponse from provided XML.
                                   Make sure that ConfirmOrderReferenceResponse is a root element");
         }
           

@@ -72,15 +72,15 @@ class OffAmazonPaymentsService_Model_GetProviderCreditDetailsResponse extends Of
      */
     public static function fromXML($xml)
     {
-        $dom = new DOMDocument();
+        $dom = new \DOMDocument();
         $dom->loadXML($xml);
-        $xpath = new DOMXPath($dom);
+        $xpath = new \DOMXPath($dom);
     	$xpath->registerNamespace('a', 'http://mws.amazonservices.com/schema/OffAmazonPayments/2013-01-01');
         $response = $xpath->query('//a:GetProviderCreditDetailsResponse');
         if ($response->length == 1) {
             return new OffAmazonPaymentsService_Model_GetProviderCreditDetailsResponse(($response->item(0))); 
         } else {
-            throw new Exception ("Unable to construct OffAmazonPaymentsService_Model_GetProviderCreditDetailsResponse from provided XML. 
+            throw new \Exception ("Unable to construct OffAmazonPaymentsService_Model_GetProviderCreditDetailsResponse from provided XML.
                                   Make sure that GetProviderCreditDetailsResponse is a root element");
         }
           
