@@ -231,7 +231,8 @@ abstract class OffAmazonPaymentsService_Model
                         }
                         if (count($elements) >= 1) {
                             foreach ($elements as $element) {
-                                $this->_fields[$fieldName]['FieldValue'][] = new $fieldType[0]($element);
+                                $className                                 = "Model\\" . $fieldType[0];
+                                $this->_fields[$fieldName]['FieldValue'][] = new $className($element);
                             }
                         }
                     }
@@ -251,7 +252,8 @@ abstract class OffAmazonPaymentsService_Model
             } else {
                 if ($this->_isComplexType($fieldType)) {
                     if (array_key_exists($fieldName, $array)) {
-                        $this->_fields[$fieldName]['FieldValue'] = new $fieldType($array[$fieldName]);
+                        $className                               = "Model\\" . $fieldType[0];
+                        $this->_fields[$fieldName]['FieldValue'] = new $className($array[$fieldName]);
                     }
                 } else {
                     if (array_key_exists($fieldName, $array)) {
@@ -267,6 +269,7 @@ abstract class OffAmazonPaymentsService_Model
      * Determines if field is complex type
      *
      * @param string $fieldType field type name
+     *
      * @return mixed
      */
     private function _isComplexType($fieldType)
