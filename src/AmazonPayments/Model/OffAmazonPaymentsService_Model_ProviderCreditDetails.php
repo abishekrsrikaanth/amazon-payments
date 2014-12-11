@@ -454,7 +454,7 @@ class OffAmazonPaymentsService_Model_ProviderCreditDetails extends OffAmazonPaym
     /**
      * Gets the value of the CreditStatus.
      * 
-     * @return Status $value CreditStatus
+     * @return OffAmazonPaymentsService_Model_Status $value CreditStatus
      */
     public function getCreditStatus() 
     {
@@ -464,7 +464,7 @@ class OffAmazonPaymentsService_Model_ProviderCreditDetails extends OffAmazonPaym
     /**
      * Sets the value of the CreditStatus.
      * 
-     * @param Status $value CreditStatus
+     * @param OffAmazonPaymentsService_Model_Status $value CreditStatus
      * @return void
      */
     public function setCreditStatus($value) 
@@ -476,7 +476,7 @@ class OffAmazonPaymentsService_Model_ProviderCreditDetails extends OffAmazonPaym
     /**
      * Sets the value of the CreditStatus  and returns this instance
      * 
-     * @param Status $value CreditStatus
+     * @param OffAmazonPaymentsService_Model_Status $value CreditStatus
      * @return OffAmazonPaymentsService_Model_ProviderCreditDetails instance
      */
     public function withCreditStatus($value)

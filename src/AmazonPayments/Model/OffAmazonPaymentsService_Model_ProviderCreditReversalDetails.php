@@ -355,7 +355,7 @@ class OffAmazonPaymentsService_Model_ProviderCreditReversalDetails extends OffAm
     /**
      * Gets the value of the CreditReversalStatus.
      * 
-     * @return Status CreditReversalStatus
+     * @return OffAmazonPaymentsService_Model_Status CreditReversalStatus
      */
     public function getCreditReversalStatus() 
     {
@@ -365,7 +365,7 @@ class OffAmazonPaymentsService_Model_ProviderCreditReversalDetails extends OffAm
     /**
      * Sets the value of the CreditReversalStatus.
      * 
-     * @param Status $value CreditReversalStatus
+     * @param OffAmazonPaymentsService_Model_Status $value CreditReversalStatus
      * @return void
      */
     public function setCreditReversalStatus($value) 
@@ -377,7 +377,7 @@ class OffAmazonPaymentsService_Model_ProviderCreditReversalDetails extends OffAm
     /**
      * Sets the value of the CreditReversalStatus  and returns this instance
      * 
-     * @param Status $value CreditReversalStatus
+     * @param OffAmazonPaymentsService_Model_Status $value CreditReversalStatus
      * @return OffAmazonPaymentsService_Model_ProviderCreditReversalDetails instance
      */
     public function withCreditReversalStatus($value)

@@ -567,7 +567,7 @@ class OffAmazonPaymentsService_Model_AuthorizationDetails extends OffAmazonPayme
     /**
      * Gets the value of the AuthorizationStatus.
      * 
-     * @return Status AuthorizationStatus
+     * @return OffAmazonPaymentsService_Model_Status AuthorizationStatus
      */
     public function getAuthorizationStatus() 
     {
@@ -577,7 +577,7 @@ class OffAmazonPaymentsService_Model_AuthorizationDetails extends OffAmazonPayme
     /**
      * Sets the value of the AuthorizationStatus.
      * 
-     * @param Status $value AuthorizationStatus
+     * @param OffAmazonPaymentsService_Model_Status $value AuthorizationStatus
      * @return void
      */
     public function setAuthorizationStatus($value) 
@@ -589,7 +589,7 @@ class OffAmazonPaymentsService_Model_AuthorizationDetails extends OffAmazonPayme
     /**
      * Sets the value of the AuthorizationStatus  and returns this instance
      * 
-     * @param Status $value AuthorizationStatus
+     * @param OffAmazonPaymentsService_Model_Status $value AuthorizationStatus
      * @return OffAmazonPaymentsService_Model_AuthorizationDetails instance
      */
     public function withAuthorizationStatus($value)

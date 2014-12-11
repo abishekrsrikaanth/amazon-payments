@@ -415,7 +415,7 @@ class OffAmazonPaymentsService_Model_RefundDetails extends OffAmazonPaymentsServ
     /**
      * Gets the value of the RefundStatus.
      *
-     * @return Status RefundStatus
+     * @return OffAmazonPaymentsService_Model_Status RefundStatus
      */
     public function getRefundStatus()
     {
@@ -425,7 +425,7 @@ class OffAmazonPaymentsService_Model_RefundDetails extends OffAmazonPaymentsServ
     /**
      * Sets the value of the RefundStatus.
      *
-     * @param Status $value RefundStatus
+     * @param OffAmazonPaymentsService_Model_Status $value RefundStatus
      *
      * @return void
      */
@@ -438,7 +438,7 @@ class OffAmazonPaymentsService_Model_RefundDetails extends OffAmazonPaymentsServ
     /**
      * Sets the value of the RefundStatus  and returns this instance
      *
-     * @param Status $value RefundStatus
+     * @param OffAmazonPaymentsService_Model_Status $value RefundStatus
      *
      * @return OffAmazonPaymentsService_Model_RefundDetails instance
      */

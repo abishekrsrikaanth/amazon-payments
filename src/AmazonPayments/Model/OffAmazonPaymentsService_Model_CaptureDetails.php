@@ -463,7 +463,7 @@ class OffAmazonPaymentsService_Model_CaptureDetails extends OffAmazonPaymentsSer
     /**
      * Gets the value of the CaptureStatus.
      * 
-     * @return Status CaptureStatus
+     * @return OffAmazonPaymentsService_Model_Status CaptureStatus
      */
     public function getCaptureStatus() 
     {
@@ -473,7 +473,7 @@ class OffAmazonPaymentsService_Model_CaptureDetails extends OffAmazonPaymentsSer
     /**
      * Sets the value of the CaptureStatus.
      * 
-     * @param Status $value CaptureStatus
+     * @param OffAmazonPaymentsService_Model_Status $value CaptureStatus
      * @return void
      */
     public function setCaptureStatus($value) 
@@ -485,7 +485,7 @@ class OffAmazonPaymentsService_Model_CaptureDetails extends OffAmazonPaymentsSer
     /**
      * Sets the value of the CaptureStatus  and returns this instance
      * 
-     * @param Status $value CaptureStatus
+     * @param OffAmazonPaymentsService_Model_Status $value CaptureStatus
      * @return OffAmazonPaymentsService_Model_CaptureDetails instance
      */
     public function withCaptureStatus($value)
