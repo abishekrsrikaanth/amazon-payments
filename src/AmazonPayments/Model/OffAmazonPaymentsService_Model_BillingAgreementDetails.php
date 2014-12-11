@@ -18,10 +18,10 @@ use AmazonPayments\OffAmazonPaymentsService_Model;
 
 /**
  * OffAmazonPaymentsService_Model_BillingAgreementDetails
- * 
+ *
  * Properties:
  * <ul>
- * 
+ *
  * <li>AmazonBillingAgreementId: string</li>
  * <li>BillingAgreementLimits: OffAmazonPaymentsService_Model_BillingAgreementLimits</li>
  * <li>Buyer: OffAmazonPaymentsService_Model_Buyer</li>
@@ -44,12 +44,12 @@ class OffAmazonPaymentsService_Model_BillingAgreementDetails extends OffAmazonPa
 
     /**
      * Construct new OffAmazonPaymentsService_Model_BillingAgreementDetails
-     * 
-     * @param mixed $data DOMElement or Associative Array to construct from. 
-     * 
+     *
+     * @param mixed $data DOMElement or Associative Array to construct from.
+     *
      * Valid properties:
      * <ul>
-     * 
+     *
      * <li>AmazonBillingAgreementId: string</li>
      * <li>BillingAgreementLimits: OffAmazonPaymentsService_Model_BillingAgreementLimits</li>
      * <li>Buyer: OffAmazonPaymentsService_Model_Buyer</li>
@@ -67,74 +67,64 @@ class OffAmazonPaymentsService_Model_BillingAgreementDetails extends OffAmazonPa
      *
      * </ul>
      */
-    public function __construct ($data = null)
+    public function __construct($data = null)
     {
         $this->_fields = array(
-            'AmazonBillingAgreementId' => array(
+            'AmazonBillingAgreementId'         => array(
                 'FieldValue' => null,
-                'FieldType' => 'string'
+                'FieldType'  => 'string'
             ),
-            
-            'BillingAgreementLimits' => array(
+            'BillingAgreementLimits'           => array(
                 'FieldValue' => null,
-                'FieldType' => 'OffAmazonPaymentsService_Model_BillingAgreementLimits'
+                'FieldType'  => 'OffAmazonPaymentsService_Model_BillingAgreementLimits'
             ),
-            
-            'Buyer' => array(
+            'Buyer'                            => array(
                 'FieldValue' => null,
-                'FieldType' => 'OffAmazonPaymentsService_Model_Buyer'
+                'FieldType'  => 'OffAmazonPaymentsService_Model_Buyer'
             ),
-            
-            'SellerNote' => array(
+            'SellerNote'                       => array(
                 'FieldValue' => null,
-                'FieldType' => 'string'
+                'FieldType'  => 'string'
             ),
-            'PlatformId' => array(
+            'PlatformId'                       => array(
                 'FieldValue' => null,
-                'FieldType' => 'string'
+                'FieldType'  => 'string'
             ),
-            
-            'Destination' => array(
+            'Destination'                      => array(
                 'FieldValue' => null,
-                'FieldType' => 'OffAmazonPaymentsService_Model_Destination'
+                'FieldType'  => 'OffAmazonPaymentsService_Model_Destination'
             ),
-           
-            'BillingAddress' => array(
+            'BillingAddress'                   => array(
                 'FieldValue' => null,
-                'FieldType' => 'OffAmazonPaymentsService_Model_BillingAddress'
+                'FieldType'  => 'OffAmazonPaymentsService_Model_BillingAddress'
             ),
- 
-            'ReleaseEnvironment' => array(
+            'ReleaseEnvironment'               => array(
                 'FieldValue' => null,
-                'FieldType' => 'string'
+                'FieldType'  => 'string'
             ),
-            
             'SellerBillingAgreementAttributes' => array(
                 'FieldValue' => null,
-                'FieldType' => 'OffAmazonPaymentsService_Model_SellerBillingAgreementAttributes'
+                'FieldType'  => 'OffAmazonPaymentsService_Model_SellerBillingAgreementAttributes'
             ),
-            
-            'BillingAgreementStatus' => array(
+            'BillingAgreementStatus'           => array(
                 'FieldValue' => null,
-                'FieldType' => 'OffAmazonPaymentsService_Model_BillingAgreementStatus'
+                'FieldType'  => 'OffAmazonPaymentsService_Model_BillingAgreementStatus'
             ),
-            
-            'Constraints' => array(
+            'Constraints'                      => array(
                 'FieldValue' => null,
-                'FieldType' => 'OffAmazonPaymentsService_Model_Constraints'
+                'FieldType'  => 'OffAmazonPaymentsService_Model_Constraints'
             ),
-            
-            'CreationTimestamp' => array(
+            'CreationTimestamp'                => array(
                 'FieldValue' => null,
-                'FieldType' => 'string'
+                'FieldType'  => 'string'
             ),
-            'ExpirationTimestamp' => array(
+            'ExpirationTimestamp'              => array(
                 'FieldValue' => null,
-                'FieldType' => 'string'
+                'FieldType'  => 'string'
             ),
-            'BillingAgreementConsent' => array(
+            'BillingAgreementConsent'          => array(
                 'FieldValue' => null,
-                'FieldType' => 'bool'
+                'FieldType'  => 'bool'
             )
         );
         parent::__construct($data);
@@ -142,21 +132,22 @@ class OffAmazonPaymentsService_Model_BillingAgreementDetails extends OffAmazonPa
 
     /**
      * Gets the value of the AmazonBillingAgreementId property.
-     * 
+     *
      * @return string AmazonBillingAgreementId
      */
-    public function getAmazonBillingAgreementId ()
+    public function getAmazonBillingAgreementId()
     {
         return $this->_fields['AmazonBillingAgreementId']['FieldValue'];
     }
 
     /**
      * Sets the value of the AmazonBillingAgreementId property.
-     * 
+     *
      * @param string AmazonBillingAgreementId
+     *
      * @return $this instance
      */
-    public function setAmazonBillingAgreementId ($value)
+    public function setAmazonBillingAgreementId($value)
     {
         $this->_fields['AmazonBillingAgreementId']['FieldValue'] = $value;
         return $this;
@@ -164,11 +155,12 @@ class OffAmazonPaymentsService_Model_BillingAgreementDetails extends OffAmazonPa
 
     /**
      * Sets the value of the AmazonBillingAgreementId and returns this instance
-     * 
+     *
      * @param string $value AmazonBillingAgreementId
+     *
      * @return OffAmazonPaymentsService_Model_BillingAgreementDetails instance
      */
-    public function withAmazonBillingAgreementId ($value)
+    public function withAmazonBillingAgreementId($value)
     {
         $this->setAmazonBillingAgreementId($value);
         return $this;
@@ -176,31 +168,32 @@ class OffAmazonPaymentsService_Model_BillingAgreementDetails extends OffAmazonPa
 
     /**
      * Checks if AmazonBillingAgreementId is set
-     * 
+     *
      * @return bool true if AmazonBillingAgreementId  is set
      */
-    public function isSetAmazonBillingAgreementId ()
+    public function isSetAmazonBillingAgreementId()
     {
-        return ! is_null($this->_fields['AmazonBillingAgreementId']['FieldValue']);
+        return !is_null($this->_fields['AmazonBillingAgreementId']['FieldValue']);
     }
 
     /**
      * Gets the value of the BillingAgreementLimits.
-     * 
-     * @return BillingAgreementLimits BillingAgreementLimits
+     *
+     * @return OffAmazonPaymentsService_Model_BillingAgreementLimits BillingAgreementLimits
      */
-    public function getBillingAgreementLimits ()
+    public function getBillingAgreementLimits()
     {
         return $this->_fields['BillingAgreementLimits']['FieldValue'];
     }
 
     /**
      * Sets the value of the BillingAgreementLimits.
-     * 
-     * @param BillingAgreementLimits BillingAgreementLimits
+     *
+     * @param OffAmazonPaymentsService_Model_BillingAgreementLimits $value
+     *
      * @return void
      */
-    public function setBillingAgreementLimits ($value)
+    public function setBillingAgreementLimits($value)
     {
         $this->_fields['BillingAgreementLimits']['FieldValue'] = $value;
         return;
@@ -208,11 +201,12 @@ class OffAmazonPaymentsService_Model_BillingAgreementDetails extends OffAmazonPa
 
     /**
      * Sets the value of the BillingAgreementLimits  and returns this instance
-     * 
-     * @param BillingAgreementLimits $value BillingAgreementLimits
+     *
+     * @param OffAmazonPaymentsService_Model_BillingAgreementLimits $value
+     *
      * @return OffAmazonPaymentsService_Model_BillingAgreementDetails instance
      */
-    public function withBillingAgreementLimits ($value)
+    public function withBillingAgreementLimits($value)
     {
         $this->setBillingAgreementLimits($value);
         return $this;
@@ -220,31 +214,32 @@ class OffAmazonPaymentsService_Model_BillingAgreementDetails extends OffAmazonPa
 
     /**
      * Checks if BillingAgreementLimits  is set
-     * 
+     *
      * @return bool true if BillingAgreementLimits property is set
      */
-    public function isSetBillingAgreementLimits ()
+    public function isSetBillingAgreementLimits()
     {
-        return ! is_null($this->_fields['BillingAgreementLimits']['FieldValue']);
+        return !is_null($this->_fields['BillingAgreementLimits']['FieldValue']);
     }
 
     /**
      * Gets the value of the Buyer.
-     * 
-     * @return Buyer Buyer
+     *
+     * @return OffAmazonPaymentsService_Model_Buyer
      */
-    public function getBuyer ()
+    public function getBuyer()
     {
         return $this->_fields['Buyer']['FieldValue'];
     }
 
     /**
      * Sets the value of the Buyer.
-     * 
-     * @param Buyer Buyer
+     *
+     * @param OffAmazonPaymentsService_Model_Buyer $value
+     *
      * @return void
      */
-    public function setBuyer ($value)
+    public function setBuyer($value)
     {
         $this->_fields['Buyer']['FieldValue'] = $value;
         return;
@@ -252,11 +247,12 @@ class OffAmazonPaymentsService_Model_BillingAgreementDetails extends OffAmazonPa
 
     /**
      * Sets the value of the Buyer  and returns this instance
-     * 
-     * @param Buyer $value Buyer
+     *
+     * @param OffAmazonPaymentsService_Model_Buyer $value
+     *
      * @return OffAmazonPaymentsService_Model_BillingAgreementDetails instance
      */
-    public function withBuyer ($value)
+    public function withBuyer($value)
     {
         $this->setBuyer($value);
         return $this;
@@ -264,31 +260,32 @@ class OffAmazonPaymentsService_Model_BillingAgreementDetails extends OffAmazonPa
 
     /**
      * Checks if Buyer  is set
-     * 
+     *
      * @return bool true if Buyer property is set
      */
-    public function isSetBuyer ()
+    public function isSetBuyer()
     {
-        return ! is_null($this->_fields['Buyer']['FieldValue']);
+        return !is_null($this->_fields['Buyer']['FieldValue']);
     }
 
     /**
      * Gets the value of the SellerNote property.
-     * 
+     *
      * @return string SellerNote
      */
-    public function getSellerNote ()
+    public function getSellerNote()
     {
         return $this->_fields['SellerNote']['FieldValue'];
     }
 
     /**
      * Sets the value of the SellerNote property.
-     * 
+     *
      * @param string SellerNote
+     *
      * @return $this instance
      */
-    public function setSellerNote ($value)
+    public function setSellerNote($value)
     {
         $this->_fields['SellerNote']['FieldValue'] = $value;
         return $this;
@@ -296,11 +293,12 @@ class OffAmazonPaymentsService_Model_BillingAgreementDetails extends OffAmazonPa
 
     /**
      * Sets the value of the SellerNote and returns this instance
-     * 
+     *
      * @param string $value SellerNote
+     *
      * @return OffAmazonPaymentsService_Model_BillingAgreementDetails instance
      */
-    public function withSellerNote ($value)
+    public function withSellerNote($value)
     {
         $this->setSellerNote($value);
         return $this;
@@ -308,31 +306,32 @@ class OffAmazonPaymentsService_Model_BillingAgreementDetails extends OffAmazonPa
 
     /**
      * Checks if SellerNote is set
-     * 
+     *
      * @return bool true if SellerNote  is set
      */
-    public function isSetSellerNote ()
+    public function isSetSellerNote()
     {
-        return ! is_null($this->_fields['SellerNote']['FieldValue']);
+        return !is_null($this->_fields['SellerNote']['FieldValue']);
     }
 
     /**
      * Gets the value of the PlatformId property.
-     * 
+     *
      * @return string PlatformId
      */
-    public function getPlatformId ()
+    public function getPlatformId()
     {
         return $this->_fields['PlatformId']['FieldValue'];
     }
 
     /**
      * Sets the value of the PlatformId property.
-     * 
+     *
      * @param string PlatformId
+     *
      * @return $this instance
      */
-    public function setPlatformId ($value)
+    public function setPlatformId($value)
     {
         $this->_fields['PlatformId']['FieldValue'] = $value;
         return $this;
@@ -340,11 +339,12 @@ class OffAmazonPaymentsService_Model_BillingAgreementDetails extends OffAmazonPa
 
     /**
      * Sets the value of the PlatformId and returns this instance
-     * 
+     *
      * @param string $value PlatformId
+     *
      * @return OffAmazonPaymentsService_Model_BillingAgreementDetails instance
      */
-    public function withPlatformId ($value)
+    public function withPlatformId($value)
     {
         $this->setPlatformId($value);
         return $this;
@@ -352,31 +352,32 @@ class OffAmazonPaymentsService_Model_BillingAgreementDetails extends OffAmazonPa
 
     /**
      * Checks if PlatformId is set
-     * 
+     *
      * @return bool true if PlatformId  is set
      */
-    public function isSetPlatformId ()
+    public function isSetPlatformId()
     {
-        return ! is_null($this->_fields['PlatformId']['FieldValue']);
+        return !is_null($this->_fields['PlatformId']['FieldValue']);
     }
 
     /**
      * Gets the value of the Destination.
-     * 
-     * @return Destination Destination
+     *
+     * @return OffAmazonPaymentsService_Model_Destination
      */
-    public function getDestination ()
+    public function getDestination()
     {
         return $this->_fields['Destination']['FieldValue'];
     }
 
     /**
      * Sets the value of the Destination.
-     * 
-     * @param Destination Destination
+     *
+     * @param OffAmazonPaymentsService_Model_Destination $value
+     *
      * @return void
      */
-    public function setDestination ($value)
+    public function setDestination($value)
     {
         $this->_fields['Destination']['FieldValue'] = $value;
         return;
@@ -384,11 +385,12 @@ class OffAmazonPaymentsService_Model_BillingAgreementDetails extends OffAmazonPa
 
     /**
      * Sets the value of the Destination  and returns this instance
-     * 
-     * @param Destination $value Destination
+     *
+     * @param OffAmazonPaymentsService_Model_Destination $value
+     *
      * @return OffAmazonPaymentsService_Model_BillingAgreementDetails instance
      */
-    public function withDestination ($value)
+    public function withDestination($value)
     {
         $this->setDestination($value);
         return $this;
@@ -396,31 +398,32 @@ class OffAmazonPaymentsService_Model_BillingAgreementDetails extends OffAmazonPa
 
     /**
      * Checks if Destination  is set
-     * 
+     *
      * @return bool true if Destination property is set
      */
-    public function isSetDestination ()
+    public function isSetDestination()
     {
-        return ! is_null($this->_fields['Destination']['FieldValue']);
+        return !is_null($this->_fields['Destination']['FieldValue']);
     }
 
     /**
      * Gets the value of the BillingAddress.
-     * 
-     * @return BillingAddress BillingAddress
+     *
+     * @return OffAmazonPaymentsService_Model_BillingAddress
      */
-    public function getBillingAddress ()
+    public function getBillingAddress()
     {
         return $this->_fields['BillingAddress']['FieldValue'];
     }
 
     /**
      * Sets the value of the BillingAddress.
-     * 
-     * @param BillingAddress BillingAddress
+     *
+     * @param OffAmazonPaymentsService_Model_BillingAddress $value
+     *
      * @return void
      */
-    public function setBillingAddress ($value)
+    public function setBillingAddress($value)
     {
         $this->_fields['BillingAddress']['FieldValue'] = $value;
         return;
@@ -428,11 +431,12 @@ class OffAmazonPaymentsService_Model_BillingAgreementDetails extends OffAmazonPa
 
     /**
      * Sets the value of the BillingAddress  and returns this instance
-     * 
+     *
      * @param BillingAddress $value BillingAddress
+     *
      * @return OffAmazonPaymentsService_Model_BillingAgreementDetails instance
      */
-    public function withBillingAddress ($value)
+    public function withBillingAddress($value)
     {
         $this->setBillingAddress($value);
         return $this;
@@ -440,31 +444,32 @@ class OffAmazonPaymentsService_Model_BillingAgreementDetails extends OffAmazonPa
 
     /**
      * Checks if BillingAddress  is set
-     * 
+     *
      * @return bool true if BillingAddress property is set
      */
-    public function isSetBillingAddress ()
+    public function isSetBillingAddress()
     {
-        return ! is_null($this->_fields['BillingAddress']['FieldValue']);
+        return !is_null($this->_fields['BillingAddress']['FieldValue']);
     }
 
     /**
      * Gets the value of the ReleaseEnvironment property.
-     * 
+     *
      * @return string ReleaseEnvironment
      */
-    public function getReleaseEnvironment ()
+    public function getReleaseEnvironment()
     {
         return $this->_fields['ReleaseEnvironment']['FieldValue'];
     }
 
     /**
      * Sets the value of the ReleaseEnvironment property.
-     * 
+     *
      * @param string ReleaseEnvironment
+     *
      * @return $this instance
      */
-    public function setReleaseEnvironment ($value)
+    public function setReleaseEnvironment($value)
     {
         $this->_fields['ReleaseEnvironment']['FieldValue'] = $value;
         return $this;
@@ -472,11 +477,12 @@ class OffAmazonPaymentsService_Model_BillingAgreementDetails extends OffAmazonPa
 
     /**
      * Sets the value of the ReleaseEnvironment and returns this instance
-     * 
+     *
      * @param string $value ReleaseEnvironment
+     *
      * @return OffAmazonPaymentsService_Model_BillingAgreementDetails instance
      */
-    public function withReleaseEnvironment ($value)
+    public function withReleaseEnvironment($value)
     {
         $this->setReleaseEnvironment($value);
         return $this;
@@ -484,31 +490,32 @@ class OffAmazonPaymentsService_Model_BillingAgreementDetails extends OffAmazonPa
 
     /**
      * Checks if ReleaseEnvironment is set
-     * 
+     *
      * @return bool true if ReleaseEnvironment  is set
      */
-    public function isSetReleaseEnvironment ()
+    public function isSetReleaseEnvironment()
     {
-        return ! is_null($this->_fields['ReleaseEnvironment']['FieldValue']);
+        return !is_null($this->_fields['ReleaseEnvironment']['FieldValue']);
     }
 
     /**
      * Gets the value of the SellerBillingAgreementAttributes.
-     * 
+     *
      * @return SellerBillingAgreementAttributes SellerBillingAgreementAttributes
      */
-    public function getSellerBillingAgreementAttributes ()
+    public function getSellerBillingAgreementAttributes()
     {
         return $this->_fields['SellerBillingAgreementAttributes']['FieldValue'];
     }
 
     /**
      * Sets the value of the SellerBillingAgreementAttributes.
-     * 
+     *
      * @param SellerBillingAgreementAttributes SellerBillingAgreementAttributes
+     *
      * @return void
      */
-    public function setSellerBillingAgreementAttributes ($value)
+    public function setSellerBillingAgreementAttributes($value)
     {
         $this->_fields['SellerBillingAgreementAttributes']['FieldValue'] = $value;
         return;
@@ -516,11 +523,12 @@ class OffAmazonPaymentsService_Model_BillingAgreementDetails extends OffAmazonPa
 
     /**
      * Sets the value of the SellerBillingAgreementAttributes  and returns this instance
-     * 
+     *
      * @param SellerBillingAgreementAttributes $value SellerBillingAgreementAttributes
+     *
      * @return OffAmazonPaymentsService_Model_BillingAgreementDetails instance
      */
-    public function withSellerBillingAgreementAttributes ($value)
+    public function withSellerBillingAgreementAttributes($value)
     {
         $this->setSellerBillingAgreementAttributes($value);
         return $this;
@@ -528,31 +536,32 @@ class OffAmazonPaymentsService_Model_BillingAgreementDetails extends OffAmazonPa
 
     /**
      * Checks if SellerBillingAgreementAttributes  is set
-     * 
+     *
      * @return bool true if SellerBillingAgreementAttributes property is set
      */
-    public function isSetSellerBillingAgreementAttributes ()
+    public function isSetSellerBillingAgreementAttributes()
     {
-        return ! is_null($this->_fields['SellerBillingAgreementAttributes']['FieldValue']);
+        return !is_null($this->_fields['SellerBillingAgreementAttributes']['FieldValue']);
     }
 
     /**
      * Gets the value of the BillingAgreementStatus.
-     * 
+     *
      * @return BillingAgreementStatus BillingAgreementStatus
      */
-    public function getBillingAgreementStatus ()
+    public function getBillingAgreementStatus()
     {
         return $this->_fields['BillingAgreementStatus']['FieldValue'];
     }
 
     /**
      * Sets the value of the BillingAgreementStatus.
-     * 
+     *
      * @param BillingAgreementStatus BillingAgreementStatus
+     *
      * @return void
      */
-    public function setBillingAgreementStatus ($value)
+    public function setBillingAgreementStatus($value)
     {
         $this->_fields['BillingAgreementStatus']['FieldValue'] = $value;
         return;
@@ -560,11 +569,12 @@ class OffAmazonPaymentsService_Model_BillingAgreementDetails extends OffAmazonPa
 
     /**
      * Sets the value of the BillingAgreementStatus  and returns this instance
-     * 
+     *
      * @param BillingAgreementStatus $value BillingAgreementStatus
+     *
      * @return OffAmazonPaymentsService_Model_BillingAgreementDetails instance
      */
-    public function withBillingAgreementStatus ($value)
+    public function withBillingAgreementStatus($value)
     {
         $this->setBillingAgreementStatus($value);
         return $this;
@@ -572,31 +582,32 @@ class OffAmazonPaymentsService_Model_BillingAgreementDetails extends OffAmazonPa
 
     /**
      * Checks if BillingAgreementStatus  is set
-     * 
+     *
      * @return bool true if BillingAgreementStatus property is set
      */
-    public function isSetBillingAgreementStatus ()
+    public function isSetBillingAgreementStatus()
     {
-        return ! is_null($this->_fields['BillingAgreementStatus']['FieldValue']);
+        return !is_null($this->_fields['BillingAgreementStatus']['FieldValue']);
     }
 
     /**
      * Gets the value of the Constraints.
-     * 
+     *
      * @return Constraints Constraints
      */
-    public function getConstraints ()
+    public function getConstraints()
     {
         return $this->_fields['Constraints']['FieldValue'];
     }
 
     /**
      * Sets the value of the Constraints.
-     * 
+     *
      * @param Constraints Constraints
+     *
      * @return void
      */
-    public function setConstraints ($value)
+    public function setConstraints($value)
     {
         $this->_fields['Constraints']['FieldValue'] = $value;
         return;
@@ -604,11 +615,12 @@ class OffAmazonPaymentsService_Model_BillingAgreementDetails extends OffAmazonPa
 
     /**
      * Sets the value of the Constraints  and returns this instance
-     * 
+     *
      * @param Constraints $value Constraints
+     *
      * @return OffAmazonPaymentsService_Model_BillingAgreementDetails instance
      */
-    public function withConstraints ($value)
+    public function withConstraints($value)
     {
         $this->setConstraints($value);
         return $this;
@@ -616,31 +628,32 @@ class OffAmazonPaymentsService_Model_BillingAgreementDetails extends OffAmazonPa
 
     /**
      * Checks if Constraints  is set
-     * 
+     *
      * @return bool true if Constraints property is set
      */
-    public function isSetConstraints ()
+    public function isSetConstraints()
     {
-        return ! is_null($this->_fields['Constraints']['FieldValue']);
+        return !is_null($this->_fields['Constraints']['FieldValue']);
     }
 
     /**
      * Gets the value of the CreationTimestamp property.
-     * 
+     *
      * @return string CreationTimestamp
      */
-    public function getCreationTimestamp ()
+    public function getCreationTimestamp()
     {
         return $this->_fields['CreationTimestamp']['FieldValue'];
     }
 
     /**
      * Sets the value of the CreationTimestamp property.
-     * 
+     *
      * @param string CreationTimestamp
+     *
      * @return $this instance
      */
-    public function setCreationTimestamp ($value)
+    public function setCreationTimestamp($value)
     {
         $this->_fields['CreationTimestamp']['FieldValue'] = $value;
         return $this;
@@ -648,11 +661,12 @@ class OffAmazonPaymentsService_Model_BillingAgreementDetails extends OffAmazonPa
 
     /**
      * Sets the value of the CreationTimestamp and returns this instance
-     * 
+     *
      * @param string $value CreationTimestamp
+     *
      * @return OffAmazonPaymentsService_Model_BillingAgreementDetails instance
      */
-    public function withCreationTimestamp ($value)
+    public function withCreationTimestamp($value)
     {
         $this->setCreationTimestamp($value);
         return $this;
@@ -660,31 +674,32 @@ class OffAmazonPaymentsService_Model_BillingAgreementDetails extends OffAmazonPa
 
     /**
      * Checks if CreationTimestamp is set
-     * 
+     *
      * @return bool true if CreationTimestamp  is set
      */
-    public function isSetCreationTimestamp ()
+    public function isSetCreationTimestamp()
     {
-        return ! is_null($this->_fields['CreationTimestamp']['FieldValue']);
+        return !is_null($this->_fields['CreationTimestamp']['FieldValue']);
     }
 
     /**
      * Gets the value of the ExpirationTimestamp property.
-     * 
+     *
      * @return string ExpirationTimestamp
      */
-    public function getExpirationTimestamp ()
+    public function getExpirationTimestamp()
     {
         return $this->_fields['ExpirationTimestamp']['FieldValue'];
     }
 
     /**
      * Sets the value of the ExpirationTimestamp property.
-     * 
+     *
      * @param string ExpirationTimestamp
+     *
      * @return $this instance
      */
-    public function setExpirationTimestamp ($value)
+    public function setExpirationTimestamp($value)
     {
         $this->_fields['ExpirationTimestamp']['FieldValue'] = $value;
         return $this;
@@ -692,11 +707,12 @@ class OffAmazonPaymentsService_Model_BillingAgreementDetails extends OffAmazonPa
 
     /**
      * Sets the value of the ExpirationTimestamp and returns this instance
-     * 
+     *
      * @param string $value ExpirationTimestamp
+     *
      * @return OffAmazonPaymentsService_Model_BillingAgreementDetails instance
      */
-    public function withExpirationTimestamp ($value)
+    public function withExpirationTimestamp($value)
     {
         $this->setExpirationTimestamp($value);
         return $this;
@@ -704,31 +720,32 @@ class OffAmazonPaymentsService_Model_BillingAgreementDetails extends OffAmazonPa
 
     /**
      * Checks if ExpirationTimestamp is set
-     * 
+     *
      * @return bool true if ExpirationTimestamp  is set
      */
-    public function isSetExpirationTimestamp ()
+    public function isSetExpirationTimestamp()
     {
-        return ! is_null($this->_fields['ExpirationTimestamp']['FieldValue']);
+        return !is_null($this->_fields['ExpirationTimestamp']['FieldValue']);
     }
 
     /**
      * Gets the value of the BillingAgreementConsent property.
-     * 
+     *
      * @return bool BillingAgreementConsent
      */
-    public function getBillingAgreementConsent ()
+    public function getBillingAgreementConsent()
     {
         return $this->_fields['BillingAgreementConsent']['FieldValue'];
     }
 
     /**
      * Sets the value of the BillingAgreementConsent property.
-     * 
+     *
      * @param bool BillingAgreementConsent
+     *
      * @return $this instance
      */
-    public function setBillingAgreementConsent ($value)
+    public function setBillingAgreementConsent($value)
     {
         $this->_fields['BillingAgreementConsent']['FieldValue'] = $value;
         return $this;
@@ -736,11 +753,12 @@ class OffAmazonPaymentsService_Model_BillingAgreementDetails extends OffAmazonPa
 
     /**
      * Sets the value of the BillingAgreementConsent and returns this instance
-     * 
+     *
      * @param bool $value BillingAgreementConsent
+     *
      * @return OffAmazonPaymentsService_Model_BillingAgreementDetails instance
      */
-    public function withBillingAgreementConsent ($value)
+    public function withBillingAgreementConsent($value)
     {
         $this->setBillingAgreementConsent($value);
         return $this;
@@ -748,12 +766,13 @@ class OffAmazonPaymentsService_Model_BillingAgreementDetails extends OffAmazonPa
 
     /**
      * Checks if BillingAgreementConsent is set
-     * 
+     *
      * @return bool true if BillingAgreementConsent  is set
      */
-    public function isSetBillingAgreementConsent ()
+    public function isSetBillingAgreementConsent()
     {
-        return ! is_null($this->_fields['BillingAgreementConsent']['FieldValue']);
+        return !is_null($this->_fields['BillingAgreementConsent']['FieldValue']);
     }
 }
+
 ?>
