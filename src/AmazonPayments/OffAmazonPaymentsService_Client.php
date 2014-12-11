@@ -113,10 +113,6 @@ class OffAmazonPaymentsService_Client implements OffAmazonPaymentsService_Interf
      */
     public function __construct($config = null)
     {
-        iconv_set_encoding('output_encoding', 'UTF-8');
-        iconv_set_encoding('input_encoding', 'UTF-8');
-        iconv_set_encoding('internal_encoding', 'UTF-8');
-
         if ($config != null) {
             $this->_checkConfigHasAllRequiredKeys($config);
             $this->_merchantValues = new OffAmazonPaymentsService_MerchantValues(
