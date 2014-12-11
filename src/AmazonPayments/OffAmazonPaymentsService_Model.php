@@ -173,7 +173,8 @@ abstract class OffAmazonPaymentsService_Model
                     $elements = $xpath->query("./a:$fieldName", $dom);
                     if ($elements->length >= 1) {
                         foreach ($elements as $element) {
-                            $this->_fields[$fieldName]['FieldValue'][] = new $fieldType[0]($element);
+                            $className                                 = "Model\\" . $fieldType[0];
+                            $this->_fields[$fieldName]['FieldValue'][] = new $className[0]($element);
                         }
                     }
                 } else {
@@ -189,7 +190,8 @@ abstract class OffAmazonPaymentsService_Model
                 if ($this->_isComplexType($fieldType)) {
                     $elements = $xpath->query("./a:$fieldName", $dom);
                     if ($elements->length == 1) {
-                        $this->_fields[$fieldName]['FieldValue'] = new $fieldType($elements->item(0));
+                        $className                                 = "Model\\" . $fieldType[0];
+                        $this->_fields[$fieldName]['FieldValue'] = new $className($elements->item(0));
                     }
                 } else {
                     $element = $xpath->query("./a:$fieldName/text()", $dom);
