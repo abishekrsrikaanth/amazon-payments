@@ -173,7 +173,7 @@ abstract class OffAmazonPaymentsService_Model
                     $elements = $xpath->query("./a:$fieldName", $dom);
                     if ($elements->length >= 1) {
                         foreach ($elements as $element) {
-                            $className                                 = "Model\\" . $fieldType[0];
+                            $className                                 = "AmazonPayments\\Model\\" . $fieldType[0];
                             $this->_fields[$fieldName]['FieldValue'][] = new $className($element);
                         }
                     }
@@ -190,7 +190,7 @@ abstract class OffAmazonPaymentsService_Model
                 if ($this->_isComplexType($fieldType)) {
                     $elements = $xpath->query("./a:$fieldName", $dom);
                     if ($elements->length == 1) {
-                        $className                                 = "Model\\" . $fieldType[0];
+                        $className                               = "AmazonPayments\\Model\\" . $fieldType;
                         $this->_fields[$fieldName]['FieldValue'] = new $className($elements->item(0));
                     }
                 } else {
@@ -233,7 +233,7 @@ abstract class OffAmazonPaymentsService_Model
                         }
                         if (count($elements) >= 1) {
                             foreach ($elements as $element) {
-                                $className                                 = "Model\\" . $fieldType[0];
+                                $className                                 = "AmazonPayments\\Model\\" . $fieldType[0];
                                 $this->_fields[$fieldName]['FieldValue'][] = new $className($element);
                             }
                         }
@@ -254,7 +254,7 @@ abstract class OffAmazonPaymentsService_Model
             } else {
                 if ($this->_isComplexType($fieldType)) {
                     if (array_key_exists($fieldName, $array)) {
-                        $className                               = "Model\\" . $fieldType[0];
+                        $className                               = "AmazonPayments\\Model\\" . $fieldType;
                         $this->_fields[$fieldName]['FieldValue'] = new $className($array[$fieldName]);
                     }
                 } else {
