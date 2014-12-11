@@ -212,7 +212,7 @@ class OffAmazonPaymentsService_Model_RefundRequest extends OffAmazonPaymentsServ
     /**
      * Gets the value of the RefundAmount.
      * 
-     * @return Price RefundAmount
+     * @return OffAmazonPaymentsService_Model_Price RefundAmount
      */
     public function getRefundAmount() 
     {
@@ -222,7 +222,7 @@ class OffAmazonPaymentsService_Model_RefundRequest extends OffAmazonPaymentsServ
     /**
      * Sets the value of the RefundAmount.
      * 
-     * @param Price RefundAmount
+     * @param OffAmazonPaymentsService_Model_Price $value RefundAmount
      * @return void
      */
     public function setRefundAmount($value) 
@@ -234,7 +234,7 @@ class OffAmazonPaymentsService_Model_RefundRequest extends OffAmazonPaymentsServ
     /**
      * Sets the value of the RefundAmount  and returns this instance
      * 
-     * @param Price $value RefundAmount
+     * @param OffAmazonPaymentsService_Model_Price $value RefundAmount
      * @return OffAmazonPaymentsService_Model_RefundRequest instance
      */
     public function withRefundAmount($value)
@@ -360,7 +360,7 @@ class OffAmazonPaymentsService_Model_RefundRequest extends OffAmazonPaymentsServ
     /**
      * Sets the value of the ProviderCreditReversalList.
      *
-     * @param ProviderCreditReversalList ProviderCreditReversalList
+     * @param OffAmazonPaymentsService_Model_ProviderCreditReversalList $value ProviderCreditReversalList
      * @return void
      */
     public function setProviderCreditReversalList($value)
@@ -372,7 +372,7 @@ class OffAmazonPaymentsService_Model_RefundRequest extends OffAmazonPaymentsServ
     /**
      * Sets the value of the ProviderCreditReversalList  and returns this instance
      *
-     * @param ProviderCreditReversalList $value ProviderCreditReversalList
+     * @param OffAmazonPaymentsService_Model_ProviderCreditReversalList $value ProviderCreditReversalList
      * @return OffAmazonPaymentsService_Model_RefundRequest instance
      */
     public function withProviderCreditReversalList($value)

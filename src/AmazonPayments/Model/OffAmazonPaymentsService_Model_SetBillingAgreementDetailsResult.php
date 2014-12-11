@@ -57,7 +57,7 @@ class OffAmazonPaymentsService_Model_SetBillingAgreementDetailsResult extends Of
     /**
      * Gets the value of the BillingAgreementDetails.
      * 
-     * @return BillingAgreementDetails BillingAgreementDetails
+     * @return OffAmazonPaymentsService_Model_BillingAgreementDetails BillingAgreementDetails
      */
     public function getBillingAgreementDetails ()
     {
@@ -67,7 +67,7 @@ class OffAmazonPaymentsService_Model_SetBillingAgreementDetailsResult extends Of
     /**
      * Sets the value of the BillingAgreementDetails.
      * 
-     * @param BillingAgreementDetails BillingAgreementDetails
+     * @param OffAmazonPaymentsService_Model_BillingAgreementDetails $value BillingAgreementDetails
      * @return void
      */
     public function setBillingAgreementDetails ($value)
@@ -79,7 +79,7 @@ class OffAmazonPaymentsService_Model_SetBillingAgreementDetailsResult extends Of
     /**
      * Sets the value of the BillingAgreementDetails  and returns this instance
      * 
-     * @param BillingAgreementDetails $value BillingAgreementDetails
+     * @param OffAmazonPaymentsService_Model_BillingAgreementDetails $value BillingAgreementDetails
      * @return OffAmazonPaymentsService_Model_SetBillingAgreementDetailsResult instance
      */
     public function withBillingAgreementDetails ($value)

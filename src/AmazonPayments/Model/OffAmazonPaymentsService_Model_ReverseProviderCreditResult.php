@@ -61,7 +61,7 @@ class OffAmazonPaymentsService_Model_ReverseProviderCreditResult extends OffAmaz
         /**
      * Gets the value of the ProviderCreditReversalDetails.
      * 
-     * @return ProviderCreditReversalDetails ProviderCreditReversalDetails
+     * @return OffAmazonPaymentsService_Model_ProviderCreditReversalDetails ProviderCreditReversalDetails
      */
     public function getProviderCreditReversalDetails() 
     {
@@ -71,7 +71,7 @@ class OffAmazonPaymentsService_Model_ReverseProviderCreditResult extends OffAmaz
     /**
      * Sets the value of the ProviderCreditReversalDetails.
      * 
-     * @param ProviderCreditReversalDetails ProviderCreditReversalDetails
+     * @param OffAmazonPaymentsService_Model_ProviderCreditReversalDetails $value ProviderCreditReversalDetails
      * @return void
      */
     public function setProviderCreditReversalDetails($value) 
@@ -83,7 +83,7 @@ class OffAmazonPaymentsService_Model_ReverseProviderCreditResult extends OffAmaz
     /**
      * Sets the value of the ProviderCreditReversalDetails  and returns this instance
      * 
-     * @param ProviderCreditReversalDetails $value ProviderCreditReversalDetails
+     * @param OffAmazonPaymentsService_Model_ProviderCreditReversalDetails $value ProviderCreditReversalDetails
      * @return OffAmazonPaymentsService_Model_ReverseProviderCreditResult instance
      */
     public function withProviderCreditReversalDetails($value)

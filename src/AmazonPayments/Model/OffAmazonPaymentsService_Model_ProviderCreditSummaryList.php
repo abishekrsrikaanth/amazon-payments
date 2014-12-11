@@ -87,7 +87,7 @@ class OffAmazonPaymentsService_Model_ProviderCreditSummaryList extends OffAmazon
      * For example, to set the list with two elements, simply pass two values as arguments to this function
      * <code>withmember($member1, $member2)</code>
      * 
-     * @param ProviderCreditSummary  $providerCreditSummaryArgs one or more member
+     * @param OffAmazonPaymentsService_Model_ProviderCreditSummary  $providerCreditSummaryArgs one or more member
      * @return OffAmazonPaymentsService_Model_ProviderCreditSummaryList  instance
      */
     public function withmember($providerCreditSummaryArgs)

@@ -230,7 +230,7 @@ class OffAmazonPaymentsService_Model_ReverseProviderCreditRequest extends OffAma
     /**
      * Sets the value of the CreditReversalAmount  and returns this instance
      * 
-     * @param Price $value CreditReversalAmount
+     * @param OffAmazonPaymentsService_Model_Price $value CreditReversalAmount
      * @return OffAmazonPaymentsService_Model_ReverseProviderCreditRequest instance
      */
     public function withCreditReversalAmount($value)

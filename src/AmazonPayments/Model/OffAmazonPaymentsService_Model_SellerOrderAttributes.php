@@ -80,7 +80,7 @@ class OffAmazonPaymentsService_Model_SellerOrderAttributes extends OffAmazonPaym
     /**
      * Sets the value of the SellerOrderId property.
      * 
-     * @param string SellerOrderId
+     * @param string $value SellerOrderId
      * @return $this instance
      */
     public function setSellerOrderId($value) 
@@ -182,7 +182,7 @@ class OffAmazonPaymentsService_Model_SellerOrderAttributes extends OffAmazonPaym
     /**
      * Sets the value of the OrderItemCategories  and returns this instance
      * 
-     * @param OrderItemCategories $value OrderItemCategories
+     * @param OffAmazonPaymentsService_Model_OrderItemCategories $value OrderItemCategories
      * @return OffAmazonPaymentsService_Model_SellerOrderAttributes instance
      */
     public function withOrderItemCategories($value)
@@ -252,4 +252,3 @@ class OffAmazonPaymentsService_Model_SellerOrderAttributes extends OffAmazonPaym
 
 
 }
-?>

@@ -61,7 +61,7 @@ class OffAmazonPaymentsService_Model_GetOrderReferenceDetailsResult extends OffA
         /**
      * Gets the value of the OrderReferenceDetails.
      * 
-     * @return OrderReferenceDetails OrderReferenceDetails
+     * @return OffAmazonPaymentsService_Model_OrderReferenceDetails
      */
     public function getOrderReferenceDetails() 
     {
@@ -71,7 +71,7 @@ class OffAmazonPaymentsService_Model_GetOrderReferenceDetailsResult extends OffA
     /**
      * Sets the value of the OrderReferenceDetails.
      * 
-     * @param OrderReferenceDetails OrderReferenceDetails
+     * @param OffAmazonPaymentsService_Model_OrderReferenceDetails $value
      * @return void
      */
     public function setOrderReferenceDetails($value) 
@@ -83,7 +83,7 @@ class OffAmazonPaymentsService_Model_GetOrderReferenceDetailsResult extends OffA
     /**
      * Sets the value of the OrderReferenceDetails  and returns this instance
      * 
-     * @param OrderReferenceDetails $value OrderReferenceDetails
+     * @param OffAmazonPaymentsService_Model_OrderReferenceDetails $value OrderReferenceDetails
      * @return OffAmazonPaymentsService_Model_GetOrderReferenceDetailsResult instance
      */
     public function withOrderReferenceDetails($value)

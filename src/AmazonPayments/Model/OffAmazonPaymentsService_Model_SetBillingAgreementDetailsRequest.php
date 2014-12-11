@@ -179,7 +179,7 @@ class OffAmazonPaymentsService_Model_SetBillingAgreementDetailsRequest extends O
     /**
      * Sets the value of the BillingAgreementAttributes  and returns this instance
      * 
-     * @param BillingAgreementAttributes $value BillingAgreementAttributes
+     * @param OffAmazonPaymentsService_Model_BillingAgreementAttributes $value BillingAgreementAttributes
      * @return OffAmazonPaymentsService_Model_SetBillingAgreementDetailsRequest instance
      */
     public function withBillingAgreementAttributes ($value)

@@ -48,5 +48,3 @@ class OffAmazonPaymentsService_Model_ResponseHeaderMetadata {
       ", Timestamp: " . $this->getTimestamp();
   }
 }
-
-?>

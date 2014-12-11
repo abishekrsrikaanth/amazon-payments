@@ -100,9 +100,4 @@ class OffAmazonPaymentsService_Model_ResponseMetadata extends OffAmazonPaymentsS
     {
         return !is_null($this->_fields['RequestId']['FieldValue']);
     }
-
-
-
-
 }
-?>

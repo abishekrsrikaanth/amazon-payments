@@ -317,7 +317,7 @@ class OffAmazonPaymentsService_Model_CreateOrderReferenceForIdRequest extends Of
     /**
      * Sets the value of the OrderReferenceAttributes.
      * 
-     * @param OrderReferenceAttributes OrderReferenceAttributes
+     * @param OffAmazonPaymentsService_Model_OrderReferenceAttributes $value
      * @return void
      */
     public function setOrderReferenceAttributes ($value)
@@ -329,7 +329,7 @@ class OffAmazonPaymentsService_Model_CreateOrderReferenceForIdRequest extends Of
     /**
      * Sets the value of the OrderReferenceAttributes  and returns this instance
      * 
-     * @param OrderReferenceAttributes $value OrderReferenceAttributes
+     * @param OffAmazonPaymentsService_Model_OrderReferenceAttributes $value OrderReferenceAttributes
      * @return OffAmazonPaymentsService_Model_CreateOrderReferenceForIdRequest instance
      */
     public function withOrderReferenceAttributes ($value)

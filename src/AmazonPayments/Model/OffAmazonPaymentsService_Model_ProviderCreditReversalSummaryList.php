@@ -87,7 +87,7 @@ class OffAmazonPaymentsService_Model_ProviderCreditReversalSummaryList extends O
      * For example, to set the list with two elements, simply pass two values as arguments to this function
      * <code>withmember($member1, $member2)</code>
      * 
-     * @param ProviderCreditReversalSummary  $providerCreditReversalSummaryArgs one or more member
+     * @param OffAmazonPaymentsService_Model_ProviderCreditReversalSummary $providerCreditReversalSummaryArgs one or more member
      * @return OffAmazonPaymentsService_Model_ProviderCreditReversalSummaryList  instance
      */
     public function withmember($providerCreditReversalSummaryArgs)

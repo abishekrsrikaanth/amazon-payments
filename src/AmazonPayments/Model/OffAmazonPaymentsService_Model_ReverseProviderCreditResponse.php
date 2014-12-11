@@ -89,7 +89,7 @@ class OffAmazonPaymentsService_Model_ReverseProviderCreditResponse extends OffAm
     /**
      * Gets the value of the ReverseProviderCreditResult.
      * 
-     * @return ReverseProviderCreditResult ReverseProviderCreditResult
+     * @return OffAmazonPaymentsService_Model_ReverseProviderCreditResult ReverseProviderCreditResult
      */
     public function getReverseProviderCreditResult() 
     {
@@ -99,7 +99,7 @@ class OffAmazonPaymentsService_Model_ReverseProviderCreditResponse extends OffAm
     /**
      * Sets the value of the ReverseProviderCreditResult.
      * 
-     * @param ReverseProviderCreditResult ReverseProviderCreditResult
+     * @param OffAmazonPaymentsService_Model_ReverseProviderCreditResult $value ReverseProviderCreditResult
      * @return void
      */
     public function setReverseProviderCreditResult($value) 
@@ -111,7 +111,7 @@ class OffAmazonPaymentsService_Model_ReverseProviderCreditResponse extends OffAm
     /**
      * Sets the value of the ReverseProviderCreditResult  and returns this instance
      * 
-     * @param ReverseProviderCreditResult $value ReverseProviderCreditResult
+     * @param OffAmazonPaymentsService_Model_ReverseProviderCreditResult $value ReverseProviderCreditResult
      * @return OffAmazonPaymentsService_Model_ReverseProviderCreditResponse instance
      */
     public function withReverseProviderCreditResult($value)
@@ -135,7 +135,7 @@ class OffAmazonPaymentsService_Model_ReverseProviderCreditResponse extends OffAm
     /**
      * Gets the value of the ResponseMetadata.
      * 
-     * @return ResponseMetadata ResponseMetadata
+     * @return OffAmazonPaymentsService_Model_ResponseMetadata ResponseMetadata
      */
     public function getResponseMetadata() 
     {
@@ -145,7 +145,7 @@ class OffAmazonPaymentsService_Model_ReverseProviderCreditResponse extends OffAm
     /**
      * Sets the value of the ResponseMetadata.
      * 
-     * @param ResponseMetadata ResponseMetadata
+     * @param OffAmazonPaymentsService_Model_ResponseMetadata $value ResponseMetadata
      * @return void
      */
     public function setResponseMetadata($value) 
@@ -157,7 +157,7 @@ class OffAmazonPaymentsService_Model_ReverseProviderCreditResponse extends OffAm
     /**
      * Sets the value of the ResponseMetadata  and returns this instance
      * 
-     * @param ResponseMetadata $value ResponseMetadata
+     * @param OffAmazonPaymentsService_Model_ResponseMetadata $value ResponseMetadata
      * @return OffAmazonPaymentsService_Model_ReverseProviderCreditResponse instance
      */
     public function withResponseMetadata($value)

@@ -271,7 +271,7 @@ class OffAmazonPaymentsService_Model_RefundDetails extends OffAmazonPaymentsServ
     /**
      * Gets the value of the RefundAmount.
      * 
-     * @return Price RefundAmount
+     * @return OffAmazonPaymentsService_Model_Price RefundAmount
      */
     public function getRefundAmount() 
     {
@@ -281,7 +281,7 @@ class OffAmazonPaymentsService_Model_RefundDetails extends OffAmazonPaymentsServ
     /**
      * Sets the value of the RefundAmount.
      * 
-     * @param Price RefundAmount
+     * @param OffAmazonPaymentsService_Model_Price $value RefundAmount
      * @return void
      */
     public function setRefundAmount($value) 
@@ -293,7 +293,7 @@ class OffAmazonPaymentsService_Model_RefundDetails extends OffAmazonPaymentsServ
     /**
      * Sets the value of the RefundAmount  and returns this instance
      * 
-     * @param Price $value RefundAmount
+     * @param OffAmazonPaymentsService_Model_Price $value RefundAmount
      * @return OffAmazonPaymentsService_Model_RefundDetails instance
      */
     public function withRefundAmount($value)
@@ -317,7 +317,7 @@ class OffAmazonPaymentsService_Model_RefundDetails extends OffAmazonPaymentsServ
     /**
      * Gets the value of the FeeRefunded.
      * 
-     * @return Price FeeRefunded
+     * @return OffAmazonPaymentsService_Model_Price FeeRefunded
      */
     public function getFeeRefunded() 
     {
@@ -327,7 +327,7 @@ class OffAmazonPaymentsService_Model_RefundDetails extends OffAmazonPaymentsServ
     /**
      * Sets the value of the FeeRefunded.
      * 
-     * @param Price FeeRefunded
+     * @param OffAmazonPaymentsService_Model_Price $value FeeRefunded
      * @return void
      */
     public function setFeeRefunded($value) 
@@ -339,7 +339,7 @@ class OffAmazonPaymentsService_Model_RefundDetails extends OffAmazonPaymentsServ
     /**
      * Sets the value of the FeeRefunded  and returns this instance
      * 
-     * @param Price $value FeeRefunded
+     * @param OffAmazonPaymentsService_Model_Price $value FeeRefunded
      * @return OffAmazonPaymentsService_Model_RefundDetails instance
      */
     public function withFeeRefunded($value)
@@ -499,7 +499,7 @@ class OffAmazonPaymentsService_Model_RefundDetails extends OffAmazonPaymentsServ
     /**
      * Gets the value of the ProviderCreditReversalSummaryList.
      *
-     * @return ProviderCreditReversalSummaryList ProviderCreditReversalSummaryList
+     * @return OffAmazonPaymentsService_Model_ProviderCreditReversalSummaryList ProviderCreditReversalSummaryList
      */
     public function getProviderCreditReversalSummaryList()
     {
@@ -509,7 +509,7 @@ class OffAmazonPaymentsService_Model_RefundDetails extends OffAmazonPaymentsServ
     /**
      * Sets the value of the ProviderCreditReversalSummaryList.
      *
-     * @param ProviderCreditReversalSummaryList ProviderCreditReversalSummaryList
+     * @param OffAmazonPaymentsService_Model_ProviderCreditReversalSummaryList $value ProviderCreditReversalSummaryList
      * @return void
      */
     public function setProviderCreditReversalSummaryList($value)
@@ -521,7 +521,7 @@ class OffAmazonPaymentsService_Model_RefundDetails extends OffAmazonPaymentsServ
     /**
      * Sets the value of the ProviderCreditReversalSummaryList  and returns this instance
      *
-     * @param ProviderCreditReversalSummaryList $value ProviderCreditReversalSummaryList
+     * @param OffAmazonPaymentsService_Model_ProviderCreditReversalSummaryList $value ProviderCreditReversalSummaryList
      * @return OffAmazonPaymentsService_Model_RefundDetails instance
      */
     public function withProviderCreditReversalSummaryList($value)

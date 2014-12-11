@@ -160,7 +160,7 @@ class OffAmazonPaymentsService_Model_ValidateBillingAgreementResult extends OffA
     /**
      * Gets the value of the BillingAgreementStatus.
      *
-     * @return BillingAgreementStatus BillingAgreementStatus
+     * @return OffAmazonPaymentsService_Model_BillingAgreementStatus BillingAgreementStatus
      */
     public function getBillingAgreementStatus()
     {
@@ -170,7 +170,7 @@ class OffAmazonPaymentsService_Model_ValidateBillingAgreementResult extends OffA
     /**
      * Sets the value of the BillingAgreementStatus.
      *
-     * @param BillingAgreementStatus BillingAgreementStatus
+     * @param OffAmazonPaymentsService_Model_BillingAgreementStatus $value
      *
      * @return void
      */
@@ -183,7 +183,7 @@ class OffAmazonPaymentsService_Model_ValidateBillingAgreementResult extends OffA
     /**
      * Sets the value of the BillingAgreementStatus  and returns this instance
      *
-     * @param BillingAgreementStatus $value BillingAgreementStatus
+     * @param OffAmazonPaymentsService_Model_BillingAgreementStatus $value BillingAgreementStatus
      *
      * @return OffAmazonPaymentsService_Model_ValidateBillingAgreementResult instance
      */

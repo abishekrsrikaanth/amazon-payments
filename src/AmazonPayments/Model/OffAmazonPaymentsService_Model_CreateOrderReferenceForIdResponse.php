@@ -88,7 +88,7 @@ class OffAmazonPaymentsService_Model_CreateOrderReferenceForIdResponse extends O
     /**
      * Gets the value of the CreateOrderReferenceForIdResult.
      * 
-     * @return CreateOrderReferenceForIdResult CreateOrderReferenceForIdResult
+     * @return OffAmazonPaymentsService_Model_CreateOrderReferenceForIdResult
      */
     public function getCreateOrderReferenceForIdResult ()
     {
@@ -98,7 +98,7 @@ class OffAmazonPaymentsService_Model_CreateOrderReferenceForIdResponse extends O
     /**
      * Sets the value of the CreateOrderReferenceForIdResult.
      * 
-     * @param CreateOrderReferenceForIdResult CreateOrderReferenceForIdResult
+     * @param OffAmazonPaymentsService_Model_CreateOrderReferenceForIdResult $value
      * @return void
      */
     public function setCreateOrderReferenceForIdResult ($value)
@@ -110,7 +110,7 @@ class OffAmazonPaymentsService_Model_CreateOrderReferenceForIdResponse extends O
     /**
      * Sets the value of the CreateOrderReferenceForIdResult  and returns this instance
      * 
-     * @param CreateOrderReferenceForIdResult $value CreateOrderReferenceForIdResult
+     * @param OffAmazonPaymentsService_Model_CreateOrderReferenceForIdResult $value CreateOrderReferenceForIdResult
      * @return OffAmazonPaymentsService_Model_CreateOrderReferenceForIdResponse instance
      */
     public function withCreateOrderReferenceForIdResult ($value)
@@ -132,7 +132,7 @@ class OffAmazonPaymentsService_Model_CreateOrderReferenceForIdResponse extends O
     /**
      * Gets the value of the ResponseMetadata.
      * 
-     * @return ResponseMetadata ResponseMetadata
+     * @return OffAmazonPaymentsService_Model_ResponseMetadata
      */
     public function getResponseMetadata ()
     {
@@ -142,7 +142,7 @@ class OffAmazonPaymentsService_Model_CreateOrderReferenceForIdResponse extends O
     /**
      * Sets the value of the ResponseMetadata.
      * 
-     * @param ResponseMetadata ResponseMetadata
+     * @param OffAmazonPaymentsService_Model_ResponseMetadata $value
      * @return void
      */
     public function setResponseMetadata ($value)
@@ -154,7 +154,7 @@ class OffAmazonPaymentsService_Model_CreateOrderReferenceForIdResponse extends O
     /**
      * Sets the value of the ResponseMetadata  and returns this instance
      * 
-     * @param ResponseMetadata $value ResponseMetadata
+     * @param OffAmazonPaymentsService_Model_ResponseMetadata $value ResponseMetadata
      * @return OffAmazonPaymentsService_Model_CreateOrderReferenceForIdResponse instance
      */
     public function withResponseMetadata ($value)
