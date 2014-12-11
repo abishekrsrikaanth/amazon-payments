@@ -79,7 +79,7 @@ class OffAmazonPaymentsService_Model_BillingAgreementAttributes extends OffAmazo
     /**
      * Sets the value of the PlatformId property.
      * 
-     * @param string PlatformId
+     * @param string $value PlatformId
      * @return $this instance
      */
     public function setPlatformId ($value)
@@ -123,7 +123,7 @@ class OffAmazonPaymentsService_Model_BillingAgreementAttributes extends OffAmazo
     /**
      * Sets the value of the SellerNote property.
      * 
-     * @param string SellerNote
+     * @param string $value SellerNote
      * @return $this instance
      */
     public function setSellerNote ($value)
@@ -167,7 +167,7 @@ class OffAmazonPaymentsService_Model_BillingAgreementAttributes extends OffAmazo
     /**
      * Sets the value of the SellerBillingAgreementAttributes.
      * 
-     * @param SellerBillingAgreementAttributes SellerBillingAgreementAttributes
+     * @param OffAmazonPaymentsService_Model_SellerBillingAgreementAttributes $value SellerBillingAgreementAttributes
      * @return void
      */
     public function setSellerBillingAgreementAttributes ($value)
@@ -179,7 +179,7 @@ class OffAmazonPaymentsService_Model_BillingAgreementAttributes extends OffAmazo
     /**
      * Sets the value of the SellerBillingAgreementAttributes  and returns this instance
      * 
-     * @param SellerBillingAgreementAttributes $value SellerBillingAgreementAttributes
+     * @param OffAmazonPaymentsService_Model_SellerBillingAgreementAttributes $value SellerBillingAgreementAttributes
      * @return OffAmazonPaymentsService_Model_BillingAgreementAttributes instance
      */
     public function withSellerBillingAgreementAttributes ($value)
@@ -198,4 +198,3 @@ class OffAmazonPaymentsService_Model_BillingAgreementAttributes extends OffAmazo
         return ! is_null($this->_fields['SellerBillingAgreementAttributes']['FieldValue']);
     }
 }
-?>

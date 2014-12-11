@@ -68,7 +68,8 @@ class OffAmazonPaymentsService_Model_CloseAuthorizationResponse extends OffAmazo
      * Construct OffAmazonPaymentsService_Model_CloseAuthorizationResponse from XML string
      * 
      * @param string $xml XML string to construct from
-     * @return OffAmazonPaymentsService_Model_CloseAuthorizationResponse 
+     * @return OffAmazonPaymentsService_Model_CloseAuthorizationResponse
+     * @throws \Exception
      */
     public static function fromXML($xml)
     {
@@ -89,7 +90,7 @@ class OffAmazonPaymentsService_Model_CloseAuthorizationResponse extends OffAmazo
     /**
      * Gets the value of the CloseAuthorizationResult.
      * 
-     * @return CloseAuthorizationResult CloseAuthorizationResult
+     * @return OffAmazonPaymentsService_Model_CloseAuthorizationResult CloseAuthorizationResult
      */
     public function getCloseAuthorizationResult() 
     {
@@ -99,7 +100,7 @@ class OffAmazonPaymentsService_Model_CloseAuthorizationResponse extends OffAmazo
     /**
      * Sets the value of the CloseAuthorizationResult.
      * 
-     * @param CloseAuthorizationResult CloseAuthorizationResult
+     * @param OffAmazonPaymentsService_Model_CloseAuthorizationResult $value CloseAuthorizationResult
      * @return void
      */
     public function setCloseAuthorizationResult($value) 
@@ -111,7 +112,7 @@ class OffAmazonPaymentsService_Model_CloseAuthorizationResponse extends OffAmazo
     /**
      * Sets the value of the CloseAuthorizationResult  and returns this instance
      * 
-     * @param CloseAuthorizationResult $value CloseAuthorizationResult
+     * @param OffAmazonPaymentsService_Model_CloseAuthorizationResult $value CloseAuthorizationResult
      * @return OffAmazonPaymentsService_Model_CloseAuthorizationResponse instance
      */
     public function withCloseAuthorizationResult($value)
@@ -135,7 +136,7 @@ class OffAmazonPaymentsService_Model_CloseAuthorizationResponse extends OffAmazo
     /**
      * Gets the value of the ResponseMetadata.
      * 
-     * @return ResponseMetadata ResponseMetadata
+     * @return OffAmazonPaymentsService_Model_ResponseMetadata ResponseMetadata
      */
     public function getResponseMetadata() 
     {
@@ -144,8 +145,8 @@ class OffAmazonPaymentsService_Model_CloseAuthorizationResponse extends OffAmazo
 
     /**
      * Sets the value of the ResponseMetadata.
-     * 
-     * @param ResponseMetadata ResponseMetadata
+     *
+     * @param OffAmazonPaymentsService_Model_ResponseMetadata $value ResponseMetadata
      * @return void
      */
     public function setResponseMetadata($value) 
@@ -157,7 +158,7 @@ class OffAmazonPaymentsService_Model_CloseAuthorizationResponse extends OffAmazo
     /**
      * Sets the value of the ResponseMetadata  and returns this instance
      * 
-     * @param ResponseMetadata $value ResponseMetadata
+     * @param OffAmazonPaymentsService_Model_ResponseMetadata $value ResponseMetadata
      * @return OffAmazonPaymentsService_Model_CloseAuthorizationResponse instance
      */
     public function withResponseMetadata($value)
@@ -204,4 +205,3 @@ class OffAmazonPaymentsService_Model_CloseAuthorizationResponse extends OffAmazo
         return $this->_responseHeaderMetadata = $responseHeaderMetadata;
     }
 }
-?>

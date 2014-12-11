@@ -293,7 +293,7 @@ class OffAmazonPaymentsService_Model_AuthorizationDetails extends OffAmazonPayme
     /**
      * Gets the value of the AuthorizationAmount.
      * 
-     * @return Price AuthorizationAmount
+     * @return OffAmazonPaymentsService_Model_Price AuthorizationAmount
      */
     public function getAuthorizationAmount() 
     {
@@ -303,7 +303,7 @@ class OffAmazonPaymentsService_Model_AuthorizationDetails extends OffAmazonPayme
     /**
      * Sets the value of the AuthorizationAmount.
      * 
-     * @param Price AuthorizationAmount
+     * @param OffAmazonPaymentsService_Model_Price $value AuthorizationAmount
      * @return void
      */
     public function setAuthorizationAmount($value) 
@@ -315,7 +315,7 @@ class OffAmazonPaymentsService_Model_AuthorizationDetails extends OffAmazonPayme
     /**
      * Sets the value of the AuthorizationAmount  and returns this instance
      * 
-     * @param Price $value AuthorizationAmount
+     * @param OffAmazonPaymentsService_Model_Price $value AuthorizationAmount
      * @return OffAmazonPaymentsService_Model_AuthorizationDetails instance
      */
     public function withAuthorizationAmount($value)
@@ -339,7 +339,7 @@ class OffAmazonPaymentsService_Model_AuthorizationDetails extends OffAmazonPayme
     /**
      * Gets the value of the CapturedAmount.
      * 
-     * @return Price CapturedAmount
+     * @return OffAmazonPaymentsService_Model_Price CapturedAmount
      */
     public function getCapturedAmount() 
     {
@@ -349,7 +349,7 @@ class OffAmazonPaymentsService_Model_AuthorizationDetails extends OffAmazonPayme
     /**
      * Sets the value of the CapturedAmount.
      * 
-     * @param Price CapturedAmount
+     * @param OffAmazonPaymentsService_Model_Price $value CapturedAmount
      * @return void
      */
     public function setCapturedAmount($value) 
@@ -361,7 +361,7 @@ class OffAmazonPaymentsService_Model_AuthorizationDetails extends OffAmazonPayme
     /**
      * Sets the value of the CapturedAmount  and returns this instance
      * 
-     * @param Price $value CapturedAmount
+     * @param OffAmazonPaymentsService_Model_Price $value CapturedAmount
      * @return OffAmazonPaymentsService_Model_AuthorizationDetails instance
      */
     public function withCapturedAmount($value)
@@ -385,7 +385,7 @@ class OffAmazonPaymentsService_Model_AuthorizationDetails extends OffAmazonPayme
     /**
      * Gets the value of the AuthorizationFee.
      * 
-     * @return Price AuthorizationFee
+     * @return OffAmazonPaymentsService_Model_Price AuthorizationFee
      */
     public function getAuthorizationFee() 
     {
@@ -395,7 +395,7 @@ class OffAmazonPaymentsService_Model_AuthorizationDetails extends OffAmazonPayme
     /**
      * Sets the value of the AuthorizationFee.
      * 
-     * @param Price AuthorizationFee
+     * @param OffAmazonPaymentsService_Model_Price $value AuthorizationFee
      * @return void
      */
     public function setAuthorizationFee($value) 
@@ -407,7 +407,7 @@ class OffAmazonPaymentsService_Model_AuthorizationDetails extends OffAmazonPayme
     /**
      * Sets the value of the AuthorizationFee  and returns this instance
      * 
-     * @param Price $value AuthorizationFee
+     * @param OffAmazonPaymentsService_Model_Price $value AuthorizationFee
      * @return OffAmazonPaymentsService_Model_AuthorizationDetails instance
      */
     public function withAuthorizationFee($value)
@@ -431,7 +431,7 @@ class OffAmazonPaymentsService_Model_AuthorizationDetails extends OffAmazonPayme
     /**
      * Gets the value of the IdList.
      * 
-     * @return IdList IdList
+     * @return OffAmazonPaymentsService_Model_IdList IdList
      */
     public function getIdList() 
     {
@@ -441,7 +441,7 @@ class OffAmazonPaymentsService_Model_AuthorizationDetails extends OffAmazonPayme
     /**
      * Sets the value of the IdList.
      * 
-     * @param IdList IdList
+     * @param OffAmazonPaymentsService_Model_IdList $value IdList
      * @return void
      */
     public function setIdList($value) 
@@ -453,7 +453,7 @@ class OffAmazonPaymentsService_Model_AuthorizationDetails extends OffAmazonPayme
     /**
      * Sets the value of the IdList  and returns this instance
      * 
-     * @param IdList $value IdList
+     * @param OffAmazonPaymentsService_Model_IdList $value IdList
      * @return OffAmazonPaymentsService_Model_AuthorizationDetails instance
      */
     public function withIdList($value)
@@ -487,7 +487,7 @@ class OffAmazonPaymentsService_Model_AuthorizationDetails extends OffAmazonPayme
     /**
      * Sets the value of the CreationTimestamp property.
      * 
-     * @param string CreationTimestamp
+     * @param string $value CreationTimestamp
      * @return $this instance
      */
     public function setCreationTimestamp($value) 
@@ -532,7 +532,7 @@ class OffAmazonPaymentsService_Model_AuthorizationDetails extends OffAmazonPayme
     /**
      * Sets the value of the ExpirationTimestamp property.
      * 
-     * @param string ExpirationTimestamp
+     * @param string $value ExpirationTimestamp
      * @return $this instance
      */
     public function setExpirationTimestamp($value) 
@@ -577,7 +577,7 @@ class OffAmazonPaymentsService_Model_AuthorizationDetails extends OffAmazonPayme
     /**
      * Sets the value of the AuthorizationStatus.
      * 
-     * @param Status AuthorizationStatus
+     * @param Status $value AuthorizationStatus
      * @return void
      */
     public function setAuthorizationStatus($value) 
@@ -613,7 +613,7 @@ class OffAmazonPaymentsService_Model_AuthorizationDetails extends OffAmazonPayme
     /**
      * Gets the value of the OrderItemCategories.
      * 
-     * @return OrderItemCategories OrderItemCategories
+     * @return OffAmazonPaymentsService_Model_OrderItemCategories OrderItemCategories
      */
     public function getOrderItemCategories() 
     {
@@ -623,7 +623,7 @@ class OffAmazonPaymentsService_Model_AuthorizationDetails extends OffAmazonPayme
     /**
      * Sets the value of the OrderItemCategories.
      * 
-     * @param OrderItemCategories OrderItemCategories
+     * @param OffAmazonPaymentsService_Model_OrderItemCategories $value OrderItemCategories
      * @return void
      */
     public function setOrderItemCategories($value) 
@@ -635,7 +635,7 @@ class OffAmazonPaymentsService_Model_AuthorizationDetails extends OffAmazonPayme
     /**
      * Sets the value of the OrderItemCategories  and returns this instance
      * 
-     * @param OrderItemCategories $value OrderItemCategories
+     * @param OffAmazonPaymentsService_Model_OrderItemCategories $value OrderItemCategories
      * @return OffAmazonPaymentsService_Model_AuthorizationDetails instance
      */
     public function withOrderItemCategories($value)
@@ -714,7 +714,7 @@ class OffAmazonPaymentsService_Model_AuthorizationDetails extends OffAmazonPayme
     /**
      * Sets the value of the SoftDescriptor property.
      * 
-     * @param string SoftDescriptor
+     * @param string $value SoftDescriptor
      * @return $this instance
      */
     public function setSoftDescriptor($value) 
@@ -792,4 +792,3 @@ class OffAmazonPaymentsService_Model_AuthorizationDetails extends OffAmazonPayme
     }
     
 }
-?>

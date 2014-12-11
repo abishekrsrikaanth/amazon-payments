@@ -65,7 +65,8 @@ class OffAmazonPaymentsService_Model_ConfirmBillingAgreementResponse extends Off
      * Construct OffAmazonPaymentsService_Model_ConfirmBillingAgreementResponse from XML string
      * 
      * @param string $xml XML string to construct from
-     * @return OffAmazonPaymentsService_Model_ConfirmBillingAgreementResponse 
+     * @return OffAmazonPaymentsService_Model_ConfirmBillingAgreementResponse
+     * @throws \Exception
      */
     public static function fromXML ($xml)
     {
@@ -88,7 +89,7 @@ class OffAmazonPaymentsService_Model_ConfirmBillingAgreementResponse extends Off
     /**
      * Gets the value of the ConfirmBillingAgreementResult.
      * 
-     * @return ConfirmBillingAgreementResult ConfirmBillingAgreementResult
+     * @return OffAmazonPaymentsService_Model_ConfirmBillingAgreementResult ConfirmBillingAgreementResult
      */
     public function getConfirmBillingAgreementResult ()
     {
@@ -98,7 +99,7 @@ class OffAmazonPaymentsService_Model_ConfirmBillingAgreementResponse extends Off
     /**
      * Sets the value of the ConfirmBillingAgreementResult.
      * 
-     * @param ConfirmBillingAgreementResult ConfirmBillingAgreementResult
+     * @param OffAmazonPaymentsService_Model_ConfirmBillingAgreementResult $value ConfirmBillingAgreementResult
      * @return void
      */
     public function setConfirmBillingAgreementResult ($value)
@@ -110,7 +111,7 @@ class OffAmazonPaymentsService_Model_ConfirmBillingAgreementResponse extends Off
     /**
      * Sets the value of the ConfirmBillingAgreementResult  and returns this instance
      * 
-     * @param ConfirmBillingAgreementResult $value ConfirmBillingAgreementResult
+     * @param OffAmazonPaymentsService_Model_ConfirmBillingAgreementResult $value ConfirmBillingAgreementResult
      * @return OffAmazonPaymentsService_Model_ConfirmBillingAgreementResponse instance
      */
     public function withConfirmBillingAgreementResult ($value)
@@ -132,7 +133,7 @@ class OffAmazonPaymentsService_Model_ConfirmBillingAgreementResponse extends Off
     /**
      * Gets the value of the ResponseMetadata.
      * 
-     * @return ResponseMetadata ResponseMetadata
+     * @return OffAmazonPaymentsService_Model_ResponseMetadata ResponseMetadata
      */
     public function getResponseMetadata ()
     {
@@ -142,7 +143,7 @@ class OffAmazonPaymentsService_Model_ConfirmBillingAgreementResponse extends Off
     /**
      * Sets the value of the ResponseMetadata.
      * 
-     * @param ResponseMetadata ResponseMetadata
+     * @param OffAmazonPaymentsService_Model_ResponseMetadata $value ResponseMetadata
      * @return void
      */
     public function setResponseMetadata ($value)
@@ -154,7 +155,7 @@ class OffAmazonPaymentsService_Model_ConfirmBillingAgreementResponse extends Off
     /**
      * Sets the value of the ResponseMetadata  and returns this instance
      * 
-     * @param ResponseMetadata $value ResponseMetadata
+     * @param OffAmazonPaymentsService_Model_ResponseMetadata $value ResponseMetadata
      * @return OffAmazonPaymentsService_Model_ConfirmBillingAgreementResponse instance
      */
     public function withResponseMetadata ($value)
@@ -199,4 +200,3 @@ class OffAmazonPaymentsService_Model_ConfirmBillingAgreementResponse extends Off
         return $this->_responseHeaderMetadata = $responseHeaderMetadata;
     }
 }
-?>

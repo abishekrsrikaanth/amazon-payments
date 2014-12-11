@@ -89,7 +89,7 @@ class OffAmazonPaymentsService_Model_AuthorizeOnBillingAgreementResponse extends
     /**
      * Gets the value of the AuthorizeOnBillingAgreementResult.
      * 
-     * @return AuthorizeOnBillingAgreementResult AuthorizeOnBillingAgreementResult
+     * @return OffAmazonPaymentsService_Model_AuthorizeOnBillingAgreementResult AuthorizeOnBillingAgreementResult
      */
     public function getAuthorizeOnBillingAgreementResult ()
     {
@@ -99,7 +99,7 @@ class OffAmazonPaymentsService_Model_AuthorizeOnBillingAgreementResponse extends
     /**
      * Sets the value of the AuthorizeOnBillingAgreementResult.
      * 
-     * @param AuthorizeOnBillingAgreementResult AuthorizeOnBillingAgreementResult
+     * @param OffAmazonPaymentsService_Model_AuthorizeOnBillingAgreementResult $value AuthorizeOnBillingAgreementResult
      * @return void
      */
     public function setAuthorizeOnBillingAgreementResult ($value)
@@ -111,7 +111,7 @@ class OffAmazonPaymentsService_Model_AuthorizeOnBillingAgreementResponse extends
     /**
      * Sets the value of the AuthorizeOnBillingAgreementResult  and returns this instance
      * 
-     * @param AuthorizeOnBillingAgreementResult $value AuthorizeOnBillingAgreementResult
+     * @param OffAmazonPaymentsService_Model_AuthorizeOnBillingAgreementResult $value AuthorizeOnBillingAgreementResult
      * @return OffAmazonPaymentsService_Model_AuthorizeOnBillingAgreementResponse instance
      */
     public function withAuthorizeOnBillingAgreementResult ($value)
@@ -132,8 +132,8 @@ class OffAmazonPaymentsService_Model_AuthorizeOnBillingAgreementResponse extends
 
     /**
      * Gets the value of the ResponseMetadata.
-     * 
-     * @return ResponseMetadata ResponseMetadata
+     *
+     * @return OffAmazonPaymentsService_Model_ResponseMetadata ResponseMetadata
      */
     public function getResponseMetadata ()
     {
@@ -143,7 +143,7 @@ class OffAmazonPaymentsService_Model_AuthorizeOnBillingAgreementResponse extends
     /**
      * Sets the value of the ResponseMetadata.
      * 
-     * @param ResponseMetadata ResponseMetadata
+     * @param OffAmazonPaymentsService_Model_ResponseMetadata $value ResponseMetadata
      * @return void
      */
     public function setResponseMetadata ($value)
@@ -155,7 +155,7 @@ class OffAmazonPaymentsService_Model_AuthorizeOnBillingAgreementResponse extends
     /**
      * Sets the value of the ResponseMetadata  and returns this instance
      * 
-     * @param ResponseMetadata $value ResponseMetadata
+     * @param OffAmazonPaymentsService_Model_ResponseMetadata $value ResponseMetadata
      * @return OffAmazonPaymentsService_Model_AuthorizeOnBillingAgreementResponse instance
      */
     public function withResponseMetadata ($value)

@@ -1,5 +1,6 @@
 <?php
 namespace AmazonPayments\Model;
+
 /*******************************************************************************
  *  Copyright 2013 Amazon.com, Inc. or its affiliates. All Rights Reserved.
  *  Licensed under the Apache License, Version 2.0 (the "License");
@@ -18,10 +19,10 @@ use AmazonPayments\OffAmazonPaymentsService_Model;
 
 /**
  * OffAmazonPaymentsService_Model_CloseBillingAgreementResult
- * 
+ *
  * Properties:
  * <ul>
- * 
+ *
  *
  * </ul>
  */
@@ -30,19 +31,18 @@ class OffAmazonPaymentsService_Model_CloseBillingAgreementResult extends OffAmaz
 
     /**
      * Construct new OffAmazonPaymentsService_Model_CloseBillingAgreementResult
-     * 
-     * @param mixed $data DOMElement or Associative Array to construct from. 
-     * 
+     *
+     * @param mixed $data DOMElement or Associative Array to construct from.
+     *
      * Valid properties:
      * <ul>
-     * 
+     *
      *
      * </ul>
      */
-    public function __construct ($data = null)
+    public function __construct($data = null)
     {
         $this->_fields = array();
         parent::__construct($data);
     }
 }
-?>

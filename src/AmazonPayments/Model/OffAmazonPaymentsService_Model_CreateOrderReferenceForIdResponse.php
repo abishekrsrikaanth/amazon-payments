@@ -65,7 +65,8 @@ class OffAmazonPaymentsService_Model_CreateOrderReferenceForIdResponse extends O
      * Construct OffAmazonPaymentsService_Model_CreateOrderReferenceForIdResponse from XML string
      * 
      * @param string $xml XML string to construct from
-     * @return OffAmazonPaymentsService_Model_CreateOrderReferenceForIdResponse 
+     * @return OffAmazonPaymentsService_Model_CreateOrderReferenceForIdResponse
+     * @throws \Exception
      */
     public static function fromXML ($xml)
     {

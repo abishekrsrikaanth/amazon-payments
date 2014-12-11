@@ -97,7 +97,7 @@ class OffAmazonPaymentsService_Model_CreateOrderReferenceForIdRequest extends Of
     /**
      * Sets the value of the Id property.
      * 
-     * @param string Id
+     * @param string $value Id
      * @return $this instance
      */
     public function setId ($value)
@@ -141,7 +141,7 @@ class OffAmazonPaymentsService_Model_CreateOrderReferenceForIdRequest extends Of
     /**
      * Sets the value of the SellerId property.
      * 
-     * @param string SellerId
+     * @param string $value SellerId
      * @return $this instance
      */
     public function setSellerId ($value)

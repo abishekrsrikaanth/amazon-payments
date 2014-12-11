@@ -45,4 +45,3 @@ class OffAmazonPaymentsService_Model_ConfirmBillingAgreementResult extends OffAm
         parent::__construct($data);
     }
 }
-?>

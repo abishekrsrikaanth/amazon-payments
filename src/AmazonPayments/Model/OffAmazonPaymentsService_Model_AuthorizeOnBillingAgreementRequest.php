@@ -136,7 +136,7 @@ class OffAmazonPaymentsService_Model_AuthorizeOnBillingAgreementRequest extends 
     /**
      * Sets the value of the SellerId property.
      * 
-     * @param string SellerId
+     * @param string $value SellerId
      * @return $this instance
      */
     public function setSellerId ($value)
@@ -180,7 +180,7 @@ class OffAmazonPaymentsService_Model_AuthorizeOnBillingAgreementRequest extends 
     /**
      * Sets the value of the AmazonBillingAgreementId property.
      * 
-     * @param string AmazonBillingAgreementId
+     * @param string $value AmazonBillingAgreementId
      * @return $this instance
      */
     public function setAmazonBillingAgreementId ($value)
@@ -224,7 +224,7 @@ class OffAmazonPaymentsService_Model_AuthorizeOnBillingAgreementRequest extends 
     /**
      * Sets the value of the AuthorizationReferenceId property.
      * 
-     * @param string AuthorizationReferenceId
+     * @param string $value AuthorizationReferenceId
      * @return $this instance
      */
     public function setAuthorizationReferenceId ($value)
@@ -268,7 +268,7 @@ class OffAmazonPaymentsService_Model_AuthorizeOnBillingAgreementRequest extends 
     /**
      * Sets the value of the AuthorizationAmount.
      * 
-     * @param Price AuthorizationAmount
+     * @param OffAmazonPaymentsService_Model_Price $value AuthorizationAmount
      * @return void
      */
     public function setAuthorizationAmount ($value)
@@ -280,7 +280,7 @@ class OffAmazonPaymentsService_Model_AuthorizeOnBillingAgreementRequest extends 
     /**
      * Sets the value of the AuthorizationAmount  and returns this instance
      * 
-     * @param Price $value AuthorizationAmount
+     * @param OffAmazonPaymentsService_Model_Price $value AuthorizationAmount
      * @return OffAmazonPaymentsService_Model_AuthorizeOnBillingAgreementRequest instance
      */
     public function withAuthorizationAmount ($value)
@@ -312,7 +312,7 @@ class OffAmazonPaymentsService_Model_AuthorizeOnBillingAgreementRequest extends 
     /**
      * Sets the value of the SellerAuthorizationNote property.
      * 
-     * @param string SellerAuthorizationNote
+     * @param string $value SellerAuthorizationNote
      * @return $this instance
      */
     public function setSellerAuthorizationNote ($value)
@@ -356,7 +356,7 @@ class OffAmazonPaymentsService_Model_AuthorizeOnBillingAgreementRequest extends 
     /**
      * Sets the value of the TransactionTimeout property.
      * 
-     * @param int TransactionTimeout
+     * @param int $value TransactionTimeout
      * @return $this instance
      */
     public function setTransactionTimeout ($value)
@@ -400,7 +400,7 @@ class OffAmazonPaymentsService_Model_AuthorizeOnBillingAgreementRequest extends 
     /**
      * Sets the value of the CaptureNow property.
      * 
-     * @param bool CaptureNow
+     * @param bool $value CaptureNow
      * @return $this instance
      */
     public function setCaptureNow ($value)
@@ -444,7 +444,7 @@ class OffAmazonPaymentsService_Model_AuthorizeOnBillingAgreementRequest extends 
     /**
      * Sets the value of the SoftDescriptor property.
      * 
-     * @param string SoftDescriptor
+     * @param string $value SoftDescriptor
      * @return $this instance
      */
     public function setSoftDescriptor ($value)
@@ -488,7 +488,7 @@ class OffAmazonPaymentsService_Model_AuthorizeOnBillingAgreementRequest extends 
     /**
      * Sets the value of the SellerNote property.
      * 
-     * @param string SellerNote
+     * @param string $value SellerNote
      * @return $this instance
      */
     public function setSellerNote ($value)
@@ -532,7 +532,7 @@ class OffAmazonPaymentsService_Model_AuthorizeOnBillingAgreementRequest extends 
     /**
      * Sets the value of the PlatformId property.
      * 
-     * @param string PlatformId
+     * @param string $value PlatformId
      * @return $this instance
      */
     public function setPlatformId ($value)
@@ -576,7 +576,7 @@ class OffAmazonPaymentsService_Model_AuthorizeOnBillingAgreementRequest extends 
     /**
      * Sets the value of the SellerOrderAttributes.
      * 
-     * @param SellerOrderAttributes SellerOrderAttributes
+     * @param OffAmazonPaymentsService_Model_SellerOrderAttributes $value SellerOrderAttributes
      * @return void
      */
     public function setSellerOrderAttributes ($value)
@@ -588,7 +588,7 @@ class OffAmazonPaymentsService_Model_AuthorizeOnBillingAgreementRequest extends 
     /**
      * Sets the value of the SellerOrderAttributes  and returns this instance
      * 
-     * @param SellerOrderAttributes $value SellerOrderAttributes
+     * @param OffAmazonPaymentsService_Model_SellerOrderAttributes $value SellerOrderAttributes
      * @return OffAmazonPaymentsService_Model_AuthorizeOnBillingAgreementRequest instance
      */
     public function withSellerOrderAttributes ($value)
@@ -620,7 +620,7 @@ class OffAmazonPaymentsService_Model_AuthorizeOnBillingAgreementRequest extends 
     /**
      * Sets the value of the InheritShippingAddress property.
      * 
-     * @param bool InheritShippingAddress
+     * @param bool $value InheritShippingAddress
      * @return $this instance
      */
     public function setInheritShippingAddress ($value)
@@ -651,4 +651,3 @@ class OffAmazonPaymentsService_Model_AuthorizeOnBillingAgreementRequest extends 
         return ! is_null($this->_fields['InheritShippingAddress']['FieldValue']);
     }
 }
-?>

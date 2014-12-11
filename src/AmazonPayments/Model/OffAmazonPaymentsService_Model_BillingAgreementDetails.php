@@ -143,7 +143,7 @@ class OffAmazonPaymentsService_Model_BillingAgreementDetails extends OffAmazonPa
     /**
      * Sets the value of the AmazonBillingAgreementId property.
      *
-     * @param string AmazonBillingAgreementId
+     * @param string $value AmazonBillingAgreementId
      *
      * @return $this instance
      */
@@ -281,7 +281,7 @@ class OffAmazonPaymentsService_Model_BillingAgreementDetails extends OffAmazonPa
     /**
      * Sets the value of the SellerNote property.
      *
-     * @param string SellerNote
+     * @param string $value SellerNote
      *
      * @return $this instance
      */
@@ -327,7 +327,7 @@ class OffAmazonPaymentsService_Model_BillingAgreementDetails extends OffAmazonPa
     /**
      * Sets the value of the PlatformId property.
      *
-     * @param string PlatformId
+     * @param string $value PlatformId
      *
      * @return $this instance
      */
@@ -432,7 +432,7 @@ class OffAmazonPaymentsService_Model_BillingAgreementDetails extends OffAmazonPa
     /**
      * Sets the value of the BillingAddress  and returns this instance
      *
-     * @param BillingAddress $value BillingAddress
+     * @param OffAmazonPaymentsService_Model_BillingAddress $value BillingAddress
      *
      * @return OffAmazonPaymentsService_Model_BillingAgreementDetails instance
      */
@@ -465,7 +465,7 @@ class OffAmazonPaymentsService_Model_BillingAgreementDetails extends OffAmazonPa
     /**
      * Sets the value of the ReleaseEnvironment property.
      *
-     * @param string ReleaseEnvironment
+     * @param string $value ReleaseEnvironment
      *
      * @return $this instance
      */
@@ -501,7 +501,7 @@ class OffAmazonPaymentsService_Model_BillingAgreementDetails extends OffAmazonPa
     /**
      * Gets the value of the SellerBillingAgreementAttributes.
      *
-     * @return SellerBillingAgreementAttributes SellerBillingAgreementAttributes
+     * @return OffAmazonPaymentsService_Model_SellerBillingAgreementAttributes SellerBillingAgreementAttributes
      */
     public function getSellerBillingAgreementAttributes()
     {
@@ -511,7 +511,7 @@ class OffAmazonPaymentsService_Model_BillingAgreementDetails extends OffAmazonPa
     /**
      * Sets the value of the SellerBillingAgreementAttributes.
      *
-     * @param SellerBillingAgreementAttributes SellerBillingAgreementAttributes
+     * @param OffAmazonPaymentsService_Model_SellerBillingAgreementAttributes $value SellerBillingAgreementAttributes
      *
      * @return void
      */
@@ -524,7 +524,7 @@ class OffAmazonPaymentsService_Model_BillingAgreementDetails extends OffAmazonPa
     /**
      * Sets the value of the SellerBillingAgreementAttributes  and returns this instance
      *
-     * @param SellerBillingAgreementAttributes $value SellerBillingAgreementAttributes
+     * @param OffAmazonPaymentsService_Model_SellerBillingAgreementAttributes $value SellerBillingAgreementAttributes
      *
      * @return OffAmazonPaymentsService_Model_BillingAgreementDetails instance
      */
@@ -547,7 +547,7 @@ class OffAmazonPaymentsService_Model_BillingAgreementDetails extends OffAmazonPa
     /**
      * Gets the value of the BillingAgreementStatus.
      *
-     * @return BillingAgreementStatus BillingAgreementStatus
+     * @return OffAmazonPaymentsService_Model_BillingAgreementStatus BillingAgreementStatus
      */
     public function getBillingAgreementStatus()
     {
@@ -557,7 +557,7 @@ class OffAmazonPaymentsService_Model_BillingAgreementDetails extends OffAmazonPa
     /**
      * Sets the value of the BillingAgreementStatus.
      *
-     * @param BillingAgreementStatus BillingAgreementStatus
+     * @param OffAmazonPaymentsService_Model_BillingAgreementStatus $value BillingAgreementStatus
      *
      * @return void
      */
@@ -570,7 +570,7 @@ class OffAmazonPaymentsService_Model_BillingAgreementDetails extends OffAmazonPa
     /**
      * Sets the value of the BillingAgreementStatus  and returns this instance
      *
-     * @param BillingAgreementStatus $value BillingAgreementStatus
+     * @param OffAmazonPaymentsService_Model_BillingAgreementStatus $value BillingAgreementStatus
      *
      * @return OffAmazonPaymentsService_Model_BillingAgreementDetails instance
      */
@@ -593,7 +593,7 @@ class OffAmazonPaymentsService_Model_BillingAgreementDetails extends OffAmazonPa
     /**
      * Gets the value of the Constraints.
      *
-     * @return Constraints Constraints
+     * @return OffAmazonPaymentsService_Model_Constraints Constraints
      */
     public function getConstraints()
     {
@@ -603,7 +603,7 @@ class OffAmazonPaymentsService_Model_BillingAgreementDetails extends OffAmazonPa
     /**
      * Sets the value of the Constraints.
      *
-     * @param Constraints Constraints
+     * @param OffAmazonPaymentsService_Model_Constraints $value Constraints
      *
      * @return void
      */
@@ -616,7 +616,7 @@ class OffAmazonPaymentsService_Model_BillingAgreementDetails extends OffAmazonPa
     /**
      * Sets the value of the Constraints  and returns this instance
      *
-     * @param Constraints $value Constraints
+     * @param OffAmazonPaymentsService_Model_Constraints $value Constraints
      *
      * @return OffAmazonPaymentsService_Model_BillingAgreementDetails instance
      */
@@ -649,7 +649,7 @@ class OffAmazonPaymentsService_Model_BillingAgreementDetails extends OffAmazonPa
     /**
      * Sets the value of the CreationTimestamp property.
      *
-     * @param string CreationTimestamp
+     * @param string $value CreationTimestamp
      *
      * @return $this instance
      */
@@ -695,7 +695,7 @@ class OffAmazonPaymentsService_Model_BillingAgreementDetails extends OffAmazonPa
     /**
      * Sets the value of the ExpirationTimestamp property.
      *
-     * @param string ExpirationTimestamp
+     * @param string $value ExpirationTimestamp
      *
      * @return $this instance
      */
@@ -741,7 +741,7 @@ class OffAmazonPaymentsService_Model_BillingAgreementDetails extends OffAmazonPa
     /**
      * Sets the value of the BillingAgreementConsent property.
      *
-     * @param bool BillingAgreementConsent
+     * @param bool $value BillingAgreementConsent
      *
      * @return $this instance
      */
@@ -774,5 +774,3 @@ class OffAmazonPaymentsService_Model_BillingAgreementDetails extends OffAmazonPa
         return !is_null($this->_fields['BillingAgreementConsent']['FieldValue']);
     }
 }
-
-?>

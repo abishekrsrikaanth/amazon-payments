@@ -75,7 +75,7 @@ class OffAmazonPaymentsService_Model_Buyer extends OffAmazonPaymentsService_Mode
     /**
      * Sets the value of the Name property.
      * 
-     * @param string Name
+     * @param string $value Name
      * @return $this instance
      */
     public function setName($value) 
@@ -120,7 +120,7 @@ class OffAmazonPaymentsService_Model_Buyer extends OffAmazonPaymentsService_Mode
     /**
      * Sets the value of the Email property.
      * 
-     * @param string Email
+     * @param string $value Email
      * @return $this instance
      */
     public function setEmail($value) 
@@ -165,7 +165,7 @@ class OffAmazonPaymentsService_Model_Buyer extends OffAmazonPaymentsService_Mode
     /**
      * Sets the value of the Phone property.
      * 
-     * @param string Phone
+     * @param string $value Phone
      * @return $this instance
      */
     public function setPhone($value) 

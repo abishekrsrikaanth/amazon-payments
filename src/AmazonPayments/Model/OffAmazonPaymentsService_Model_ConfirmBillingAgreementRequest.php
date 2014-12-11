@@ -71,7 +71,7 @@ class OffAmazonPaymentsService_Model_ConfirmBillingAgreementRequest extends OffA
     /**
      * Sets the value of the SellerId property.
      * 
-     * @param string SellerId
+     * @param string $value SellerId
      * @return $this instance
      */
     public function setSellerId ($value)
@@ -115,7 +115,7 @@ class OffAmazonPaymentsService_Model_ConfirmBillingAgreementRequest extends OffA
     /**
      * Sets the value of the AmazonBillingAgreementId property.
      * 
-     * @param string AmazonBillingAgreementId
+     * @param string $value AmazonBillingAgreementId
      * @return $this instance
      */
     public function setAmazonBillingAgreementId ($value)
@@ -146,4 +146,3 @@ class OffAmazonPaymentsService_Model_ConfirmBillingAgreementRequest extends OffA
         return ! is_null($this->_fields['AmazonBillingAgreementId']['FieldValue']);
     }
 }
-?>

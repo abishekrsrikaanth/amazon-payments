@@ -68,7 +68,8 @@ class OffAmazonPaymentsService_Model_CancelOrderReferenceResponse extends OffAma
      * Construct OffAmazonPaymentsService_Model_CancelOrderReferenceResponse from XML string
      * 
      * @param string $xml XML string to construct from
-     * @return OffAmazonPaymentsService_Model_CancelOrderReferenceResponse 
+     * @return OffAmazonPaymentsService_Model_CancelOrderReferenceResponse
+     * @throws \Exception
      */
     public static function fromXML($xml)
     {
@@ -89,7 +90,7 @@ class OffAmazonPaymentsService_Model_CancelOrderReferenceResponse extends OffAma
     /**
      * Gets the value of the CancelOrderReferenceResult.
      * 
-     * @return CancelOrderReferenceResult CancelOrderReferenceResult
+     * @return OffAmazonPaymentsService_Model_CancelOrderReferenceResult CancelOrderReferenceResult
      */
     public function getCancelOrderReferenceResult() 
     {
@@ -99,7 +100,7 @@ class OffAmazonPaymentsService_Model_CancelOrderReferenceResponse extends OffAma
     /**
      * Sets the value of the CancelOrderReferenceResult.
      * 
-     * @param CancelOrderReferenceResult CancelOrderReferenceResult
+     * @param OffAmazonPaymentsService_Model_CancelOrderReferenceResult $value CancelOrderReferenceResult
      * @return void
      */
     public function setCancelOrderReferenceResult($value) 
@@ -111,7 +112,7 @@ class OffAmazonPaymentsService_Model_CancelOrderReferenceResponse extends OffAma
     /**
      * Sets the value of the CancelOrderReferenceResult  and returns this instance
      * 
-     * @param CancelOrderReferenceResult $value CancelOrderReferenceResult
+     * @param OffAmazonPaymentsService_Model_CancelOrderReferenceResult $value CancelOrderReferenceResult
      * @return OffAmazonPaymentsService_Model_CancelOrderReferenceResponse instance
      */
     public function withCancelOrderReferenceResult($value)
@@ -135,7 +136,7 @@ class OffAmazonPaymentsService_Model_CancelOrderReferenceResponse extends OffAma
     /**
      * Gets the value of the ResponseMetadata.
      * 
-     * @return ResponseMetadata ResponseMetadata
+     * @return OffAmazonPaymentsService_Model_ResponseMetadata ResponseMetadata
      */
     public function getResponseMetadata() 
     {
@@ -145,7 +146,7 @@ class OffAmazonPaymentsService_Model_CancelOrderReferenceResponse extends OffAma
     /**
      * Sets the value of the ResponseMetadata.
      * 
-     * @param ResponseMetadata ResponseMetadata
+     * @param OffAmazonPaymentsService_Model_ResponseMetadata $value ResponseMetadata
      * @return void
      */
     public function setResponseMetadata($value) 
@@ -157,7 +158,7 @@ class OffAmazonPaymentsService_Model_CancelOrderReferenceResponse extends OffAma
     /**
      * Sets the value of the ResponseMetadata  and returns this instance
      * 
-     * @param ResponseMetadata $value ResponseMetadata
+     * @param OffAmazonPaymentsService_Model_ResponseMetadata $value ResponseMetadata
      * @return OffAmazonPaymentsService_Model_CancelOrderReferenceResponse instance
      */
     public function withResponseMetadata($value)
@@ -204,4 +205,3 @@ class OffAmazonPaymentsService_Model_CancelOrderReferenceResponse extends OffAma
         return $this->_responseHeaderMetadata = $responseHeaderMetadata;
     }
 }
-?>

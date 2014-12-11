@@ -63,7 +63,7 @@ class OffAmazonPaymentsService_Model_AuthorizeOnBillingAgreementResult extends O
     /**
      * Gets the value of the AuthorizationDetails.
      * 
-     * @return AuthorizationDetails AuthorizationDetails
+     * @return OffAmazonPaymentsService_Model_AuthorizationDetails AuthorizationDetails
      */
     public function getAuthorizationDetails ()
     {
@@ -73,7 +73,7 @@ class OffAmazonPaymentsService_Model_AuthorizeOnBillingAgreementResult extends O
     /**
      * Sets the value of the AuthorizationDetails.
      * 
-     * @param AuthorizationDetails AuthorizationDetails
+     * @param OffAmazonPaymentsService_Model_AuthorizationDetails $value AuthorizationDetails
      * @return void
      */
     public function setAuthorizationDetails ($value)
@@ -85,7 +85,7 @@ class OffAmazonPaymentsService_Model_AuthorizeOnBillingAgreementResult extends O
     /**
      * Sets the value of the AuthorizationDetails  and returns this instance
      * 
-     * @param AuthorizationDetails $value AuthorizationDetails
+     * @param OffAmazonPaymentsService_Model_AuthorizationDetails $value AuthorizationDetails
      * @return OffAmazonPaymentsService_Model_AuthorizeOnBillingAgreementResult instance
      */
     public function withAuthorizationDetails ($value)
@@ -117,7 +117,7 @@ class OffAmazonPaymentsService_Model_AuthorizeOnBillingAgreementResult extends O
     /**
      * Sets the value of the AmazonOrderReferenceId property.
      * 
-     * @param string AmazonOrderReferenceId
+     * @param string $value AmazonOrderReferenceId
      * @return $this instance
      */
     public function setAmazonOrderReferenceId ($value)
@@ -148,4 +148,3 @@ class OffAmazonPaymentsService_Model_AuthorizeOnBillingAgreementResult extends O
         return ! is_null($this->_fields['AmazonOrderReferenceId']['FieldValue']);
     }
 }
-?>

@@ -74,7 +74,7 @@ class OffAmazonPaymentsService_Model_Destination extends OffAmazonPaymentsServic
     /**
      * Sets the value of the DestinationType property.
      * 
-     * @param string DestinationType
+     * @param string $value DestinationType
      * @return $this instance
      */
     public function setDestinationType($value) 
@@ -109,7 +109,7 @@ class OffAmazonPaymentsService_Model_Destination extends OffAmazonPaymentsServic
     /**
      * Gets the value of the PhysicalDestination.
      * 
-     * @return Address PhysicalDestination
+     * @return OffAmazonPaymentsService_Model_Address PhysicalDestination
      */
     public function getPhysicalDestination() 
     {
@@ -119,7 +119,7 @@ class OffAmazonPaymentsService_Model_Destination extends OffAmazonPaymentsServic
     /**
      * Sets the value of the PhysicalDestination.
      * 
-     * @param Address PhysicalDestination
+     * @param OffAmazonPaymentsService_Model_Address $value PhysicalDestination
      * @return void
      */
     public function setPhysicalDestination($value) 
@@ -131,7 +131,7 @@ class OffAmazonPaymentsService_Model_Destination extends OffAmazonPaymentsServic
     /**
      * Sets the value of the PhysicalDestination  and returns this instance
      * 
-     * @param Address $value PhysicalDestination
+     * @param OffAmazonPaymentsService_Model_Address $value PhysicalDestination
      * @return OffAmazonPaymentsService_Model_Destination instance
      */
     public function withPhysicalDestination($value)
@@ -152,4 +152,3 @@ class OffAmazonPaymentsService_Model_Destination extends OffAmazonPaymentsServic
 
     }
 }
-?>

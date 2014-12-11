@@ -1,50 +1,50 @@
 <?php
 namespace AmazonPayments\Model;
-/*******************************************************************************
- *  Copyright 2013 Amazon.com, Inc. or its affiliates. All Rights Reserved.
- *  Licensed under the Apache License, Version 2.0 (the "License");
- *
- *  You may not use this file except in compliance with the License.
- *  You may obtain a copy of the License at:
- *  http://aws.amazon.com/apache2.0
- *  This file is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
- *  CONDITIONS OF ANY KIND, either express or implied. See the License
- *  for the
- *  specific language governing permissions and limitations under the
- *  License.
- * *****************************************************************************
- */
+
+    /*******************************************************************************
+     *  Copyright 2013 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+     *  Licensed under the Apache License, Version 2.0 (the "License");
+     *
+     *  You may not use this file except in compliance with the License.
+     *  You may obtain a copy of the License at:
+     *  http://aws.amazon.com/apache2.0
+     *  This file is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
+     *  CONDITIONS OF ANY KIND, either express or implied. See the License
+     *  for the
+     *  specific language governing permissions and limitations under the
+     *  License.
+     * *****************************************************************************
+     */
 
 
 /**
- *  @see OffAmazonPaymentsService_Model
+ * @see OffAmazonPaymentsService_Model
  */
 use AmazonPayments\OffAmazonPaymentsService_Model;
 
-    
 
 /**
  * OffAmazonPaymentsService_Model_AuthorizeResponse
- * 
+ *
  * Properties:
  * <ul>
- * 
+ *
  * <li>AuthorizeResult: OffAmazonPaymentsService_Model_AuthorizeResult</li>
  * <li>ResponseMetadata: OffAmazonPaymentsService_Model_ResponseMetadata</li>
  *
  * </ul>
- */ 
+ */
 class OffAmazonPaymentsService_Model_AuthorizeResponse extends OffAmazonPaymentsService_Model
 {
 
     /**
      * Construct new OffAmazonPaymentsService_Model_AuthorizeResponse
-     * 
-     * @param mixed $data DOMElement or Associative Array to construct from. 
-     * 
+     *
+     * @param mixed $data DOMElement or Associative Array to construct from.
+     *
      * Valid properties:
      * <ul>
-     * 
+     *
      * <li>AuthorizeResult: OffAmazonPaymentsService_Model_AuthorizeResult</li>
      * <li>ResponseMetadata: OffAmazonPaymentsService_Model_ResponseMetadata</li>
      *
@@ -52,57 +52,58 @@ class OffAmazonPaymentsService_Model_AuthorizeResponse extends OffAmazonPayments
      */
     public function __construct($data = null)
     {
-        $this->_fields = array (
+        $this->_fields = array(
 
-        'AuthorizeResult' => array('FieldValue' => null, 'FieldType' => 'OffAmazonPaymentsService_Model_AuthorizeResult'),
-
-
-        'ResponseMetadata' => array('FieldValue' => null, 'FieldType' => 'OffAmazonPaymentsService_Model_ResponseMetadata'),
+            'AuthorizeResult'  => array('FieldValue' => null, 'FieldType' => 'OffAmazonPaymentsService_Model_AuthorizeResult'),
+            'ResponseMetadata' => array('FieldValue' => null, 'FieldType' => 'OffAmazonPaymentsService_Model_ResponseMetadata'),
 
         );
         parent::__construct($data);
     }
 
-       
+
     /**
      * Construct OffAmazonPaymentsService_Model_AuthorizeResponse from XML string
-     * 
+     *
      * @param string $xml XML string to construct from
-     * @return OffAmazonPaymentsService_Model_AuthorizeResponse 
+     *
+     * @return OffAmazonPaymentsService_Model_AuthorizeResponse
+     * @throws \Exception
      */
     public static function fromXML($xml)
     {
         $dom = new \DOMDocument();
         $dom->loadXML($xml);
         $xpath = new \DOMXPath($dom);
-    	$xpath->registerNamespace('a', 'http://mws.amazonservices.com/schema/OffAmazonPayments/2013-01-01');
+        $xpath->registerNamespace('a', 'http://mws.amazonservices.com/schema/OffAmazonPayments/2013-01-01');
         $response = $xpath->query('//a:AuthorizeResponse');
         if ($response->length == 1) {
-            return new OffAmazonPaymentsService_Model_AuthorizeResponse(($response->item(0))); 
+            return new OffAmazonPaymentsService_Model_AuthorizeResponse(($response->item(0)));
         } else {
             throw new \Exception ("Unable to construct OffAmazonPaymentsService_Model_AuthorizeResponse from provided XML.
                                   Make sure that AuthorizeResponse is a root element");
         }
-          
+
     }
-    
+
     /**
      * Gets the value of the AuthorizeResult.
-     * 
-     * @return AuthorizeResult AuthorizeResult
+     *
+     * @return OffAmazonPaymentsService_Model_AuthorizeResult AuthorizeResult
      */
-    public function getAuthorizeResult() 
+    public function getAuthorizeResult()
     {
         return $this->_fields['AuthorizeResult']['FieldValue'];
     }
 
     /**
      * Sets the value of the AuthorizeResult.
-     * 
-     * @param AuthorizeResult AuthorizeResult
+     *
+     * @param OffAmazonPaymentsService_Model_AuthorizeResult $value AuthorizeResult
+     *
      * @return void
      */
-    public function setAuthorizeResult($value) 
+    public function setAuthorizeResult($value)
     {
         $this->_fields['AuthorizeResult']['FieldValue'] = $value;
         return;
@@ -110,8 +111,9 @@ class OffAmazonPaymentsService_Model_AuthorizeResponse extends OffAmazonPayments
 
     /**
      * Sets the value of the AuthorizeResult  and returns this instance
-     * 
-     * @param AuthorizeResult $value AuthorizeResult
+     *
+     * @param OffAmazonPaymentsService_Model_AuthorizeResult $value AuthorizeResult
+     *
      * @return OffAmazonPaymentsService_Model_AuthorizeResponse instance
      */
     public function withAuthorizeResult($value)
@@ -123,7 +125,7 @@ class OffAmazonPaymentsService_Model_AuthorizeResponse extends OffAmazonPayments
 
     /**
      * Checks if AuthorizeResult  is set
-     * 
+     *
      * @return bool true if AuthorizeResult property is set
      */
     public function isSetAuthorizeResult()
@@ -134,21 +136,22 @@ class OffAmazonPaymentsService_Model_AuthorizeResponse extends OffAmazonPayments
 
     /**
      * Gets the value of the ResponseMetadata.
-     * 
-     * @return ResponseMetadata ResponseMetadata
+     *
+     * @return OffAmazonPaymentsService_Model_ResponseMetadata ResponseMetadata
      */
-    public function getResponseMetadata() 
+    public function getResponseMetadata()
     {
         return $this->_fields['ResponseMetadata']['FieldValue'];
     }
 
     /**
      * Sets the value of the ResponseMetadata.
-     * 
-     * @param ResponseMetadata ResponseMetadata
+     *
+     * @param OffAmazonPaymentsService_Model_ResponseMetadata $value ResponseMetadata
+     *
      * @return void
      */
-    public function setResponseMetadata($value) 
+    public function setResponseMetadata($value)
     {
         $this->_fields['ResponseMetadata']['FieldValue'] = $value;
         return;
@@ -156,8 +159,9 @@ class OffAmazonPaymentsService_Model_AuthorizeResponse extends OffAmazonPayments
 
     /**
      * Sets the value of the ResponseMetadata  and returns this instance
-     * 
-     * @param ResponseMetadata $value ResponseMetadata
+     *
+     * @param OffAmazonPaymentsService_Model_ResponseMetadata $value ResponseMetadata
+     *
      * @return OffAmazonPaymentsService_Model_AuthorizeResponse instance
      */
     public function withResponseMetadata($value)
@@ -169,7 +173,7 @@ class OffAmazonPaymentsService_Model_AuthorizeResponse extends OffAmazonPayments
 
     /**
      * Checks if ResponseMetadata  is set
-     * 
+     *
      * @return bool true if ResponseMetadata property is set
      */
     public function isSetResponseMetadata()
@@ -179,13 +183,12 @@ class OffAmazonPaymentsService_Model_AuthorizeResponse extends OffAmazonPayments
     }
 
 
-
     /**
      * XML Representation for this object
-     * 
+     *
      * @return string XML for this object
      */
-    public function toXML() 
+    public function toXML()
     {
         $xml = "";
         $xml .= "<AuthorizeResponse xmlns=\"http://mws.amazonservices.com/schema/OffAmazonPayments/2013-01-01\">";
@@ -196,12 +199,13 @@ class OffAmazonPaymentsService_Model_AuthorizeResponse extends OffAmazonPayments
 
     private $_responseHeaderMetadata = null;
 
-    public function getResponseHeaderMetadata() {
+    public function getResponseHeaderMetadata()
+    {
         return $this->_responseHeaderMetadata;
     }
 
-    public function setResponseHeaderMetadata($responseHeaderMetadata) {
+    public function setResponseHeaderMetadata($responseHeaderMetadata)
+    {
         return $this->_responseHeaderMetadata = $responseHeaderMetadata;
     }
 }
-?>

@@ -98,7 +98,7 @@ class OffAmazonPaymentsService_Model_AuthorizeRequest extends OffAmazonPaymentsS
     /**
      * Sets the value of the SellerId property.
      * 
-     * @param string SellerId
+     * @param string $value SellerId
      * @return $this instance
      */
     public function setSellerId($value) 
@@ -143,7 +143,7 @@ class OffAmazonPaymentsService_Model_AuthorizeRequest extends OffAmazonPaymentsS
     /**
      * Sets the value of the AmazonOrderReferenceId property.
      * 
-     * @param string AmazonOrderReferenceId
+     * @param string $value AmazonOrderReferenceId
      * @return $this instance
      */
     public function setAmazonOrderReferenceId($value) 
@@ -188,7 +188,7 @@ class OffAmazonPaymentsService_Model_AuthorizeRequest extends OffAmazonPaymentsS
     /**
      * Sets the value of the AuthorizationReferenceId property.
      * 
-     * @param string AuthorizationReferenceId
+     * @param string $value AuthorizationReferenceId
      * @return $this instance
      */
     public function setAuthorizationReferenceId($value) 
@@ -233,7 +233,7 @@ class OffAmazonPaymentsService_Model_AuthorizeRequest extends OffAmazonPaymentsS
     /**
      * Sets the value of the AuthorizationAmount.
      * 
-     * @param Price AuthorizationAmount
+     * @param OffAmazonPaymentsService_Model_Price $value AuthorizationAmount
      * @return void
      */
     public function setAuthorizationAmount($value) 
@@ -279,7 +279,7 @@ class OffAmazonPaymentsService_Model_AuthorizeRequest extends OffAmazonPaymentsS
     /**
      * Sets the value of the SellerAuthorizationNote property.
      * 
-     * @param string SellerAuthorizationNote
+     * @param string $value SellerAuthorizationNote
      * @return $this instance
      */
     public function setSellerAuthorizationNote($value) 
@@ -324,7 +324,7 @@ class OffAmazonPaymentsService_Model_AuthorizeRequest extends OffAmazonPaymentsS
     /**
      * Sets the value of the OrderItemCategories.
      * 
-     * @param OrderItemCategories OrderItemCategories
+     * @param OffAmazonPaymentsService_Model_OrderItemCategories $value OrderItemCategories
      * @return void
      */
     public function setOrderItemCategories($value) 
@@ -336,7 +336,7 @@ class OffAmazonPaymentsService_Model_AuthorizeRequest extends OffAmazonPaymentsS
     /**
      * Sets the value of the OrderItemCategories  and returns this instance
      * 
-     * @param OrderItemCategories $value OrderItemCategories
+     * @param OffAmazonPaymentsService_Model_OrderItemCategories $value OrderItemCategories
      * @return OffAmazonPaymentsService_Model_AuthorizeRequest instance
      */
     public function withOrderItemCategories($value)
@@ -370,7 +370,7 @@ class OffAmazonPaymentsService_Model_AuthorizeRequest extends OffAmazonPaymentsS
     /**
      * Sets the value of the TransactionTimeout property.
      * 
-     * @param int TransactionTimeout
+     * @param int  $value TransactionTimeout
      * @return $this instance
      */
     public function setTransactionTimeout($value) 
@@ -415,7 +415,7 @@ class OffAmazonPaymentsService_Model_AuthorizeRequest extends OffAmazonPaymentsS
     /**
      * Sets the value of the CaptureNow property.
      * 
-     * @param bool CaptureNow
+     * @param bool $value CaptureNow
      * @return $this instance
      */
     public function setCaptureNow($value) 
@@ -460,7 +460,7 @@ class OffAmazonPaymentsService_Model_AuthorizeRequest extends OffAmazonPaymentsS
     /**
      * Sets the value of the SoftDescriptor property.
      * 
-     * @param string SoftDescriptor
+     * @param string $value SoftDescriptor
      * @return $this instance
      */
     public function setSoftDescriptor($value) 
@@ -505,7 +505,7 @@ class OffAmazonPaymentsService_Model_AuthorizeRequest extends OffAmazonPaymentsS
     /**
      * Sets the value of the ProviderCreditList.
      *
-     * @param ProviderCreditList ProviderCreditList
+     * @param OffAmazonPaymentsService_Model_ProviderCreditList $value ProviderCreditList
      * @return void
      */
     public function setProviderCreditList($value)
@@ -517,7 +517,7 @@ class OffAmazonPaymentsService_Model_AuthorizeRequest extends OffAmazonPaymentsS
     /**
      * Sets the value of the ProviderCreditList  and returns this instance
      *
-     * @param ProviderCreditList $value ProviderCreditList
+     * @param OffAmazonPaymentsService_Model_ProviderCreditList $value ProviderCreditList
      * @return OffAmazonPaymentsService_Model_AuthorizeRequest instance
      */
     public function withProviderCreditList($value)

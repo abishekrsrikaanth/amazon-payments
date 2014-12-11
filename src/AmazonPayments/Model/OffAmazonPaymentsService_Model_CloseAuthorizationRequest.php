@@ -75,7 +75,7 @@ class OffAmazonPaymentsService_Model_CloseAuthorizationRequest extends OffAmazon
     /**
      * Sets the value of the SellerId property.
      * 
-     * @param string SellerId
+     * @param string $value SellerId
      * @return $this instance
      */
     public function setSellerId($value) 
@@ -120,7 +120,7 @@ class OffAmazonPaymentsService_Model_CloseAuthorizationRequest extends OffAmazon
     /**
      * Sets the value of the AmazonAuthorizationId property.
      * 
-     * @param string AmazonAuthorizationId
+     * @param string $value AmazonAuthorizationId
      * @return $this instance
      */
     public function setAmazonAuthorizationId($value) 
@@ -165,7 +165,7 @@ class OffAmazonPaymentsService_Model_CloseAuthorizationRequest extends OffAmazon
     /**
      * Sets the value of the ClosureReason property.
      * 
-     * @param string ClosureReason
+     * @param string $value ClosureReason
      * @return $this instance
      */
     public function setClosureReason($value) 
@@ -197,4 +197,3 @@ class OffAmazonPaymentsService_Model_CloseAuthorizationRequest extends OffAmazon
         return !is_null($this->_fields['ClosureReason']['FieldValue']);
     }
 }
-?>

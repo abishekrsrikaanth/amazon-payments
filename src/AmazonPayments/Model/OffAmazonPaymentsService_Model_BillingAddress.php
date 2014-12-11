@@ -74,7 +74,7 @@ class OffAmazonPaymentsService_Model_BillingAddress extends OffAmazonPaymentsSer
     /**
      * Sets the value of the AddressType property.
      * 
-     * @param string AddressType
+     * @param string $value AddressType
      * @return $this instance
      */
     public function setAddressType($value) 
@@ -109,7 +109,7 @@ class OffAmazonPaymentsService_Model_BillingAddress extends OffAmazonPaymentsSer
     /**
      * Gets the value of the PhysicalAddress.
      * 
-     * @return Address PhysicalAddress
+     * @return OffAmazonPaymentsService_Model_BillingAddress PhysicalAddress
      */
     public function getPhysicalAddress() 
     {
@@ -119,7 +119,7 @@ class OffAmazonPaymentsService_Model_BillingAddress extends OffAmazonPaymentsSer
     /**
      * Sets the value of the PhysicalAddress.
      * 
-     * @param Address PhysicalAddress
+     * @param OffAmazonPaymentsService_Model_BillingAddress $value PhysicalAddress
      * @return void
      */
     public function setPhysicalAddress($value) 
@@ -131,7 +131,7 @@ class OffAmazonPaymentsService_Model_BillingAddress extends OffAmazonPaymentsSer
     /**
      * Sets the value of the PhysicalAddress  and returns this instance
      * 
-     * @param Address $value PhysicalAddress
+     * @param OffAmazonPaymentsService_Model_BillingAddress $value PhysicalAddress
      * @return OffAmazonPaymentsService_Model_BillingAddress instance
      */
     public function withPhysicalAddress($value)

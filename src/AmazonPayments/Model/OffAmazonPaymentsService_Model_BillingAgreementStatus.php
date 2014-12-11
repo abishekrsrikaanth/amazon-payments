@@ -83,7 +83,7 @@ class OffAmazonPaymentsService_Model_BillingAgreementStatus extends OffAmazonPay
     /**
      * Sets the value of the State property.
      * 
-     * @param string State
+     * @param string $value State
      * @return $this instance
      */
     public function setState ($value)
@@ -127,7 +127,7 @@ class OffAmazonPaymentsService_Model_BillingAgreementStatus extends OffAmazonPay
     /**
      * Sets the value of the LastUpdatedTimestamp property.
      * 
-     * @param string LastUpdatedTimestamp
+     * @param string $value LastUpdatedTimestamp
      * @return $this instance
      */
     public function setLastUpdatedTimestamp ($value)
@@ -171,7 +171,7 @@ class OffAmazonPaymentsService_Model_BillingAgreementStatus extends OffAmazonPay
     /**
      * Sets the value of the ReasonCode property.
      * 
-     * @param string ReasonCode
+     * @param string $value ReasonCode
      * @return $this instance
      */
     public function setReasonCode ($value)
@@ -215,7 +215,7 @@ class OffAmazonPaymentsService_Model_BillingAgreementStatus extends OffAmazonPay
     /**
      * Sets the value of the ReasonDescription property.
      * 
-     * @param string ReasonDescription
+     * @param string $value ReasonDescription
      * @return $this instance
      */
     public function setReasonDescription ($value)
@@ -246,4 +246,3 @@ class OffAmazonPaymentsService_Model_BillingAgreementStatus extends OffAmazonPay
         return ! is_null($this->_fields['ReasonDescription']['FieldValue']);
     }
 }
-?>

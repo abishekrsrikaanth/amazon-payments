@@ -68,7 +68,8 @@ class OffAmazonPaymentsService_Model_CaptureResponse extends OffAmazonPaymentsSe
      * Construct OffAmazonPaymentsService_Model_CaptureResponse from XML string
      * 
      * @param string $xml XML string to construct from
-     * @return OffAmazonPaymentsService_Model_CaptureResponse 
+     * @return OffAmazonPaymentsService_Model_CaptureResponse
+     * @throws \Exception
      */
     public static function fromXML($xml)
     {
@@ -89,7 +90,7 @@ class OffAmazonPaymentsService_Model_CaptureResponse extends OffAmazonPaymentsSe
     /**
      * Gets the value of the CaptureResult.
      * 
-     * @return CaptureResult CaptureResult
+     * @return OffAmazonPaymentsService_Model_CaptureResult CaptureResult
      */
     public function getCaptureResult() 
     {
@@ -99,7 +100,7 @@ class OffAmazonPaymentsService_Model_CaptureResponse extends OffAmazonPaymentsSe
     /**
      * Sets the value of the CaptureResult.
      * 
-     * @param CaptureResult CaptureResult
+     * @param OffAmazonPaymentsService_Model_CaptureResult $value CaptureResult
      * @return void
      */
     public function setCaptureResult($value) 
@@ -111,7 +112,7 @@ class OffAmazonPaymentsService_Model_CaptureResponse extends OffAmazonPaymentsSe
     /**
      * Sets the value of the CaptureResult  and returns this instance
      * 
-     * @param CaptureResult $value CaptureResult
+     * @param OffAmazonPaymentsService_Model_CaptureResult $value CaptureResult
      * @return OffAmazonPaymentsService_Model_CaptureResponse instance
      */
     public function withCaptureResult($value)
@@ -135,7 +136,7 @@ class OffAmazonPaymentsService_Model_CaptureResponse extends OffAmazonPaymentsSe
     /**
      * Gets the value of the ResponseMetadata.
      * 
-     * @return ResponseMetadata ResponseMetadata
+     * @return OffAmazonPaymentsService_Model_ResponseMetadata ResponseMetadata
      */
     public function getResponseMetadata() 
     {
@@ -144,8 +145,8 @@ class OffAmazonPaymentsService_Model_CaptureResponse extends OffAmazonPaymentsSe
 
     /**
      * Sets the value of the ResponseMetadata.
-     * 
-     * @param ResponseMetadata ResponseMetadata
+     *
+     * @param OffAmazonPaymentsService_Model_ResponseMetadata $value ResponseMetadata
      * @return void
      */
     public function setResponseMetadata($value) 
@@ -157,7 +158,7 @@ class OffAmazonPaymentsService_Model_CaptureResponse extends OffAmazonPaymentsSe
     /**
      * Sets the value of the ResponseMetadata  and returns this instance
      * 
-     * @param ResponseMetadata $value ResponseMetadata
+     * @param OffAmazonPaymentsService_Model_ResponseMetadata $value ResponseMetadata
      * @return OffAmazonPaymentsService_Model_CaptureResponse instance
      */
     public function withResponseMetadata($value)
@@ -204,4 +205,3 @@ class OffAmazonPaymentsService_Model_CaptureResponse extends OffAmazonPaymentsSe
         return $this->_responseHeaderMetadata = $responseHeaderMetadata;
     }
 }
-?>

@@ -77,7 +77,7 @@ class OffAmazonPaymentsService_Model_BillingAgreementLimits extends OffAmazonPay
     /**
      * Gets the value of the AmountLimitPerTimePeriod.
      * 
-     * @return Price AmountLimitPerTimePeriod
+     * @return OffAmazonPaymentsService_Model_Price AmountLimitPerTimePeriod
      */
     public function getAmountLimitPerTimePeriod ()
     {
@@ -87,7 +87,7 @@ class OffAmazonPaymentsService_Model_BillingAgreementLimits extends OffAmazonPay
     /**
      * Sets the value of the AmountLimitPerTimePeriod.
      * 
-     * @param Price AmountLimitPerTimePeriod
+     * @param OffAmazonPaymentsService_Model_Price $value AmountLimitPerTimePeriod
      * @return void
      */
     public function setAmountLimitPerTimePeriod ($value)
@@ -99,7 +99,7 @@ class OffAmazonPaymentsService_Model_BillingAgreementLimits extends OffAmazonPay
     /**
      * Sets the value of the AmountLimitPerTimePeriod  and returns this instance
      * 
-     * @param Price $value AmountLimitPerTimePeriod
+     * @param OffAmazonPaymentsService_Model_Price $value AmountLimitPerTimePeriod
      * @return OffAmazonPaymentsService_Model_BillingAgreementLimits instance
      */
     public function withAmountLimitPerTimePeriod ($value)
@@ -131,7 +131,7 @@ class OffAmazonPaymentsService_Model_BillingAgreementLimits extends OffAmazonPay
     /**
      * Sets the value of the TimePeriodStartDate property.
      * 
-     * @param string TimePeriodStartDate
+     * @param string $value TimePeriodStartDate
      * @return $this instance
      */
     public function setTimePeriodStartDate ($value)
@@ -175,7 +175,7 @@ class OffAmazonPaymentsService_Model_BillingAgreementLimits extends OffAmazonPay
     /**
      * Sets the value of the TimePeriodEndDate property.
      * 
-     * @param string TimePeriodEndDate
+     * @param string $value TimePeriodEndDate
      * @return $this instance
      */
     public function setTimePeriodEndDate ($value)
@@ -209,7 +209,7 @@ class OffAmazonPaymentsService_Model_BillingAgreementLimits extends OffAmazonPay
     /**
      * Gets the value of the CurrentRemainingBalance.
      * 
-     * @return Price CurrentRemainingBalance
+     * @return OffAmazonPaymentsService_Model_Price CurrentRemainingBalance
      */
     public function getCurrentRemainingBalance ()
     {
@@ -219,7 +219,7 @@ class OffAmazonPaymentsService_Model_BillingAgreementLimits extends OffAmazonPay
     /**
      * Sets the value of the CurrentRemainingBalance.
      * 
-     * @param Price CurrentRemainingBalance
+     * @param OffAmazonPaymentsService_Model_Price $value CurrentRemainingBalance
      * @return void
      */
     public function setCurrentRemainingBalance ($value)
@@ -231,7 +231,7 @@ class OffAmazonPaymentsService_Model_BillingAgreementLimits extends OffAmazonPay
     /**
      * Sets the value of the CurrentRemainingBalance  and returns this instance
      * 
-     * @param Price $value CurrentRemainingBalance
+     * @param OffAmazonPaymentsService_Model_Price $value CurrentRemainingBalance
      * @return OffAmazonPaymentsService_Model_BillingAgreementLimits instance
      */
     public function withCurrentRemainingBalance ($value)
@@ -250,4 +250,3 @@ class OffAmazonPaymentsService_Model_BillingAgreementLimits extends OffAmazonPay
         return ! is_null($this->_fields['CurrentRemainingBalance']['FieldValue']);
     }
 }
-?>

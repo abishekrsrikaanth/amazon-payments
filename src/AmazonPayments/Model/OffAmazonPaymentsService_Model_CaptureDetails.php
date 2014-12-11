@@ -109,7 +109,7 @@ class OffAmazonPaymentsService_Model_CaptureDetails extends OffAmazonPaymentsSer
     /**
      * Sets the value of the AmazonCaptureId property.
      * 
-     * @param string AmazonCaptureId
+     * @param string $value AmazonCaptureId
      * @return $this instance
      */
     public function setAmazonCaptureId($value) 
@@ -154,7 +154,7 @@ class OffAmazonPaymentsService_Model_CaptureDetails extends OffAmazonPaymentsSer
     /**
      * Sets the value of the CaptureReferenceId property.
      * 
-     * @param string CaptureReferenceId
+     * @param string $value CaptureReferenceId
      * @return $this instance
      */
     public function setCaptureReferenceId($value) 
@@ -199,7 +199,7 @@ class OffAmazonPaymentsService_Model_CaptureDetails extends OffAmazonPaymentsSer
     /**
      * Sets the value of the SellerCaptureNote property.
      * 
-     * @param string SellerCaptureNote
+     * @param string $value SellerCaptureNote
      * @return $this instance
      */
     public function setSellerCaptureNote($value) 
@@ -234,7 +234,7 @@ class OffAmazonPaymentsService_Model_CaptureDetails extends OffAmazonPaymentsSer
     /**
      * Gets the value of the CaptureAmount.
      * 
-     * @return Price CaptureAmount
+     * @return OffAmazonPaymentsService_Model_Price CaptureAmount
      */
     public function getCaptureAmount() 
     {
@@ -244,7 +244,7 @@ class OffAmazonPaymentsService_Model_CaptureDetails extends OffAmazonPaymentsSer
     /**
      * Sets the value of the CaptureAmount.
      * 
-     * @param Price CaptureAmount
+     * @param OffAmazonPaymentsService_Model_Price $value CaptureAmount
      * @return void
      */
     public function setCaptureAmount($value) 
@@ -256,7 +256,7 @@ class OffAmazonPaymentsService_Model_CaptureDetails extends OffAmazonPaymentsSer
     /**
      * Sets the value of the CaptureAmount  and returns this instance
      * 
-     * @param Price $value CaptureAmount
+     * @param OffAmazonPaymentsService_Model_Price $value CaptureAmount
      * @return OffAmazonPaymentsService_Model_CaptureDetails instance
      */
     public function withCaptureAmount($value)
@@ -280,7 +280,7 @@ class OffAmazonPaymentsService_Model_CaptureDetails extends OffAmazonPaymentsSer
     /**
      * Gets the value of the RefundedAmount.
      * 
-     * @return Price RefundedAmount
+     * @return OffAmazonPaymentsService_Model_Price RefundedAmount
      */
     public function getRefundedAmount() 
     {
@@ -290,7 +290,7 @@ class OffAmazonPaymentsService_Model_CaptureDetails extends OffAmazonPaymentsSer
     /**
      * Sets the value of the RefundedAmount.
      * 
-     * @param Price RefundedAmount
+     * @param OffAmazonPaymentsService_Model_Price $value RefundedAmount
      * @return void
      */
     public function setRefundedAmount($value) 
@@ -302,7 +302,7 @@ class OffAmazonPaymentsService_Model_CaptureDetails extends OffAmazonPaymentsSer
     /**
      * Sets the value of the RefundedAmount  and returns this instance
      * 
-     * @param Price $value RefundedAmount
+     * @param OffAmazonPaymentsService_Model_Price $value RefundedAmount
      * @return OffAmazonPaymentsService_Model_CaptureDetails instance
      */
     public function withRefundedAmount($value)
@@ -326,7 +326,7 @@ class OffAmazonPaymentsService_Model_CaptureDetails extends OffAmazonPaymentsSer
     /**
      * Gets the value of the CaptureFee.
      * 
-     * @return Price CaptureFee
+     * @return OffAmazonPaymentsService_Model_Price CaptureFee
      */
     public function getCaptureFee() 
     {
@@ -336,7 +336,7 @@ class OffAmazonPaymentsService_Model_CaptureDetails extends OffAmazonPaymentsSer
     /**
      * Sets the value of the CaptureFee.
      * 
-     * @param Price CaptureFee
+     * @param OffAmazonPaymentsService_Model_Price $value CaptureFee
      * @return void
      */
     public function setCaptureFee($value) 
@@ -348,7 +348,7 @@ class OffAmazonPaymentsService_Model_CaptureDetails extends OffAmazonPaymentsSer
     /**
      * Sets the value of the CaptureFee  and returns this instance
      * 
-     * @param Price $value CaptureFee
+     * @param OffAmazonPaymentsService_Model_Price $value CaptureFee
      * @return OffAmazonPaymentsService_Model_CaptureDetails instance
      */
     public function withCaptureFee($value)
@@ -372,7 +372,7 @@ class OffAmazonPaymentsService_Model_CaptureDetails extends OffAmazonPaymentsSer
     /**
      * Gets the value of the IdList.
      * 
-     * @return IdList IdList
+     * @return OffAmazonPaymentsService_Model_IdList IdList
      */
     public function getIdList() 
     {
@@ -382,7 +382,7 @@ class OffAmazonPaymentsService_Model_CaptureDetails extends OffAmazonPaymentsSer
     /**
      * Sets the value of the IdList.
      * 
-     * @param IdList IdList
+     * @param OffAmazonPaymentsService_Model_IdList $value IdList
      * @return void
      */
     public function setIdList($value) 
@@ -394,7 +394,7 @@ class OffAmazonPaymentsService_Model_CaptureDetails extends OffAmazonPaymentsSer
     /**
      * Sets the value of the IdList  and returns this instance
      * 
-     * @param IdList $value IdList
+     * @param OffAmazonPaymentsService_Model_IdList $value IdList
      * @return OffAmazonPaymentsService_Model_CaptureDetails instance
      */
     public function withIdList($value)
@@ -428,7 +428,7 @@ class OffAmazonPaymentsService_Model_CaptureDetails extends OffAmazonPaymentsSer
     /**
      * Sets the value of the CreationTimestamp property.
      * 
-     * @param string CreationTimestamp
+     * @param string $value CreationTimestamp
      * @return $this instance
      */
     public function setCreationTimestamp($value) 
@@ -473,7 +473,7 @@ class OffAmazonPaymentsService_Model_CaptureDetails extends OffAmazonPaymentsSer
     /**
      * Sets the value of the CaptureStatus.
      * 
-     * @param Status CaptureStatus
+     * @param Status $value CaptureStatus
      * @return void
      */
     public function setCaptureStatus($value) 
@@ -554,7 +554,7 @@ class OffAmazonPaymentsService_Model_CaptureDetails extends OffAmazonPaymentsSer
     /**
      * Gets the value of the ProviderCreditSummaryList.
      *
-     * @return ProviderCreditSummaryList ProviderCreditSummaryList
+     * @return OffAmazonPaymentsService_Model_ProviderCreditSummaryList ProviderCreditSummaryList
      */
     public function getProviderCreditSummaryList()
     {
@@ -564,7 +564,7 @@ class OffAmazonPaymentsService_Model_CaptureDetails extends OffAmazonPaymentsSer
     /**
      * Sets the value of the ProviderCreditSummaryList.
      *
-     * @param ProviderCreditSummaryList ProviderCreditSummaryList
+     * @param OffAmazonPaymentsService_Model_ProviderCreditSummaryList $value ProviderCreditSummaryList
      * @return void
      */
     public function setProviderCreditSummaryList($value)
@@ -576,7 +576,7 @@ class OffAmazonPaymentsService_Model_CaptureDetails extends OffAmazonPaymentsSer
     /**
      * Sets the value of the ProviderCreditSummaryList  and returns this instance
      *
-     * @param ProviderCreditSummaryList $value ProviderCreditSummaryList
+     * @param OffAmazonPaymentsService_Model_ProviderCreditSummaryList $value ProviderCreditSummaryList
      * @return OffAmazonPaymentsService_Model_CaptureDetails instance
      */
     public function withProviderCreditSummaryList($value)
@@ -596,6 +596,4 @@ class OffAmazonPaymentsService_Model_CaptureDetails extends OffAmazonPaymentsSer
     	return !is_null($this->_fields['ProviderCreditSummaryList']['FieldValue']);
     
     }
-
 }
-?>
