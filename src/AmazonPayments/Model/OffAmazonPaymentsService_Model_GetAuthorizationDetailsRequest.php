@@ -72,7 +72,7 @@ class OffAmazonPaymentsService_Model_GetAuthorizationDetailsRequest extends OffA
     /**
      * Sets the value of the SellerId property.
      * 
-     * @param string SellerId
+     * @param string $value SellerId
      * @return $this instance
      */
     public function setSellerId($value) 
@@ -117,7 +117,7 @@ class OffAmazonPaymentsService_Model_GetAuthorizationDetailsRequest extends OffA
     /**
      * Sets the value of the AmazonAuthorizationId property.
      * 
-     * @param string AmazonAuthorizationId
+     * @param string $value AmazonAuthorizationId
      * @return $this instance
      */
     public function setAmazonAuthorizationId($value) 
@@ -149,4 +149,3 @@ class OffAmazonPaymentsService_Model_GetAuthorizationDetailsRequest extends OffA
         return !is_null($this->_fields['AmazonAuthorizationId']['FieldValue']);
     }
 }
-?>

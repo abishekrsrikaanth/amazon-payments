@@ -101,7 +101,7 @@ class OffAmazonPaymentsService_Model_ProviderCreditDetails extends OffAmazonPaym
     /**
      * Sets the value of the AmazonProviderCreditId property.
      * 
-     * @param string AmazonProviderCreditId
+     * @param string $value AmazonProviderCreditId
      * @return $this instance
      */
     public function setAmazonProviderCreditId($value) 
@@ -146,7 +146,7 @@ class OffAmazonPaymentsService_Model_ProviderCreditDetails extends OffAmazonPaym
     /**
      * Sets the value of the SellerId property.
      * 
-     * @param string SellerId
+     * @param string $value SellerId
      * @return $this instance
      */
     public function setSellerId($value) 
@@ -191,7 +191,7 @@ class OffAmazonPaymentsService_Model_ProviderCreditDetails extends OffAmazonPaym
     /**
      * Sets the value of the ProviderId property.
      * 
-     * @param string ProviderId
+     * @param string $value ProviderId
      * @return $this instance
      */
     public function setProviderId($value) 
@@ -236,7 +236,7 @@ class OffAmazonPaymentsService_Model_ProviderCreditDetails extends OffAmazonPaym
     /**
      * Sets the value of the CreditReferenceId property.
      * 
-     * @param string CreditReferenceId
+     * @param string $value CreditReferenceId
      * @return $this instance
      */
     public function setCreditReferenceId($value) 
@@ -271,7 +271,7 @@ class OffAmazonPaymentsService_Model_ProviderCreditDetails extends OffAmazonPaym
     /**
      * Gets the value of the CreditAmount.
      * 
-     * @return Price CreditAmount
+     * @return OffAmazonPaymentsService_Model_Price CreditAmount
      */
     public function getCreditAmount() 
     {
@@ -281,7 +281,7 @@ class OffAmazonPaymentsService_Model_ProviderCreditDetails extends OffAmazonPaym
     /**
      * Sets the value of the CreditAmount.
      * 
-     * @param Price CreditAmount
+     * @param OffAmazonPaymentsService_Model_Price $value CreditAmount
      * @return void
      */
     public function setCreditAmount($value) 
@@ -293,7 +293,7 @@ class OffAmazonPaymentsService_Model_ProviderCreditDetails extends OffAmazonPaym
     /**
      * Sets the value of the CreditAmount  and returns this instance
      * 
-     * @param Price $value CreditAmount
+     * @param OffAmazonPaymentsService_Model_Price $value CreditAmount
      * @return OffAmazonPaymentsService_Model_ProviderCreditDetails instance
      */
     public function withCreditAmount($value)
@@ -317,7 +317,7 @@ class OffAmazonPaymentsService_Model_ProviderCreditDetails extends OffAmazonPaym
     /**
      * Gets the value of the CreditReversalAmount.
      * 
-     * @return Price CreditReversalAmount
+     * @return OffAmazonPaymentsService_Model_Price CreditReversalAmount
      */
     public function getCreditReversalAmount() 
     {
@@ -327,7 +327,7 @@ class OffAmazonPaymentsService_Model_ProviderCreditDetails extends OffAmazonPaym
     /**
      * Sets the value of the CreditReversalAmount.
      * 
-     * @param Price CreditReversalAmount
+     * @param OffAmazonPaymentsService_Model_Price $value CreditReversalAmount
      * @return void
      */
     public function setCreditReversalAmount($value) 
@@ -339,7 +339,7 @@ class OffAmazonPaymentsService_Model_ProviderCreditDetails extends OffAmazonPaym
     /**
      * Sets the value of the CreditReversalAmount  and returns this instance
      * 
-     * @param Price $value CreditReversalAmount
+     * @param OffAmazonPaymentsService_Model_Price $value CreditReversalAmount
      * @return OffAmazonPaymentsService_Model_ProviderCreditDetails instance
      */
     public function withCreditReversalAmount($value)
@@ -373,7 +373,7 @@ class OffAmazonPaymentsService_Model_ProviderCreditDetails extends OffAmazonPaym
     /**
      * Sets the value of the CreditReversalIdList.
      * 
-     * @param IdList CreditReversalIdList
+     * @param OffAmazonPaymentsService_Model_IdList $value CreditReversalIdList
      * @return void
      */
     public function setCreditReversalIdList($value) 
@@ -385,7 +385,7 @@ class OffAmazonPaymentsService_Model_ProviderCreditDetails extends OffAmazonPaym
     /**
      * Sets the value of the CreditReversalIdList  and returns this instance
      * 
-     * @param IdList $value CreditReversalIdList
+     * @param OffAmazonPaymentsService_Model_IdList $value CreditReversalIdList
      * @return OffAmazonPaymentsService_Model_ProviderCreditDetails instance
      */
     public function withCreditReversalIdList($value)
@@ -419,7 +419,7 @@ class OffAmazonPaymentsService_Model_ProviderCreditDetails extends OffAmazonPaym
     /**
      * Sets the value of the CreationTimestamp property.
      * 
-     * @param string CreationTimestamp
+     * @param string $value CreationTimestamp
      * @return $this instance
      */
     public function setCreationTimestamp($value) 
@@ -454,7 +454,7 @@ class OffAmazonPaymentsService_Model_ProviderCreditDetails extends OffAmazonPaym
     /**
      * Gets the value of the CreditStatus.
      * 
-     * @return Status CreditStatus
+     * @return Status $value CreditStatus
      */
     public function getCreditStatus() 
     {
@@ -464,7 +464,7 @@ class OffAmazonPaymentsService_Model_ProviderCreditDetails extends OffAmazonPaym
     /**
      * Sets the value of the CreditStatus.
      * 
-     * @param Status CreditStatus
+     * @param Status $value CreditStatus
      * @return void
      */
     public function setCreditStatus($value) 
@@ -496,8 +496,4 @@ class OffAmazonPaymentsService_Model_ProviderCreditDetails extends OffAmazonPaym
         return !is_null($this->_fields['CreditStatus']['FieldValue']);
 
     }
-
-
-
-
 }

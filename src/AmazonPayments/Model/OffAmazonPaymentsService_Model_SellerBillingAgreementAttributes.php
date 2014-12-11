@@ -77,7 +77,7 @@ class OffAmazonPaymentsService_Model_SellerBillingAgreementAttributes extends Of
     /**
      * Sets the value of the SellerBillingAgreementId property.
      * 
-     * @param string SellerBillingAgreementId
+     * @param string $value SellerBillingAgreementId
      * @return $this instance
      */
     public function setSellerBillingAgreementId ($value)
@@ -121,7 +121,7 @@ class OffAmazonPaymentsService_Model_SellerBillingAgreementAttributes extends Of
     /**
      * Sets the value of the StoreName property.
      * 
-     * @param string StoreName
+     * @param string $value StoreName
      * @return $this instance
      */
     public function setStoreName ($value)
@@ -165,7 +165,7 @@ class OffAmazonPaymentsService_Model_SellerBillingAgreementAttributes extends Of
     /**
      * Sets the value of the CustomInformation property.
      * 
-     * @param string CustomInformation
+     * @param string $value CustomInformation
      * @return $this instance
      */
     public function setCustomInformation ($value)

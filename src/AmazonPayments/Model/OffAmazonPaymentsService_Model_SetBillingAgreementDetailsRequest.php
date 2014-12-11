@@ -79,7 +79,7 @@ class OffAmazonPaymentsService_Model_SetBillingAgreementDetailsRequest extends O
     /**
      * Sets the value of the SellerId property.
      * 
-     * @param string SellerId
+     * @param string $value SellerId
      * @return $this instance
      */
     public function setSellerId ($value)
@@ -123,7 +123,7 @@ class OffAmazonPaymentsService_Model_SetBillingAgreementDetailsRequest extends O
     /**
      * Sets the value of the AmazonBillingAgreementId property.
      * 
-     * @param string AmazonBillingAgreementId
+     * @param string $value AmazonBillingAgreementId
      * @return $this instance
      */
     public function setAmazonBillingAgreementId ($value)
@@ -167,7 +167,7 @@ class OffAmazonPaymentsService_Model_SetBillingAgreementDetailsRequest extends O
     /**
      * Sets the value of the BillingAgreementAttributes.
      * 
-     * @param BillingAgreementAttributes BillingAgreementAttributes
+     * @param OffAmazonPaymentsService_Model_BillingAgreementAttributes $value BillingAgreementAttributes
      * @return void
      */
     public function setBillingAgreementAttributes ($value)
@@ -198,4 +198,3 @@ class OffAmazonPaymentsService_Model_SetBillingAgreementDetailsRequest extends O
         return ! is_null($this->_fields['BillingAgreementAttributes']['FieldValue']);
     }
 }
-?>

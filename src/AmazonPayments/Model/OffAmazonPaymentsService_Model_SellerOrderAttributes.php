@@ -125,7 +125,7 @@ class OffAmazonPaymentsService_Model_SellerOrderAttributes extends OffAmazonPaym
     /**
      * Sets the value of the StoreName property.
      * 
-     * @param string StoreName
+     * @param string $value StoreName
      * @return $this instance
      */
     public function setStoreName($value) 
@@ -170,7 +170,7 @@ class OffAmazonPaymentsService_Model_SellerOrderAttributes extends OffAmazonPaym
     /**
      * Sets the value of the OrderItemCategories.
      * 
-     * @param OrderItemCategories OrderItemCategories
+     * @param OffAmazonPaymentsService_Model_OrderItemCategories $value OrderItemCategories
      * @return void
      */
     public function setOrderItemCategories($value) 
@@ -216,7 +216,7 @@ class OffAmazonPaymentsService_Model_SellerOrderAttributes extends OffAmazonPaym
     /**
      * Sets the value of the CustomInformation property.
      * 
-     * @param string CustomInformation
+     * @param string $value CustomInformation
      * @return $this instance
      */
     public function setCustomInformation($value) 
@@ -247,8 +247,4 @@ class OffAmazonPaymentsService_Model_SellerOrderAttributes extends OffAmazonPaym
     {
         return !is_null($this->_fields['CustomInformation']['FieldValue']);
     }
-
-
-
-
 }

@@ -75,7 +75,7 @@ class OffAmazonPaymentsService_Model_ParentDetails extends OffAmazonPaymentsServ
     /**
      * Sets the value of the Id property.
      * 
-     * @param string Id
+     * @param string $value Id
      * @return $this instance
      */
     public function setId ($value)
@@ -119,7 +119,7 @@ class OffAmazonPaymentsService_Model_ParentDetails extends OffAmazonPaymentsServ
     /**
      * Sets the value of the Type property.
      * 
-     * @param string Type
+     * @param string $value Type
      * @return $this instance
      */
     public function setType ($value)
@@ -150,4 +150,3 @@ class OffAmazonPaymentsService_Model_ParentDetails extends OffAmazonPaymentsServ
         return ! is_null($this->_fields['Type']['FieldValue']);
     }
 }
-?>

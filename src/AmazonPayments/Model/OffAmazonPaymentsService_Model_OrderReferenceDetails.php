@@ -126,7 +126,7 @@ class OffAmazonPaymentsService_Model_OrderReferenceDetails extends OffAmazonPaym
     /**
      * Sets the value of the AmazonOrderReferenceId property.
      * 
-     * @param string AmazonOrderReferenceId
+     * @param string $value AmazonOrderReferenceId
      * @return $this instance
      */
     public function setAmazonOrderReferenceId($value) 
@@ -161,7 +161,7 @@ class OffAmazonPaymentsService_Model_OrderReferenceDetails extends OffAmazonPaym
     /**
      * Gets the value of the Buyer.
      * 
-     * @return Buyer Buyer
+     * @return OffAmazonPaymentsService_Model_Buyer $value Buyer
      */
     public function getBuyer() 
     {
@@ -171,7 +171,7 @@ class OffAmazonPaymentsService_Model_OrderReferenceDetails extends OffAmazonPaym
     /**
      * Sets the value of the Buyer.
      * 
-     * @param Buyer Buyer
+     * @param OffAmazonPaymentsService_Model_Buyer $value Buyer
      * @return void
      */
     public function setBuyer($value) 
@@ -183,7 +183,7 @@ class OffAmazonPaymentsService_Model_OrderReferenceDetails extends OffAmazonPaym
     /**
      * Sets the value of the Buyer  and returns this instance
      * 
-     * @param Buyer $value Buyer
+     * @param OffAmazonPaymentsService_Model_Buyer $value Buyer
      * @return OffAmazonPaymentsService_Model_OrderReferenceDetails instance
      */
     public function withBuyer($value)
@@ -207,7 +207,7 @@ class OffAmazonPaymentsService_Model_OrderReferenceDetails extends OffAmazonPaym
     /**
      * Gets the value of the OrderTotal.
      * 
-     * @return OrderTotal OrderTotal
+     * @return OffAmazonPaymentsService_Model_OrderTotal OrderTotal
      */
     public function getOrderTotal() 
     {
@@ -217,7 +217,7 @@ class OffAmazonPaymentsService_Model_OrderReferenceDetails extends OffAmazonPaym
     /**
      * Sets the value of the OrderTotal.
      * 
-     * @param OrderTotal OrderTotal
+     * @param OffAmazonPaymentsService_Model_OrderTotal $value OrderTotal
      * @return void
      */
     public function setOrderTotal($value) 
@@ -229,7 +229,7 @@ class OffAmazonPaymentsService_Model_OrderReferenceDetails extends OffAmazonPaym
     /**
      * Sets the value of the OrderTotal  and returns this instance
      * 
-     * @param OrderTotal $value OrderTotal
+     * @param OffAmazonPaymentsService_Model_OrderTotal $value OrderTotal
      * @return OffAmazonPaymentsService_Model_OrderReferenceDetails instance
      */
     public function withOrderTotal($value)
@@ -263,7 +263,7 @@ class OffAmazonPaymentsService_Model_OrderReferenceDetails extends OffAmazonPaym
     /**
      * Sets the value of the SellerNote property.
      * 
-     * @param string SellerNote
+     * @param string $value SellerNote
      * @return $this instance
      */
     public function setSellerNote($value) 
@@ -308,7 +308,7 @@ class OffAmazonPaymentsService_Model_OrderReferenceDetails extends OffAmazonPaym
     /**
      * Sets the value of the PlatformId property.
      *
-     * @param string PlatformId
+     * @param string $value PlatformId
      * @return $this instance
      */
     public function setPlatformId($value)
@@ -343,7 +343,7 @@ class OffAmazonPaymentsService_Model_OrderReferenceDetails extends OffAmazonPaym
     /**
      * Gets the value of the Destination.
      * 
-     * @return Destination Destination
+     * @return OffAmazonPaymentsService_Model_Destination Destination
      */
     public function getDestination() 
     {
@@ -353,7 +353,7 @@ class OffAmazonPaymentsService_Model_OrderReferenceDetails extends OffAmazonPaym
     /**
      * Sets the value of the Destination.
      * 
-     * @param Destination Destination
+     * @param OffAmazonPaymentsService_Model_Destination $value Destination
      * @return void
      */
     public function setDestination($value) 
@@ -365,7 +365,7 @@ class OffAmazonPaymentsService_Model_OrderReferenceDetails extends OffAmazonPaym
     /**
      * Sets the value of the Destination  and returns this instance
      * 
-     * @param Destination $value Destination
+     * @param OffAmazonPaymentsService_Model_Destination $value Destination
      * @return OffAmazonPaymentsService_Model_OrderReferenceDetails instance
      */
     public function withDestination($value)
@@ -389,7 +389,7 @@ class OffAmazonPaymentsService_Model_OrderReferenceDetails extends OffAmazonPaym
     /**
      * Gets the value of the BillingAddress.
      *
-     * @return BillingAddress BillingAddress
+     * @return OffAmazonPaymentsService_Model_BillingAddress BillingAddress
      */
     public function getBillingAddress()
     {
@@ -399,7 +399,7 @@ class OffAmazonPaymentsService_Model_OrderReferenceDetails extends OffAmazonPaym
     /**
      * Sets the value of the BillingAddress.
      *
-     * @param BillingAddress BillingAddress
+     * @param OffAmazonPaymentsService_Model_BillingAddress $value BillingAddress
      * @return void
      */
     public function setBillingAddress($value)
@@ -411,7 +411,7 @@ class OffAmazonPaymentsService_Model_OrderReferenceDetails extends OffAmazonPaym
     /**
      * Sets the value of the BillingAddress  and returns this instance
      *
-     * @param BillingAddress $value BillingAddress
+     * @param OffAmazonPaymentsService_Model_BillingAddress $value BillingAddress
      * @return OffAmazonPaymentsService_Model_OrderReferenceDetails instance
      */
     public function withBillingAddress($value)
@@ -445,7 +445,7 @@ class OffAmazonPaymentsService_Model_OrderReferenceDetails extends OffAmazonPaym
     /**
      * Sets the value of the ReleaseEnvironment property.
      * 
-     * @param string ReleaseEnvironment
+     * @param string $value ReleaseEnvironment
      * @return $this instance
      */
     public function setReleaseEnvironment($value) 
@@ -480,7 +480,7 @@ class OffAmazonPaymentsService_Model_OrderReferenceDetails extends OffAmazonPaym
     /**
      * Gets the value of the SellerOrderAttributes.
      * 
-     * @return SellerOrderAttributes SellerOrderAttributes
+     * @return OffAmazonPaymentsService_Model_SellerOrderAttributes SellerOrderAttributes
      */
     public function getSellerOrderAttributes() 
     {
@@ -490,7 +490,7 @@ class OffAmazonPaymentsService_Model_OrderReferenceDetails extends OffAmazonPaym
     /**
      * Sets the value of the SellerOrderAttributes.
      * 
-     * @param SellerOrderAttributes SellerOrderAttributes
+     * @param OffAmazonPaymentsService_Model_SellerOrderAttributes $value SellerOrderAttributes
      * @return void
      */
     public function setSellerOrderAttributes($value) 
@@ -502,7 +502,7 @@ class OffAmazonPaymentsService_Model_OrderReferenceDetails extends OffAmazonPaym
     /**
      * Sets the value of the SellerOrderAttributes  and returns this instance
      * 
-     * @param SellerOrderAttributes $value SellerOrderAttributes
+     * @param OffAmazonPaymentsService_Model_SellerOrderAttributes $value SellerOrderAttributes
      * @return OffAmazonPaymentsService_Model_OrderReferenceDetails instance
      */
     public function withSellerOrderAttributes($value)
@@ -526,7 +526,7 @@ class OffAmazonPaymentsService_Model_OrderReferenceDetails extends OffAmazonPaym
     /**
      * Gets the value of the OrderReferenceStatus.
      * 
-     * @return OrderReferenceStatus OrderReferenceStatus
+     * @return OffAmazonPaymentsService_Model_OrderReferenceStatus OrderReferenceStatus
      */
     public function getOrderReferenceStatus() 
     {
@@ -536,7 +536,7 @@ class OffAmazonPaymentsService_Model_OrderReferenceDetails extends OffAmazonPaym
     /**
      * Sets the value of the OrderReferenceStatus.
      * 
-     * @param OrderReferenceStatus OrderReferenceStatus
+     * @param OffAmazonPaymentsService_Model_OrderReferenceStatus $value OrderReferenceStatus
      * @return void
      */
     public function setOrderReferenceStatus($value) 
@@ -548,7 +548,7 @@ class OffAmazonPaymentsService_Model_OrderReferenceDetails extends OffAmazonPaym
     /**
      * Sets the value of the OrderReferenceStatus  and returns this instance
      * 
-     * @param OrderReferenceStatus $value OrderReferenceStatus
+     * @param OffAmazonPaymentsService_Model_OrderReferenceStatus $value OrderReferenceStatus
      * @return OffAmazonPaymentsService_Model_OrderReferenceDetails instance
      */
     public function withOrderReferenceStatus($value)
@@ -572,7 +572,7 @@ class OffAmazonPaymentsService_Model_OrderReferenceDetails extends OffAmazonPaym
     /**
      * Gets the value of the Constraints.
      * 
-     * @return Constraints Constraints
+     * @return OffAmazonPaymentsService_Model_Constraints Constraints
      */
     public function getConstraints() 
     {
@@ -582,7 +582,7 @@ class OffAmazonPaymentsService_Model_OrderReferenceDetails extends OffAmazonPaym
     /**
      * Sets the value of the Constraints.
      * 
-     * @param Constraints Constraints
+     * @param OffAmazonPaymentsService_Model_Constraints $value Constraints
      * @return void
      */
     public function setConstraints($value) 
@@ -594,7 +594,7 @@ class OffAmazonPaymentsService_Model_OrderReferenceDetails extends OffAmazonPaym
     /**
      * Sets the value of the Constraints  and returns this instance
      * 
-     * @param Constraints $value Constraints
+     * @param OffAmazonPaymentsService_Model_Constraints $value Constraints
      * @return OffAmazonPaymentsService_Model_OrderReferenceDetails instance
      */
     public function withConstraints($value)
@@ -628,7 +628,7 @@ class OffAmazonPaymentsService_Model_OrderReferenceDetails extends OffAmazonPaym
     /**
      * Sets the value of the CreationTimestamp property.
      * 
-     * @param string CreationTimestamp
+     * @param string $value CreationTimestamp
      * @return $this instance
      */
     public function setCreationTimestamp($value) 
@@ -673,7 +673,7 @@ class OffAmazonPaymentsService_Model_OrderReferenceDetails extends OffAmazonPaym
     /**
      * Sets the value of the ExpirationTimestamp property.
      * 
-     * @param string ExpirationTimestamp
+     * @param string $value ExpirationTimestamp
      * @return $this instance
      */
     public function setExpirationTimestamp($value) 
@@ -709,7 +709,7 @@ class OffAmazonPaymentsService_Model_OrderReferenceDetails extends OffAmazonPaym
     /**
      * Gets the value of the IdList.
      *
-     * @return IdList IdList
+     * @return OffAmazonPaymentsService_Model_IdList IdList
      */
     public function getIdList()
     {
@@ -719,7 +719,7 @@ class OffAmazonPaymentsService_Model_OrderReferenceDetails extends OffAmazonPaym
     /**
      * Sets the value of the IdList.
      *
-     * @param IdList IdList
+     * @param OffAmazonPaymentsService_Model_IdList $value IdList
      * @return void
      */
     public function setIdList($value)
@@ -731,7 +731,7 @@ class OffAmazonPaymentsService_Model_OrderReferenceDetails extends OffAmazonPaym
     /**
      * Sets the value of the IdList  and returns this instance
      *
-     * @param IdList $value IdList
+     * @param OffAmazonPaymentsService_Model_IdList $value IdList
      * @return OffAmazonPaymentsService_Model_OrderReferenceDetails instance
      */
     public function withIdList($value)
@@ -765,7 +765,7 @@ class OffAmazonPaymentsService_Model_OrderReferenceDetails extends OffAmazonPaym
     /**
      * Sets the value of the ParentDetails.
      *
-     * @param OffAmazonPaymentsService_Model_ParentDetails ParentDetails
+     * @param OffAmazonPaymentsService_Model_ParentDetails  $value ParentDetails
      * @return void
      */
     public function setParentDetails($value)
@@ -777,7 +777,7 @@ class OffAmazonPaymentsService_Model_OrderReferenceDetails extends OffAmazonPaym
     /**
      * Sets the value of the ParentDetails  and returns this instance
      *
-     * @param ParentDetails $value ParentDetails
+     * @param OffAmazonPaymentsService_Model_ParentDetails $value ParentDetails
      * @return OffAmazonPaymentsService_Model_OrderReferenceDetails instance
      */
     public function withParentDetails($value)
@@ -797,6 +797,4 @@ class OffAmazonPaymentsService_Model_OrderReferenceDetails extends OffAmazonPaym
         return !is_null($this->_fields['ParentDetails']['FieldValue']);
     
     }
-
 }
-?>

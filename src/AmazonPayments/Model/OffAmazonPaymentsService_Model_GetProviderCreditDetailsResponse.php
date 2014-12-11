@@ -68,7 +68,8 @@ class OffAmazonPaymentsService_Model_GetProviderCreditDetailsResponse extends Of
      * Construct OffAmazonPaymentsService_Model_GetProviderCreditDetailsResponse from XML string
      * 
      * @param string $xml XML string to construct from
-     * @return OffAmazonPaymentsService_Model_GetProviderCreditDetailsResponse 
+     * @return OffAmazonPaymentsService_Model_GetProviderCreditDetailsResponse
+     * @throws \Exception
      */
     public static function fromXML($xml)
     {
@@ -89,7 +90,7 @@ class OffAmazonPaymentsService_Model_GetProviderCreditDetailsResponse extends Of
     /**
      * Gets the value of the GetProviderCreditDetailsResult.
      * 
-     * @return GetProviderCreditDetailsResult GetProviderCreditDetailsResult
+     * @return OffAmazonPaymentsService_Model_GetProviderCreditDetailsResult GetProviderCreditDetailsResult
      */
     public function getGetProviderCreditDetailsResult() 
     {
@@ -99,7 +100,7 @@ class OffAmazonPaymentsService_Model_GetProviderCreditDetailsResponse extends Of
     /**
      * Sets the value of the GetProviderCreditDetailsResult.
      * 
-     * @param GetProviderCreditDetailsResult GetProviderCreditDetailsResult
+     * @param OffAmazonPaymentsService_Model_GetProviderCreditDetailsResult $value GetProviderCreditDetailsResult
      * @return void
      */
     public function setGetProviderCreditDetailsResult($value) 
@@ -111,7 +112,7 @@ class OffAmazonPaymentsService_Model_GetProviderCreditDetailsResponse extends Of
     /**
      * Sets the value of the GetProviderCreditDetailsResult  and returns this instance
      * 
-     * @param GetProviderCreditDetailsResult $value GetProviderCreditDetailsResult
+     * @param OffAmazonPaymentsService_Model_GetProviderCreditDetailsResult $value GetProviderCreditDetailsResult
      * @return OffAmazonPaymentsService_Model_GetProviderCreditDetailsResponse instance
      */
     public function withGetProviderCreditDetailsResult($value)
@@ -135,7 +136,7 @@ class OffAmazonPaymentsService_Model_GetProviderCreditDetailsResponse extends Of
     /**
      * Gets the value of the ResponseMetadata.
      * 
-     * @return ResponseMetadata ResponseMetadata
+     * @return OffAmazonPaymentsService_Model_ResponseMetadata ResponseMetadata
      */
     public function getResponseMetadata() 
     {
@@ -145,7 +146,7 @@ class OffAmazonPaymentsService_Model_GetProviderCreditDetailsResponse extends Of
     /**
      * Sets the value of the ResponseMetadata.
      * 
-     * @param ResponseMetadata ResponseMetadata
+     * @param OffAmazonPaymentsService_Model_ResponseMetadata $value ResponseMetadata
      * @return void
      */
     public function setResponseMetadata($value) 
@@ -157,7 +158,7 @@ class OffAmazonPaymentsService_Model_GetProviderCreditDetailsResponse extends Of
     /**
      * Sets the value of the ResponseMetadata  and returns this instance
      * 
-     * @param ResponseMetadata $value ResponseMetadata
+     * @param OffAmazonPaymentsService_Model_ResponseMetadata $value ResponseMetadata
      * @return OffAmazonPaymentsService_Model_GetProviderCreditDetailsResponse instance
      */
     public function withResponseMetadata($value)

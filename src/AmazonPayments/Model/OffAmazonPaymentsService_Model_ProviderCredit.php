@@ -74,7 +74,7 @@ class OffAmazonPaymentsService_Model_ProviderCredit extends OffAmazonPaymentsSer
     /**
      * Sets the value of the ProviderId property.
      * 
-     * @param string ProviderId
+     * @param string $value ProviderId
      * @return $this instance
      */
     public function setProviderId($value) 
@@ -109,7 +109,7 @@ class OffAmazonPaymentsService_Model_ProviderCredit extends OffAmazonPaymentsSer
     /**
      * Gets the value of the CreditAmount.
      * 
-     * @return Price CreditAmount
+     * @return OffAmazonPaymentsService_Model_Price $value CreditAmount
      */
     public function getCreditAmount() 
     {
@@ -119,7 +119,7 @@ class OffAmazonPaymentsService_Model_ProviderCredit extends OffAmazonPaymentsSer
     /**
      * Sets the value of the CreditAmount.
      * 
-     * @param Price CreditAmount
+     * @param OffAmazonPaymentsService_Model_Price $value CreditAmount
      * @return void
      */
     public function setCreditAmount($value) 
@@ -131,7 +131,7 @@ class OffAmazonPaymentsService_Model_ProviderCredit extends OffAmazonPaymentsSer
     /**
      * Sets the value of the CreditAmount  and returns this instance
      * 
-     * @param Price $value CreditAmount
+     * @param OffAmazonPaymentsService_Model_Price $value CreditAmount
      * @return OffAmazonPaymentsService_Model_ProviderCredit instance
      */
     public function withCreditAmount($value)
@@ -151,8 +151,4 @@ class OffAmazonPaymentsService_Model_ProviderCredit extends OffAmazonPaymentsSer
         return !is_null($this->_fields['CreditAmount']['FieldValue']);
 
     }
-
-
-
-
 }

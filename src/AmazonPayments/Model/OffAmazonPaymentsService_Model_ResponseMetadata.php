@@ -69,7 +69,7 @@ class OffAmazonPaymentsService_Model_ResponseMetadata extends OffAmazonPaymentsS
     /**
      * Sets the value of the RequestId property.
      * 
-     * @param string RequestId
+     * @param string $value RequestId
      * @return $this instance
      */
     public function setRequestId($value) 

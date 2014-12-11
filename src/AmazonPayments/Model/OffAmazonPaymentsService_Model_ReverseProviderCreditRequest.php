@@ -83,7 +83,7 @@ class OffAmazonPaymentsService_Model_ReverseProviderCreditRequest extends OffAma
     /**
      * Sets the value of the SellerId property.
      * 
-     * @param string SellerId
+     * @param string $value SellerId
      * @return $this instance
      */
     public function setSellerId($value) 
@@ -128,7 +128,7 @@ class OffAmazonPaymentsService_Model_ReverseProviderCreditRequest extends OffAma
     /**
      * Sets the value of the AmazonProviderCreditId property.
      * 
-     * @param string AmazonProviderCreditId
+     * @param string $value AmazonProviderCreditId
      * @return $this instance
      */
     public function setAmazonProviderCreditId($value) 
@@ -173,7 +173,7 @@ class OffAmazonPaymentsService_Model_ReverseProviderCreditRequest extends OffAma
     /**
      * Sets the value of the CreditReversalReferenceId property.
      * 
-     * @param string CreditReversalReferenceId
+     * @param string $value CreditReversalReferenceId
      * @return $this instance
      */
     public function setCreditReversalReferenceId($value) 
@@ -218,7 +218,7 @@ class OffAmazonPaymentsService_Model_ReverseProviderCreditRequest extends OffAma
     /**
      * Sets the value of the CreditReversalAmount.
      * 
-     * @param Price CreditReversalAmount
+     * @param OffAmazonPaymentsService_Model_Price $value CreditReversalAmount
      * @return void
      */
     public function setCreditReversalAmount($value) 
@@ -264,7 +264,7 @@ class OffAmazonPaymentsService_Model_ReverseProviderCreditRequest extends OffAma
     /**
      * Sets the value of the CreditReversalNote property.
      * 
-     * @param string CreditReversalNote
+     * @param string $value CreditReversalNote
      * @return $this instance
      */
     public function setCreditReversalNote($value) 
@@ -295,8 +295,4 @@ class OffAmazonPaymentsService_Model_ReverseProviderCreditRequest extends OffAma
     {
         return !is_null($this->_fields['CreditReversalNote']['FieldValue']);
     }
-
-
-
-
 }

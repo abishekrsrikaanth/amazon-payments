@@ -69,7 +69,7 @@ class OffAmazonPaymentsService_Model_ProviderCreditSummaryList extends OffAmazon
     /**
      * Sets the value of the member.
      * 
-     * @param mixed ProviderCreditSummary or an array of ProviderCreditSummary member
+     * @param mixed|OffAmazonPaymentsService_Model_ProviderCreditSummary or an array of ProviderCreditSummary member
      * @return $this instance
      */
     public function setmember($member) 
@@ -109,8 +109,4 @@ class OffAmazonPaymentsService_Model_ProviderCreditSummaryList extends OffAmazon
     {
         return count ($this->_fields['member']['FieldValue']) > 0;
     }
-
-
-
-
 }

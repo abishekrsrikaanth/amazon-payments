@@ -61,7 +61,7 @@ class OffAmazonPaymentsService_Model_GetProviderCreditReversalDetailsResult exte
         /**
      * Gets the value of the ProviderCreditReversalDetails.
      * 
-     * @return ProviderCreditReversalDetails ProviderCreditReversalDetails
+     * @return OffAmazonPaymentsService_Model_ProviderCreditReversalDetails ProviderCreditReversalDetails
      */
     public function getProviderCreditReversalDetails() 
     {
@@ -71,7 +71,7 @@ class OffAmazonPaymentsService_Model_GetProviderCreditReversalDetailsResult exte
     /**
      * Sets the value of the ProviderCreditReversalDetails.
      * 
-     * @param ProviderCreditReversalDetails ProviderCreditReversalDetails
+     * @param OffAmazonPaymentsService_Model_ProviderCreditReversalDetails $value ProviderCreditReversalDetails
      * @return void
      */
     public function setProviderCreditReversalDetails($value) 
@@ -83,7 +83,7 @@ class OffAmazonPaymentsService_Model_GetProviderCreditReversalDetailsResult exte
     /**
      * Sets the value of the ProviderCreditReversalDetails  and returns this instance
      * 
-     * @param ProviderCreditReversalDetails $value ProviderCreditReversalDetails
+     * @param OffAmazonPaymentsService_Model_ProviderCreditReversalDetails $value ProviderCreditReversalDetails
      * @return OffAmazonPaymentsService_Model_GetProviderCreditReversalDetailsResult instance
      */
     public function withProviderCreditReversalDetails($value)
@@ -103,8 +103,4 @@ class OffAmazonPaymentsService_Model_GetProviderCreditReversalDetailsResult exte
         return !is_null($this->_fields['ProviderCreditReversalDetails']['FieldValue']);
 
     }
-
-
-
-
 }

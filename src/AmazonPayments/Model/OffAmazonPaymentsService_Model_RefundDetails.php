@@ -1,34 +1,34 @@
 <?php
 namespace AmazonPayments\Model;
-/*******************************************************************************
- *  Copyright 2013 Amazon.com, Inc. or its affiliates. All Rights Reserved.
- *  Licensed under the Apache License, Version 2.0 (the "License");
- *
- *  You may not use this file except in compliance with the License.
- *  You may obtain a copy of the License at:
- *  http://aws.amazon.com/apache2.0
- *  This file is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
- *  CONDITIONS OF ANY KIND, either express or implied. See the License
- *  for the
- *  specific language governing permissions and limitations under the
- *  License.
- * *****************************************************************************
- */
+
+    /*******************************************************************************
+     *  Copyright 2013 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+     *  Licensed under the Apache License, Version 2.0 (the "License");
+     *
+     *  You may not use this file except in compliance with the License.
+     *  You may obtain a copy of the License at:
+     *  http://aws.amazon.com/apache2.0
+     *  This file is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
+     *  CONDITIONS OF ANY KIND, either express or implied. See the License
+     *  for the
+     *  specific language governing permissions and limitations under the
+     *  License.
+     * *****************************************************************************
+     */
 
 
 /**
- *  @see OffAmazonPaymentsService_Model
+ * @see OffAmazonPaymentsService_Model
  */
 use AmazonPayments\OffAmazonPaymentsService_Model;
 
-    
 
 /**
  * OffAmazonPaymentsService_Model_RefundDetails
- * 
+ *
  * Properties:
  * <ul>
- * 
+ *
  * <li>AmazonRefundId: string</li>
  * <li>RefundReferenceId: string</li>
  * <li>SellerRefundNote: string</li>
@@ -40,18 +40,18 @@ use AmazonPayments\OffAmazonPaymentsService_Model;
  * <li>SoftDescriptor: string</li>
  *
  * </ul>
- */ 
+ */
 class OffAmazonPaymentsService_Model_RefundDetails extends OffAmazonPaymentsService_Model
 {
 
     /**
      * Construct new OffAmazonPaymentsService_Model_RefundDetails
-     * 
-     * @param mixed $data DOMElement or Associative Array to construct from. 
-     * 
+     *
+     * @param mixed $data DOMElement or Associative Array to construct from.
+     *
      * Valid properties:
      * <ul>
-     * 
+     *
      * <li>AmazonRefundId: string</li>
      * <li>RefundReferenceId: string</li>
      * <li>SellerRefundNote: string</li>
@@ -66,45 +66,39 @@ class OffAmazonPaymentsService_Model_RefundDetails extends OffAmazonPaymentsServ
      */
     public function __construct($data = null)
     {
-        $this->_fields = array (
-        'AmazonRefundId' => array('FieldValue' => null, 'FieldType' => 'string'),
-        'RefundReferenceId' => array('FieldValue' => null, 'FieldType' => 'string'),
-        'SellerRefundNote' => array('FieldValue' => null, 'FieldType' => 'string'),
-        'RefundType' => array('FieldValue' => null, 'FieldType' => 'string'),
-
-        'RefundAmount' => array('FieldValue' => null, 'FieldType' => 'OffAmazonPaymentsService_Model_Price'),
-
-
-        'FeeRefunded' => array('FieldValue' => null, 'FieldType' => 'OffAmazonPaymentsService_Model_Price'),
-
-        'CreationTimestamp' => array('FieldValue' => null, 'FieldType' => 'string'),
-
-        'RefundStatus' => array('FieldValue' => null, 'FieldType' => 'OffAmazonPaymentsService_Model_Status'),
-
-        'SoftDescriptor' => array('FieldValue' => null, 'FieldType' => 'string'),
-        
-        'ProviderCreditReversalSummaryList' => array('FieldValue' => null, 'FieldType' => 'OffAmazonPaymentsService_Model_ProviderCreditReversalSummaryList'),		
+        $this->_fields = array(
+            'AmazonRefundId'                    => array('FieldValue' => null, 'FieldType' => 'string'),
+            'RefundReferenceId'                 => array('FieldValue' => null, 'FieldType' => 'string'),
+            'SellerRefundNote'                  => array('FieldValue' => null, 'FieldType' => 'string'),
+            'RefundType'                        => array('FieldValue' => null, 'FieldType' => 'string'),
+            'RefundAmount'                      => array('FieldValue' => null, 'FieldType' => 'OffAmazonPaymentsService_Model_Price'),
+            'FeeRefunded'                       => array('FieldValue' => null, 'FieldType' => 'OffAmazonPaymentsService_Model_Price'),
+            'CreationTimestamp'                 => array('FieldValue' => null, 'FieldType' => 'string'),
+            'RefundStatus'                      => array('FieldValue' => null, 'FieldType' => 'OffAmazonPaymentsService_Model_Status'),
+            'SoftDescriptor'                    => array('FieldValue' => null, 'FieldType' => 'string'),
+            'ProviderCreditReversalSummaryList' => array('FieldValue' => null, 'FieldType' => 'OffAmazonPaymentsService_Model_ProviderCreditReversalSummaryList'),
         );
         parent::__construct($data);
     }
 
-        /**
+    /**
      * Gets the value of the AmazonRefundId property.
-     * 
+     *
      * @return string AmazonRefundId
      */
-    public function getAmazonRefundId() 
+    public function getAmazonRefundId()
     {
         return $this->_fields['AmazonRefundId']['FieldValue'];
     }
 
     /**
      * Sets the value of the AmazonRefundId property.
-     * 
-     * @param string AmazonRefundId
+     *
+     * @param string $value AmazonRefundId
+     *
      * @return $this instance
      */
-    public function setAmazonRefundId($value) 
+    public function setAmazonRefundId($value)
     {
         $this->_fields['AmazonRefundId']['FieldValue'] = $value;
         return $this;
@@ -112,8 +106,9 @@ class OffAmazonPaymentsService_Model_RefundDetails extends OffAmazonPaymentsServ
 
     /**
      * Sets the value of the AmazonRefundId and returns this instance
-     * 
+     *
      * @param string $value AmazonRefundId
+     *
      * @return OffAmazonPaymentsService_Model_RefundDetails instance
      */
     public function withAmazonRefundId($value)
@@ -125,7 +120,7 @@ class OffAmazonPaymentsService_Model_RefundDetails extends OffAmazonPaymentsServ
 
     /**
      * Checks if AmazonRefundId is set
-     * 
+     *
      * @return bool true if AmazonRefundId  is set
      */
     public function isSetAmazonRefundId()
@@ -135,21 +130,22 @@ class OffAmazonPaymentsService_Model_RefundDetails extends OffAmazonPaymentsServ
 
     /**
      * Gets the value of the RefundReferenceId property.
-     * 
+     *
      * @return string RefundReferenceId
      */
-    public function getRefundReferenceId() 
+    public function getRefundReferenceId()
     {
         return $this->_fields['RefundReferenceId']['FieldValue'];
     }
 
     /**
      * Sets the value of the RefundReferenceId property.
-     * 
-     * @param string RefundReferenceId
+     *
+     * @param string $value RefundReferenceId
+     *
      * @return $this instance
      */
-    public function setRefundReferenceId($value) 
+    public function setRefundReferenceId($value)
     {
         $this->_fields['RefundReferenceId']['FieldValue'] = $value;
         return $this;
@@ -157,8 +153,9 @@ class OffAmazonPaymentsService_Model_RefundDetails extends OffAmazonPaymentsServ
 
     /**
      * Sets the value of the RefundReferenceId and returns this instance
-     * 
+     *
      * @param string $value RefundReferenceId
+     *
      * @return OffAmazonPaymentsService_Model_RefundDetails instance
      */
     public function withRefundReferenceId($value)
@@ -170,7 +167,7 @@ class OffAmazonPaymentsService_Model_RefundDetails extends OffAmazonPaymentsServ
 
     /**
      * Checks if RefundReferenceId is set
-     * 
+     *
      * @return bool true if RefundReferenceId  is set
      */
     public function isSetRefundReferenceId()
@@ -180,21 +177,22 @@ class OffAmazonPaymentsService_Model_RefundDetails extends OffAmazonPaymentsServ
 
     /**
      * Gets the value of the SellerRefundNote property.
-     * 
+     *
      * @return string SellerRefundNote
      */
-    public function getSellerRefundNote() 
+    public function getSellerRefundNote()
     {
         return $this->_fields['SellerRefundNote']['FieldValue'];
     }
 
     /**
      * Sets the value of the SellerRefundNote property.
-     * 
-     * @param string SellerRefundNote
+     *
+     * @param string $value SellerRefundNote
+     *
      * @return $this instance
      */
-    public function setSellerRefundNote($value) 
+    public function setSellerRefundNote($value)
     {
         $this->_fields['SellerRefundNote']['FieldValue'] = $value;
         return $this;
@@ -202,8 +200,9 @@ class OffAmazonPaymentsService_Model_RefundDetails extends OffAmazonPaymentsServ
 
     /**
      * Sets the value of the SellerRefundNote and returns this instance
-     * 
+     *
      * @param string $value SellerRefundNote
+     *
      * @return OffAmazonPaymentsService_Model_RefundDetails instance
      */
     public function withSellerRefundNote($value)
@@ -215,7 +214,7 @@ class OffAmazonPaymentsService_Model_RefundDetails extends OffAmazonPaymentsServ
 
     /**
      * Checks if SellerRefundNote is set
-     * 
+     *
      * @return bool true if SellerRefundNote  is set
      */
     public function isSetSellerRefundNote()
@@ -225,21 +224,22 @@ class OffAmazonPaymentsService_Model_RefundDetails extends OffAmazonPaymentsServ
 
     /**
      * Gets the value of the RefundType property.
-     * 
+     *
      * @return string RefundType
      */
-    public function getRefundType() 
+    public function getRefundType()
     {
         return $this->_fields['RefundType']['FieldValue'];
     }
 
     /**
      * Sets the value of the RefundType property.
-     * 
-     * @param string RefundType
+     *
+     * @param strin $value RefundType
+     *
      * @return $this instance
      */
-    public function setRefundType($value) 
+    public function setRefundType($value)
     {
         $this->_fields['RefundType']['FieldValue'] = $value;
         return $this;
@@ -247,8 +247,9 @@ class OffAmazonPaymentsService_Model_RefundDetails extends OffAmazonPaymentsServ
 
     /**
      * Sets the value of the RefundType and returns this instance
-     * 
+     *
      * @param string $value RefundType
+     *
      * @return OffAmazonPaymentsService_Model_RefundDetails instance
      */
     public function withRefundType($value)
@@ -260,7 +261,7 @@ class OffAmazonPaymentsService_Model_RefundDetails extends OffAmazonPaymentsServ
 
     /**
      * Checks if RefundType is set
-     * 
+     *
      * @return bool true if RefundType  is set
      */
     public function isSetRefundType()
@@ -270,21 +271,22 @@ class OffAmazonPaymentsService_Model_RefundDetails extends OffAmazonPaymentsServ
 
     /**
      * Gets the value of the RefundAmount.
-     * 
+     *
      * @return OffAmazonPaymentsService_Model_Price RefundAmount
      */
-    public function getRefundAmount() 
+    public function getRefundAmount()
     {
         return $this->_fields['RefundAmount']['FieldValue'];
     }
 
     /**
      * Sets the value of the RefundAmount.
-     * 
+     *
      * @param OffAmazonPaymentsService_Model_Price $value RefundAmount
+     *
      * @return void
      */
-    public function setRefundAmount($value) 
+    public function setRefundAmount($value)
     {
         $this->_fields['RefundAmount']['FieldValue'] = $value;
         return;
@@ -292,8 +294,9 @@ class OffAmazonPaymentsService_Model_RefundDetails extends OffAmazonPaymentsServ
 
     /**
      * Sets the value of the RefundAmount  and returns this instance
-     * 
+     *
      * @param OffAmazonPaymentsService_Model_Price $value RefundAmount
+     *
      * @return OffAmazonPaymentsService_Model_RefundDetails instance
      */
     public function withRefundAmount($value)
@@ -305,7 +308,7 @@ class OffAmazonPaymentsService_Model_RefundDetails extends OffAmazonPaymentsServ
 
     /**
      * Checks if RefundAmount  is set
-     * 
+     *
      * @return bool true if RefundAmount property is set
      */
     public function isSetRefundAmount()
@@ -316,21 +319,22 @@ class OffAmazonPaymentsService_Model_RefundDetails extends OffAmazonPaymentsServ
 
     /**
      * Gets the value of the FeeRefunded.
-     * 
+     *
      * @return OffAmazonPaymentsService_Model_Price FeeRefunded
      */
-    public function getFeeRefunded() 
+    public function getFeeRefunded()
     {
         return $this->_fields['FeeRefunded']['FieldValue'];
     }
 
     /**
      * Sets the value of the FeeRefunded.
-     * 
+     *
      * @param OffAmazonPaymentsService_Model_Price $value FeeRefunded
+     *
      * @return void
      */
-    public function setFeeRefunded($value) 
+    public function setFeeRefunded($value)
     {
         $this->_fields['FeeRefunded']['FieldValue'] = $value;
         return;
@@ -338,8 +342,9 @@ class OffAmazonPaymentsService_Model_RefundDetails extends OffAmazonPaymentsServ
 
     /**
      * Sets the value of the FeeRefunded  and returns this instance
-     * 
+     *
      * @param OffAmazonPaymentsService_Model_Price $value FeeRefunded
+     *
      * @return OffAmazonPaymentsService_Model_RefundDetails instance
      */
     public function withFeeRefunded($value)
@@ -351,7 +356,7 @@ class OffAmazonPaymentsService_Model_RefundDetails extends OffAmazonPaymentsServ
 
     /**
      * Checks if FeeRefunded  is set
-     * 
+     *
      * @return bool true if FeeRefunded property is set
      */
     public function isSetFeeRefunded()
@@ -362,21 +367,22 @@ class OffAmazonPaymentsService_Model_RefundDetails extends OffAmazonPaymentsServ
 
     /**
      * Gets the value of the CreationTimestamp property.
-     * 
+     *
      * @return string CreationTimestamp
      */
-    public function getCreationTimestamp() 
+    public function getCreationTimestamp()
     {
         return $this->_fields['CreationTimestamp']['FieldValue'];
     }
 
     /**
      * Sets the value of the CreationTimestamp property.
-     * 
-     * @param string CreationTimestamp
+     *
+     * @param string $value CreationTimestamp
+     *
      * @return $this instance
      */
-    public function setCreationTimestamp($value) 
+    public function setCreationTimestamp($value)
     {
         $this->_fields['CreationTimestamp']['FieldValue'] = $value;
         return $this;
@@ -384,8 +390,9 @@ class OffAmazonPaymentsService_Model_RefundDetails extends OffAmazonPaymentsServ
 
     /**
      * Sets the value of the CreationTimestamp and returns this instance
-     * 
+     *
      * @param string $value CreationTimestamp
+     *
      * @return OffAmazonPaymentsService_Model_RefundDetails instance
      */
     public function withCreationTimestamp($value)
@@ -397,7 +404,7 @@ class OffAmazonPaymentsService_Model_RefundDetails extends OffAmazonPaymentsServ
 
     /**
      * Checks if CreationTimestamp is set
-     * 
+     *
      * @return bool true if CreationTimestamp  is set
      */
     public function isSetCreationTimestamp()
@@ -407,21 +414,22 @@ class OffAmazonPaymentsService_Model_RefundDetails extends OffAmazonPaymentsServ
 
     /**
      * Gets the value of the RefundStatus.
-     * 
+     *
      * @return Status RefundStatus
      */
-    public function getRefundStatus() 
+    public function getRefundStatus()
     {
         return $this->_fields['RefundStatus']['FieldValue'];
     }
 
     /**
      * Sets the value of the RefundStatus.
-     * 
-     * @param Status RefundStatus
+     *
+     * @param Status $value RefundStatus
+     *
      * @return void
      */
-    public function setRefundStatus($value) 
+    public function setRefundStatus($value)
     {
         $this->_fields['RefundStatus']['FieldValue'] = $value;
         return;
@@ -429,8 +437,9 @@ class OffAmazonPaymentsService_Model_RefundDetails extends OffAmazonPaymentsServ
 
     /**
      * Sets the value of the RefundStatus  and returns this instance
-     * 
+     *
      * @param Status $value RefundStatus
+     *
      * @return OffAmazonPaymentsService_Model_RefundDetails instance
      */
     public function withRefundStatus($value)
@@ -442,7 +451,7 @@ class OffAmazonPaymentsService_Model_RefundDetails extends OffAmazonPaymentsServ
 
     /**
      * Checks if RefundStatus  is set
-     * 
+     *
      * @return bool true if RefundStatus property is set
      */
     public function isSetRefundStatus()
@@ -453,21 +462,22 @@ class OffAmazonPaymentsService_Model_RefundDetails extends OffAmazonPaymentsServ
 
     /**
      * Gets the value of the SoftDescriptor property.
-     * 
+     *
      * @return string SoftDescriptor
      */
-    public function getSoftDescriptor() 
+    public function getSoftDescriptor()
     {
         return $this->_fields['SoftDescriptor']['FieldValue'];
     }
 
     /**
      * Sets the value of the SoftDescriptor property.
-     * 
-     * @param string SoftDescriptor
+     *
+     * @param string $value SoftDescriptor
+     *
      * @return $this instance
      */
-    public function setSoftDescriptor($value) 
+    public function setSoftDescriptor($value)
     {
         $this->_fields['SoftDescriptor']['FieldValue'] = $value;
         return $this;
@@ -475,8 +485,9 @@ class OffAmazonPaymentsService_Model_RefundDetails extends OffAmazonPaymentsServ
 
     /**
      * Sets the value of the SoftDescriptor and returns this instance
-     * 
+     *
      * @param string $value SoftDescriptor
+     *
      * @return OffAmazonPaymentsService_Model_RefundDetails instance
      */
     public function withSoftDescriptor($value)
@@ -488,7 +499,7 @@ class OffAmazonPaymentsService_Model_RefundDetails extends OffAmazonPaymentsServ
 
     /**
      * Checks if SoftDescriptor is set
-     * 
+     *
      * @return bool true if SoftDescriptor  is set
      */
     public function isSetSoftDescriptor()
@@ -503,34 +514,36 @@ class OffAmazonPaymentsService_Model_RefundDetails extends OffAmazonPaymentsServ
      */
     public function getProviderCreditReversalSummaryList()
     {
-    	return $this->_fields['ProviderCreditReversalSummaryList']['FieldValue'];
+        return $this->_fields['ProviderCreditReversalSummaryList']['FieldValue'];
     }
-    
+
     /**
      * Sets the value of the ProviderCreditReversalSummaryList.
      *
      * @param OffAmazonPaymentsService_Model_ProviderCreditReversalSummaryList $value ProviderCreditReversalSummaryList
+     *
      * @return void
      */
     public function setProviderCreditReversalSummaryList($value)
     {
-    	$this->_fields['ProviderCreditReversalSummaryList']['FieldValue'] = $value;
-    	return;
+        $this->_fields['ProviderCreditReversalSummaryList']['FieldValue'] = $value;
+        return;
     }
-    
+
     /**
      * Sets the value of the ProviderCreditReversalSummaryList  and returns this instance
      *
      * @param OffAmazonPaymentsService_Model_ProviderCreditReversalSummaryList $value ProviderCreditReversalSummaryList
+     *
      * @return OffAmazonPaymentsService_Model_RefundDetails instance
      */
     public function withProviderCreditReversalSummaryList($value)
     {
-    	$this->setProviderCreditReversalSummaryList($value);
-    	return $this;
+        $this->setProviderCreditReversalSummaryList($value);
+        return $this;
     }
-    
-    
+
+
     /**
      * Checks if ProviderCreditReversalSummaryList  is set
      *
@@ -538,9 +551,7 @@ class OffAmazonPaymentsService_Model_RefundDetails extends OffAmazonPaymentsServ
      */
     public function isSetProviderCreditReversalSummaryList()
     {
-    	return !is_null($this->_fields['ProviderCreditReversalSummaryList']['FieldValue']);
-    
-    }
+        return !is_null($this->_fields['ProviderCreditReversalSummaryList']['FieldValue']);
 
+    }
 }
-?>

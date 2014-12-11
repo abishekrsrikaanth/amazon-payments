@@ -69,7 +69,7 @@ class OffAmazonPaymentsService_Model_ProviderCreditReversalSummaryList extends O
     /**
      * Sets the value of the member.
      * 
-     * @param mixed ProviderCreditReversalSummary or an array of ProviderCreditReversalSummary member
+     * @param mixed|OffAmazonPaymentsService_Model_ProviderCreditReversalSummary or an array of ProviderCreditReversalSummary member
      * @return $this instance
      */
     public function setmember($member) 
@@ -109,8 +109,4 @@ class OffAmazonPaymentsService_Model_ProviderCreditReversalSummaryList extends O
     {
         return count ($this->_fields['member']['FieldValue']) > 0;
     }
-
-
-
-
 }

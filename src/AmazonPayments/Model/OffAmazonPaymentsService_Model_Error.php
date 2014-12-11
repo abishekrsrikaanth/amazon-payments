@@ -79,7 +79,7 @@ class OffAmazonPaymentsService_Model_Error extends OffAmazonPaymentsService_Mode
     /**
      * Sets the value of the Type property.
      * 
-     * @param string Type
+     * @param string $value Type
      * @return $this instance
      */
     public function setType($value) 
@@ -124,7 +124,7 @@ class OffAmazonPaymentsService_Model_Error extends OffAmazonPaymentsService_Mode
     /**
      * Sets the value of the Code property.
      * 
-     * @param string Code
+     * @param string $value Code
      * @return $this instance
      */
     public function setCode($value) 
@@ -169,7 +169,7 @@ class OffAmazonPaymentsService_Model_Error extends OffAmazonPaymentsService_Mode
     /**
      * Sets the value of the Message property.
      * 
-     * @param string Message
+     * @param string $value Message
      * @return $this instance
      */
     public function setMessage($value) 
@@ -247,4 +247,3 @@ class OffAmazonPaymentsService_Model_Error extends OffAmazonPaymentsService_Mode
 
     }
 }
-?>

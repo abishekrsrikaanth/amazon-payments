@@ -77,7 +77,7 @@ class OffAmazonPaymentsService_Model_GetBillingAgreementDetailsRequest extends O
     /**
      * Sets the value of the AmazonBillingAgreementId property.
      * 
-     * @param string AmazonBillingAgreementId
+     * @param string $value AmazonBillingAgreementId
      * @return $this instance
      */
     public function setAmazonBillingAgreementId ($value)
@@ -121,7 +121,7 @@ class OffAmazonPaymentsService_Model_GetBillingAgreementDetailsRequest extends O
     /**
      * Sets the value of the SellerId property.
      * 
-     * @param string SellerId
+     * @param string $value SellerId
      * @return $this instance
      */
     public function setSellerId ($value)
@@ -165,7 +165,7 @@ class OffAmazonPaymentsService_Model_GetBillingAgreementDetailsRequest extends O
     /**
      * Sets the value of the AddressConsentToken property.
      * 
-     * @param string AddressConsentToken
+     * @param string $value AddressConsentToken
      * @return $this instance
      */
     public function setAddressConsentToken ($value)
@@ -196,4 +196,3 @@ class OffAmazonPaymentsService_Model_GetBillingAgreementDetailsRequest extends O
         return ! is_null($this->_fields['AddressConsentToken']['FieldValue']);
     }
 }
-?>

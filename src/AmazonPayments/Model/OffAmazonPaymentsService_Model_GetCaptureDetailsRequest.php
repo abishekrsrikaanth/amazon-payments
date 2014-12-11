@@ -72,7 +72,7 @@ class OffAmazonPaymentsService_Model_GetCaptureDetailsRequest extends OffAmazonP
     /**
      * Sets the value of the SellerId property.
      * 
-     * @param string SellerId
+     * @param string $value SellerId
      * @return $this instance
      */
     public function setSellerId($value) 
@@ -117,7 +117,7 @@ class OffAmazonPaymentsService_Model_GetCaptureDetailsRequest extends OffAmazonP
     /**
      * Sets the value of the AmazonCaptureId property.
      * 
-     * @param string AmazonCaptureId
+     * @param string $value AmazonCaptureId
      * @return $this instance
      */
     public function setAmazonCaptureId($value) 
@@ -149,4 +149,3 @@ class OffAmazonPaymentsService_Model_GetCaptureDetailsRequest extends OffAmazonP
         return !is_null($this->_fields['AmazonCaptureId']['FieldValue']);
     }
 }
-?>

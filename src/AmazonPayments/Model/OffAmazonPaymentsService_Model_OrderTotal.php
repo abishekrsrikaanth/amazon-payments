@@ -72,7 +72,7 @@ class OffAmazonPaymentsService_Model_OrderTotal extends OffAmazonPaymentsService
     /**
      * Sets the value of the CurrencyCode property.
      * 
-     * @param string CurrencyCode
+     * @param string $value CurrencyCode
      * @return $this instance
      */
     public function setCurrencyCode($value) 
@@ -117,7 +117,7 @@ class OffAmazonPaymentsService_Model_OrderTotal extends OffAmazonPaymentsService
     /**
      * Sets the value of the Amount property.
      * 
-     * @param string Amount
+     * @param string $value Amount
      * @return $this instance
      */
     public function setAmount($value) 
@@ -148,9 +148,4 @@ class OffAmazonPaymentsService_Model_OrderTotal extends OffAmazonPaymentsService
     {
         return !is_null($this->_fields['Amount']['FieldValue']);
     }
-
-
-
-
 }
-?>

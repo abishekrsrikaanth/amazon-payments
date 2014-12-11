@@ -61,7 +61,7 @@ class OffAmazonPaymentsService_Model_GetAuthorizationDetailsResult extends OffAm
         /**
      * Gets the value of the AuthorizationDetails.
      * 
-     * @return AuthorizationDetails AuthorizationDetails
+     * @return OffAmazonPaymentsService_Model_AuthorizationDetails AuthorizationDetails
      */
     public function getAuthorizationDetails() 
     {
@@ -71,7 +71,7 @@ class OffAmazonPaymentsService_Model_GetAuthorizationDetailsResult extends OffAm
     /**
      * Sets the value of the AuthorizationDetails.
      * 
-     * @param AuthorizationDetails AuthorizationDetails
+     * @param OffAmazonPaymentsService_Model_AuthorizationDetails $value AuthorizationDetails
      * @return void
      */
     public function setAuthorizationDetails($value) 
@@ -83,7 +83,7 @@ class OffAmazonPaymentsService_Model_GetAuthorizationDetailsResult extends OffAm
     /**
      * Sets the value of the AuthorizationDetails  and returns this instance
      * 
-     * @param AuthorizationDetails $value AuthorizationDetails
+     * @param OffAmazonPaymentsService_Model_AuthorizationDetails $value AuthorizationDetails
      * @return OffAmazonPaymentsService_Model_GetAuthorizationDetailsResult instance
      */
     public function withAuthorizationDetails($value)

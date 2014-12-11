@@ -103,9 +103,4 @@ class OffAmazonPaymentsService_Model_GetRefundDetailsResult extends OffAmazonPay
         return !is_null($this->_fields['RefundDetails']['FieldValue']);
 
     }
-
-
-
-
 }
-?>

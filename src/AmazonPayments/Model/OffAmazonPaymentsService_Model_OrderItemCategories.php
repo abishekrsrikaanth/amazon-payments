@@ -108,9 +108,4 @@ class OffAmazonPaymentsService_Model_OrderItemCategories extends OffAmazonPaymen
     {
         return count ($this->_fields['OrderItemCategory']['FieldValue']) > 0;
     }
-
-
-
-
 }
-?>

@@ -105,8 +105,4 @@ class OffAmazonPaymentsService_Model_GetCaptureDetailsResult extends OffAmazonPa
         return !is_null($this->_fields['CaptureDetails']['FieldValue']);
 
     }
-
-
 }
-
-?>

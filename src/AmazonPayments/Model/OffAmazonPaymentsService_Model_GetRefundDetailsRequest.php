@@ -72,7 +72,7 @@ class OffAmazonPaymentsService_Model_GetRefundDetailsRequest extends OffAmazonPa
     /**
      * Sets the value of the SellerId property.
      * 
-     * @param string SellerId
+     * @param string $value SellerId
      * @return $this instance
      */
     public function setSellerId($value) 
@@ -117,7 +117,7 @@ class OffAmazonPaymentsService_Model_GetRefundDetailsRequest extends OffAmazonPa
     /**
      * Sets the value of the AmazonRefundId property.
      * 
-     * @param string AmazonRefundId
+     * @param string $value AmazonRefundId
      * @return $this instance
      */
     public function setAmazonRefundId($value) 
@@ -148,9 +148,4 @@ class OffAmazonPaymentsService_Model_GetRefundDetailsRequest extends OffAmazonPa
     {
         return !is_null($this->_fields['AmazonRefundId']['FieldValue']);
     }
-
-
-
-
 }
-?>

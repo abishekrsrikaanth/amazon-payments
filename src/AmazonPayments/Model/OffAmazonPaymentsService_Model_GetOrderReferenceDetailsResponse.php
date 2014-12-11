@@ -68,7 +68,8 @@ class OffAmazonPaymentsService_Model_GetOrderReferenceDetailsResponse extends Of
      * Construct OffAmazonPaymentsService_Model_GetOrderReferenceDetailsResponse from XML string
      * 
      * @param string $xml XML string to construct from
-     * @return OffAmazonPaymentsService_Model_GetOrderReferenceDetailsResponse 
+     * @return OffAmazonPaymentsService_Model_GetOrderReferenceDetailsResponse
+     * @throws \Exception
      */
     public static function fromXML($xml)
     {
@@ -89,7 +90,7 @@ class OffAmazonPaymentsService_Model_GetOrderReferenceDetailsResponse extends Of
     /**
      * Gets the value of the GetOrderReferenceDetailsResult.
      * 
-     * @return GetOrderReferenceDetailsResult GetOrderReferenceDetailsResult
+     * @return OffAmazonPaymentsService_Model_GetOrderReferenceDetailsResult GetOrderReferenceDetailsResult
      */
     public function getGetOrderReferenceDetailsResult() 
     {
@@ -99,7 +100,7 @@ class OffAmazonPaymentsService_Model_GetOrderReferenceDetailsResponse extends Of
     /**
      * Sets the value of the GetOrderReferenceDetailsResult.
      * 
-     * @param GetOrderReferenceDetailsResult GetOrderReferenceDetailsResult
+     * @param OffAmazonPaymentsService_Model_GetOrderReferenceDetailsResult $value GetOrderReferenceDetailsResult
      * @return void
      */
     public function setGetOrderReferenceDetailsResult($value) 
@@ -111,7 +112,7 @@ class OffAmazonPaymentsService_Model_GetOrderReferenceDetailsResponse extends Of
     /**
      * Sets the value of the GetOrderReferenceDetailsResult  and returns this instance
      * 
-     * @param GetOrderReferenceDetailsResult $value GetOrderReferenceDetailsResult
+     * @param OffAmazonPaymentsService_Model_GetOrderReferenceDetailsResult $value GetOrderReferenceDetailsResult
      * @return OffAmazonPaymentsService_Model_GetOrderReferenceDetailsResponse instance
      */
     public function withGetOrderReferenceDetailsResult($value)
@@ -135,7 +136,7 @@ class OffAmazonPaymentsService_Model_GetOrderReferenceDetailsResponse extends Of
     /**
      * Gets the value of the ResponseMetadata.
      * 
-     * @return ResponseMetadata ResponseMetadata
+     * @return OffAmazonPaymentsService_Model_ResponseMetadata ResponseMetadata
      */
     public function getResponseMetadata() 
     {
@@ -145,7 +146,7 @@ class OffAmazonPaymentsService_Model_GetOrderReferenceDetailsResponse extends Of
     /**
      * Sets the value of the ResponseMetadata.
      * 
-     * @param ResponseMetadata ResponseMetadata
+     * @param OffAmazonPaymentsService_Model_ResponseMetadata $value ResponseMetadata
      * @return void
      */
     public function setResponseMetadata($value) 
@@ -157,7 +158,7 @@ class OffAmazonPaymentsService_Model_GetOrderReferenceDetailsResponse extends Of
     /**
      * Sets the value of the ResponseMetadata  and returns this instance
      * 
-     * @param ResponseMetadata $value ResponseMetadata
+     * @param OffAmazonPaymentsService_Model_ResponseMetadata $value ResponseMetadata
      * @return OffAmazonPaymentsService_Model_GetOrderReferenceDetailsResponse instance
      */
     public function withResponseMetadata($value)
@@ -205,4 +206,3 @@ class OffAmazonPaymentsService_Model_GetOrderReferenceDetailsResponse extends Of
     }
 
 }
-?>

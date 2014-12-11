@@ -68,7 +68,8 @@ class OffAmazonPaymentsService_Model_GetProviderCreditReversalDetailsResponse ex
      * Construct OffAmazonPaymentsService_Model_GetProviderCreditReversalDetailsResponse from XML string
      * 
      * @param string $xml XML string to construct from
-     * @return OffAmazonPaymentsService_Model_GetProviderCreditReversalDetailsResponse 
+     * @return OffAmazonPaymentsService_Model_GetProviderCreditReversalDetailsResponse
+     * @throws \Exception
      */
     public static function fromXML($xml)
     {
@@ -89,7 +90,7 @@ class OffAmazonPaymentsService_Model_GetProviderCreditReversalDetailsResponse ex
     /**
      * Gets the value of the GetProviderCreditReversalDetailsResult.
      * 
-     * @return GetProviderCreditReversalDetailsResult GetProviderCreditReversalDetailsResult
+     * @return OffAmazonPaymentsService_Model_GetProviderCreditReversalDetailsResult GetProviderCreditReversalDetailsResult
      */
     public function getGetProviderCreditReversalDetailsResult() 
     {
@@ -99,7 +100,7 @@ class OffAmazonPaymentsService_Model_GetProviderCreditReversalDetailsResponse ex
     /**
      * Sets the value of the GetProviderCreditReversalDetailsResult.
      * 
-     * @param GetProviderCreditReversalDetailsResult GetProviderCreditReversalDetailsResult
+     * @param OffAmazonPaymentsService_Model_GetProviderCreditReversalDetailsResult $value GetProviderCreditReversalDetailsResult
      * @return void
      */
     public function setGetProviderCreditReversalDetailsResult($value) 
@@ -111,7 +112,7 @@ class OffAmazonPaymentsService_Model_GetProviderCreditReversalDetailsResponse ex
     /**
      * Sets the value of the GetProviderCreditReversalDetailsResult  and returns this instance
      * 
-     * @param GetProviderCreditReversalDetailsResult $value GetProviderCreditReversalDetailsResult
+     * @param OffAmazonPaymentsService_Model_GetProviderCreditReversalDetailsResult $value GetProviderCreditReversalDetailsResult
      * @return OffAmazonPaymentsService_Model_GetProviderCreditReversalDetailsResponse instance
      */
     public function withGetProviderCreditReversalDetailsResult($value)
@@ -135,7 +136,7 @@ class OffAmazonPaymentsService_Model_GetProviderCreditReversalDetailsResponse ex
     /**
      * Gets the value of the ResponseMetadata.
      * 
-     * @return ResponseMetadata ResponseMetadata
+     * @return OffAmazonPaymentsService_Model_ResponseMetadata ResponseMetadata
      */
     public function getResponseMetadata() 
     {
@@ -145,7 +146,7 @@ class OffAmazonPaymentsService_Model_GetProviderCreditReversalDetailsResponse ex
     /**
      * Sets the value of the ResponseMetadata.
      * 
-     * @param ResponseMetadata ResponseMetadata
+     * @param OffAmazonPaymentsService_Model_ResponseMetadata $value ResponseMetadata
      * @return void
      */
     public function setResponseMetadata($value) 
@@ -157,7 +158,7 @@ class OffAmazonPaymentsService_Model_GetProviderCreditReversalDetailsResponse ex
     /**
      * Sets the value of the ResponseMetadata  and returns this instance
      * 
-     * @param ResponseMetadata $value ResponseMetadata
+     * @param OffAmazonPaymentsService_Model_ResponseMetadata $value ResponseMetadata
      * @return OffAmazonPaymentsService_Model_GetProviderCreditReversalDetailsResponse instance
      */
     public function withResponseMetadata($value)

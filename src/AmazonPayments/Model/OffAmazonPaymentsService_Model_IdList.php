@@ -108,9 +108,4 @@ class OffAmazonPaymentsService_Model_IdList extends OffAmazonPaymentsService_Mod
     {
         return count ($this->_fields['member']['FieldValue']) > 0;
     }
-
-
-
-
 }
-?>

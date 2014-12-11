@@ -78,7 +78,7 @@ class OffAmazonPaymentsService_Model_OrderReferenceStatus extends OffAmazonPayme
     /**
      * Sets the value of the State property.
      * 
-     * @param string State
+     * @param string $value State
      * @return $this instance
      */
     public function setState($value) 
@@ -123,7 +123,7 @@ class OffAmazonPaymentsService_Model_OrderReferenceStatus extends OffAmazonPayme
     /**
      * Sets the value of the LastUpdateTimestamp property.
      * 
-     * @param string LastUpdateTimestamp
+     * @param string $value LastUpdateTimestamp
      * @return $this instance
      */
     public function setLastUpdateTimestamp($value) 
@@ -168,7 +168,7 @@ class OffAmazonPaymentsService_Model_OrderReferenceStatus extends OffAmazonPayme
     /**
      * Sets the value of the ReasonCode property.
      * 
-     * @param string ReasonCode
+     * @param string $value ReasonCode
      * @return $this instance
      */
     public function setReasonCode($value) 
@@ -213,7 +213,7 @@ class OffAmazonPaymentsService_Model_OrderReferenceStatus extends OffAmazonPayme
     /**
      * Sets the value of the ReasonDescription property.
      * 
-     * @param string ReasonDescription
+     * @param string $value ReasonDescription
      * @return $this instance
      */
     public function setReasonDescription($value) 
@@ -244,9 +244,4 @@ class OffAmazonPaymentsService_Model_OrderReferenceStatus extends OffAmazonPayme
     {
         return !is_null($this->_fields['ReasonDescription']['FieldValue']);
     }
-
-
-
-
 }
-?>

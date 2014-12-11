@@ -83,7 +83,7 @@ class OffAmazonPaymentsService_Model_OrderReferenceAttributes extends OffAmazonP
     /**
      * Sets the value of the OrderTotal.
      * 
-     * @param OrderTotal OrderTotal
+     * @param OffAmazonPaymentsService_Model_OrderTotal $value OrderTotal
      * @return void
      */
     public function setOrderTotal($value) 
@@ -95,7 +95,7 @@ class OffAmazonPaymentsService_Model_OrderReferenceAttributes extends OffAmazonP
     /**
      * Sets the value of the OrderTotal  and returns this instance
      * 
-     * @param OrderTotal $value OrderTotal
+     * @param OffAmazonPaymentsService_Model_OrderTotal $value OrderTotal
      * @return OffAmazonPaymentsService_Model_OrderReferenceAttributes instance
      */
     public function withOrderTotal($value)
@@ -129,7 +129,7 @@ class OffAmazonPaymentsService_Model_OrderReferenceAttributes extends OffAmazonP
     /**
      * Sets the value of the PlatformId property.
      * 
-     * @param string PlatformId
+     * @param string $value PlatformId
      * @return $this instance
      */
     public function setPlatformId($value) 
@@ -173,7 +173,7 @@ class OffAmazonPaymentsService_Model_OrderReferenceAttributes extends OffAmazonP
     /**
      * Sets the value of the SellerNote property.
      * 
-     * @param string SellerNote
+     * @param string $value SellerNote
      * @return $this instance
      */
     public function setSellerNote($value) 
@@ -218,7 +218,7 @@ class OffAmazonPaymentsService_Model_OrderReferenceAttributes extends OffAmazonP
     /**
      * Sets the value of the SellerOrderAttributes.
      * 
-     * @param SellerOrderAttributes SellerOrderAttributes
+     * @param OffAmazonPaymentsService_Model_SellerOrderAttributes $value SellerOrderAttributes
      * @return void
      */
     public function setSellerOrderAttributes($value) 
@@ -230,7 +230,7 @@ class OffAmazonPaymentsService_Model_OrderReferenceAttributes extends OffAmazonP
     /**
      * Sets the value of the SellerOrderAttributes  and returns this instance
      * 
-     * @param SellerOrderAttributes $value SellerOrderAttributes
+     * @param OffAmazonPaymentsService_Model_SellerOrderAttributes $value SellerOrderAttributes
      * @return OffAmazonPaymentsService_Model_OrderReferenceAttributes instance
      */
     public function withSellerOrderAttributes($value)
@@ -250,9 +250,4 @@ class OffAmazonPaymentsService_Model_OrderReferenceAttributes extends OffAmazonP
         return !is_null($this->_fields['SellerOrderAttributes']['FieldValue']);
 
     }
-
-
-
-
 }
-?>

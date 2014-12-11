@@ -72,7 +72,7 @@ class OffAmazonPaymentsService_Model_GetProviderCreditDetailsRequest extends Off
     /**
      * Sets the value of the SellerId property.
      * 
-     * @param string SellerId
+     * @param string $value SellerId
      * @return $this instance
      */
     public function setSellerId($value) 
@@ -117,7 +117,7 @@ class OffAmazonPaymentsService_Model_GetProviderCreditDetailsRequest extends Off
     /**
      * Sets the value of the AmazonProviderCreditId property.
      * 
-     * @param string AmazonProviderCreditId
+     * @param string $value AmazonProviderCreditId
      * @return $this instance
      */
     public function setAmazonProviderCreditId($value) 
@@ -148,8 +148,4 @@ class OffAmazonPaymentsService_Model_GetProviderCreditDetailsRequest extends Off
     {
         return !is_null($this->_fields['AmazonProviderCreditId']['FieldValue']);
     }
-
-
-
-
 }

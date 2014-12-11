@@ -68,7 +68,8 @@ class OffAmazonPaymentsService_Model_GetRefundDetailsResponse extends OffAmazonP
      * Construct OffAmazonPaymentsService_Model_GetRefundDetailsResponse from XML string
      * 
      * @param string $xml XML string to construct from
-     * @return OffAmazonPaymentsService_Model_GetRefundDetailsResponse 
+     * @return OffAmazonPaymentsService_Model_GetRefundDetailsResponse
+     * @throws \Exception
      */
     public static function fromXML($xml)
     {
@@ -89,7 +90,7 @@ class OffAmazonPaymentsService_Model_GetRefundDetailsResponse extends OffAmazonP
     /**
      * Gets the value of the GetRefundDetailsResult.
      * 
-     * @return GetRefundDetailsResult GetRefundDetailsResult
+     * @return OffAmazonPaymentsService_Model_GetRefundDetailsResult GetRefundDetailsResult
      */
     public function getGetRefundDetailsResult() 
     {
@@ -99,7 +100,7 @@ class OffAmazonPaymentsService_Model_GetRefundDetailsResponse extends OffAmazonP
     /**
      * Sets the value of the GetRefundDetailsResult.
      * 
-     * @param GetRefundDetailsResult GetRefundDetailsResult
+     * @param OffAmazonPaymentsService_Model_GetRefundDetailsResult $value GetRefundDetailsResult
      * @return void
      */
     public function setGetRefundDetailsResult($value) 
@@ -111,7 +112,7 @@ class OffAmazonPaymentsService_Model_GetRefundDetailsResponse extends OffAmazonP
     /**
      * Sets the value of the GetRefundDetailsResult  and returns this instance
      * 
-     * @param GetRefundDetailsResult $value GetRefundDetailsResult
+     * @param OffAmazonPaymentsService_Model_GetRefundDetailsResult $value GetRefundDetailsResult
      * @return OffAmazonPaymentsService_Model_GetRefundDetailsResponse instance
      */
     public function withGetRefundDetailsResult($value)
@@ -135,7 +136,7 @@ class OffAmazonPaymentsService_Model_GetRefundDetailsResponse extends OffAmazonP
     /**
      * Gets the value of the ResponseMetadata.
      * 
-     * @return ResponseMetadata ResponseMetadata
+     * @return OffAmazonPaymentsService_Model_ResponseMetadata ResponseMetadata
      */
     public function getResponseMetadata() 
     {
@@ -145,7 +146,7 @@ class OffAmazonPaymentsService_Model_GetRefundDetailsResponse extends OffAmazonP
     /**
      * Sets the value of the ResponseMetadata.
      * 
-     * @param ResponseMetadata ResponseMetadata
+     * @param OffAmazonPaymentsService_Model_ResponseMetadata $value ResponseMetadata
      * @return void
      */
     public function setResponseMetadata($value) 
@@ -157,7 +158,7 @@ class OffAmazonPaymentsService_Model_GetRefundDetailsResponse extends OffAmazonP
     /**
      * Sets the value of the ResponseMetadata  and returns this instance
      * 
-     * @param ResponseMetadata $value ResponseMetadata
+     * @param OffAmazonPaymentsService_Model_ResponseMetadata $value ResponseMetadata
      * @return OffAmazonPaymentsService_Model_GetRefundDetailsResponse instance
      */
     public function withResponseMetadata($value)
@@ -205,4 +206,3 @@ class OffAmazonPaymentsService_Model_GetRefundDetailsResponse extends OffAmazonP
     }
 
 }
-?>

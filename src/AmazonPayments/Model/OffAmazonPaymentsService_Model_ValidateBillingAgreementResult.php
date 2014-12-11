@@ -78,7 +78,7 @@ class OffAmazonPaymentsService_Model_ValidateBillingAgreementResult extends OffA
     /**
      * Sets the value of the ValidationResult property.
      *
-     * @param string ValidationResult
+     * @param string $value ValidationResult
      *
      * @return $this instance
      */
@@ -124,7 +124,7 @@ class OffAmazonPaymentsService_Model_ValidateBillingAgreementResult extends OffA
     /**
      * Sets the value of the FailureReasonCode property.
      *
-     * @param string FailureReasonCode
+     * @param string $value FailureReasonCode
      *
      * @return $this instance
      */
@@ -203,5 +203,3 @@ class OffAmazonPaymentsService_Model_ValidateBillingAgreementResult extends OffA
         return !is_null($this->_fields['BillingAgreementStatus']['FieldValue']);
     }
 }
-
-?>

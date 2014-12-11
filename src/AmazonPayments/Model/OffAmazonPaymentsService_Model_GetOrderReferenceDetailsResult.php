@@ -103,9 +103,4 @@ class OffAmazonPaymentsService_Model_GetOrderReferenceDetailsResult extends OffA
         return !is_null($this->_fields['OrderReferenceDetails']['FieldValue']);
 
     }
-
-
-
-
 }
-?>

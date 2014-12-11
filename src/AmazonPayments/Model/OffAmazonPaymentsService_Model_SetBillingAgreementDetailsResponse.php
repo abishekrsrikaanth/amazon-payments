@@ -99,7 +99,7 @@ class OffAmazonPaymentsService_Model_SetBillingAgreementDetailsResponse extends 
     /**
      * Sets the value of the SetBillingAgreementDetailsResult.
      * 
-     * @param SetBillingAgreementDetailsResult SetBillingAgreementDetailsResult
+     * @param OffAmazonPaymentsService_Model_SetBillingAgreementDetailsResult $value SetBillingAgreementDetailsResult
      * @return void
      */
     public function setSetBillingAgreementDetailsResult ($value)

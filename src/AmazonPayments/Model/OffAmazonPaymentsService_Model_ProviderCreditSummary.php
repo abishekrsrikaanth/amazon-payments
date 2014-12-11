@@ -72,7 +72,7 @@ class OffAmazonPaymentsService_Model_ProviderCreditSummary extends OffAmazonPaym
     /**
      * Sets the value of the ProviderId property.
      * 
-     * @param string ProviderId
+     * @param string $value ProviderId
      * @return $this instance
      */
     public function setProviderId($value) 
@@ -117,7 +117,7 @@ class OffAmazonPaymentsService_Model_ProviderCreditSummary extends OffAmazonPaym
     /**
      * Sets the value of the ProviderCreditId property.
      * 
-     * @param string ProviderCreditId
+     * @param string $value ProviderCreditId
      * @return $this instance
      */
     public function setProviderCreditId($value) 
@@ -148,8 +148,4 @@ class OffAmazonPaymentsService_Model_ProviderCreditSummary extends OffAmazonPaym
     {
         return !is_null($this->_fields['ProviderCreditId']['FieldValue']);
     }
-
-
-
-
 }
